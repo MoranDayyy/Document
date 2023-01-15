@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Admin\Documents\VuGen\Scripts\UC4_View_Guide_Sheet
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\admin\documents\vugen\scripts\uc4_view_guide_sheet\\logfile.log
+c:\users\admin\documents\vugen\scripts\uc4_view_guide_sheet\\combined_UC4_View_Guide_Sheet.c
+c:\users\admin\documents\vugen\scripts\uc4_view_guide_sheet\\pre_cci.c

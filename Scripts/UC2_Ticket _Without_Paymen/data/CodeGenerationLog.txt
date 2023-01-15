@@ -1,0 +1,1815 @@
+****** Start Log Message ******
+Web Recorder version : 2021.0.0.430 
+Recording Mode: HTML-based script containing explicit URLs only
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Do not record non-HTML elements
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2021.0.0.430
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 63 ******
+GET /WebTours/ HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+If-None-Match: "5c00000000cc08-16e-4ddb1559ac980"
+If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 63 Ended $$$$$$
+
+****** Response Header For Transaction With Id 63 ******
+HTTP/1.1 304 Not Modified
+Date: Sat, 14 Jan 2023 06:30:52 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "5c00000000cc08-16e-4ddb1559ac980"
+
+
+$$$$$$ Response Header For Transaction With Id 63 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering 192.168.1.70:80088008
+****** Request Header For Transaction With Id 65 ******
+GET /ssdp/device-desc.xml HTTP/1.1
+Host: 192.168.1.70:8008
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 65 Ended $$$$$$
+
+****** Response Header For Transaction With Id 65 ******
+HTTP/1.1 200 OK
+Application-URL:http://192.168.1.70:8008/apps/
+Content-Length:1082
+Content-Type:application/xml
+
+
+$$$$$$ Response Header For Transaction With Id 65 Ended $$$$$$
+
+****** Response Body For Transaction With Id 65 ******
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVers
+$$$$$$ Response Body For Transaction With Id 65 Ended $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 83 ******
+POST /service/update2/json?cup2key=12:_iVQ0RYQNKI5XZF9SiTlsb8UVYvP3mCrBq7HkSW3Is8&cup2hreq=2df86cc23cc42935e0f28f53287a0148dcc543d90517bdf64a52a67f6b708274 HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 9947
+X-Goog-Update-AppId: hnimpnehoodheedghdeeijklkeaacbdc,gcmjkmgdlgnkkcocmoeiminaijmmjnii,ihnlcenocehgdaegdmhbidjhnhdchfmm,oimompecagnajdejgnnjijobebaeigek,neifaoindggfcjicffkgpmnlppeffabd,giekcmmlnklenlaomppkphknjmnnpneh,khaoiebndkojlmppeemjhbpbandiljpe,lmelglejhemejginpboagddgdfbepgmp,llkgjffcdpffmhiakmfcdcblohccpfmo,obedbbhbpmojnkanicioggnmelmoomoc,hfnkpimlhhgieaddgfemjhofmfblmnib,laoigpblnllgcgjnjnllmfolckpjlhki,ehgidpndbllacpjalkiimkbadgjfnnmc,efniojlnjndmcbiieegkicadnoecjjef,jflookgnkcckhobaglndicnbbgbonegd,gkmgaooipdjhmangpemjhigmamcehddo,dhlpobdgcjafebgbbhjdnapejmpkgiie,ggkkehgbnfjpeggfpleeakpidbkibbmn,ojhpjlocmbogdgmfpkhlaaeamibhnphh,imefjhfbkmcmebodilednhmaccmincoa,dnhnnofocefcglhjeigmkhcgfoaipbaa,jamhcnnkihinmdlkakkaopbjbbcngflc,eeigpngbgcognadeebkilcpcaedhellh,gonpemdgkjcecdgbnaabipppbmgfggbe
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-108.0.5359.125
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 83 Ended $$$$$$
+
+****** Request Body For Transaction With Id 83 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"hnimpnehoodheedghdeeijklkeaacbdc","brand":"GGLS","cohort":"1::","enabled":true,"installdate":5838,"lang":"ru","packages":{"package":[{"fp":"1.6f6bc93dcd62dc251850d2ff458fda96083ceb7fbe8eeb11248b8485ef2aea23"}]},"ping":{"ping_freshness":"{ee7115f4-2655-4872-9be8-083ba4544e31}","rd":5856},"updatecheck":{},"version":"0.57.44.2492"},{"appid":"gcmjkmgdlgnkkcocmoeiminaijmmjnii","brand":"GGLS","cohort":"1:bm1:","cohorthint":"M54AndUp","cohortname":"M54AndUp","enabled":true,"installdate":5838,"lang":"ru","packages":{"package":[{"fp":"1.8bceded7cdf26414c48fbe82b390be1db9ee44c3f7fb500187fda6787a5e82de"}]},"ping":{"ping_freshness":"{f101b055-b3b4-46e5-9a11-c6bcd5c6e8b2}","rd":5856},"updatecheck":{},"version":"9.42.0"},{"appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","brand":"GGLS","cohort":"1:15j3:","cohorthint":"Win (Including up-to-date)","cohortname":"Win (Including up-to-date)","enabled":true,"installdate":5838,"lang":"ru","packages":{"pac
+$$$$$$ Request Body For Transaction With Id 83 Ended $$$$$$
+
+****** Response Header For Transaction With Id 83 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-lDnzmcyPqdZtNgioEv8j8g' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sat, 14 Jan 2023 06:31:23 GMT
+X-Cup-Server-Proof: 3046022100df05bc3a5f2fd6354d892f1312ab81f5dd44063a0ea21f1cd663d4afaa04b3c5022100edc0ad463470035c482553bc71039137e795799bdd4b44fbe533228764bd412f:2df86cc23cc42935e0f28f53287a0148dcc543d90517bdf64a52a67f6b708274
+ETag: W/"3046022100df05bc3a5f2fd6354d892f1312ab81f5dd44063a0ea21f1cd663d4afaa04b3c5022100edc0ad463470035c482553bc71039137e795799bdd4b44fbe533228764bd412f:2df86cc23cc42935e0f28f53287a0148dcc543d90517bdf64a52a67f6b708274"
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5856
+X-Daystart: 81083
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 1925
+Server: GSE
+
+
+$$$$$$ Response Header For Transaction With Id 83 Ended $$$$$$
+
+****** Response Body For Transaction With Id 83 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":81083,"elapsed_days":5856},"app":[{"appid":"hnimpnehoodheedghdeeijklkeaacbdc","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"M54AndUp","appid":"gcmjkmgdlgnkkcocmoeiminaijmmjnii","cohort":"1:bm1:","status":"ok","cohortname":"M54AndUp","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Win (Including up-to-date)","appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","cohort":"1:15j3:","status":"ok","cohortname":"Win (Including up-to-date)","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"4.10.2557.0 for Chrome 95+","appid":"oimompecagnajdejgnnjijobebaeigek","cohort":"1:1bk9:","status":"ok","cohortname":"4.10.2557.0 for Chrome 95+","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Windows (102+, canary/dev/beta/stable)","appid":"neifaoindggfcjicffkgpmnlppeffabd","cohort":"1:1299:","status":"ok","cohortname":"Windows (102+, canary/dev/beta/stable)","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"giekcmmlnklenlaomppkphknjmnnpneh","cohort":"1:j5l:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"khaoiebndkojlmppeemjhbpbandiljpe","cohort":"1:cux:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"lmelglejhemejginpboagddgdfbepgmp","cohort":"1:lwl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"llkgjffcdpffmhiakmfcdcblohccpfmo","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"Auto","appid":"obedbbhbpmojnkanicioggnmelmoomoc","cohort":"1:s6f:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","cohort":"1:jcl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"ok","urls":{"url":[{"codebase":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/ay22qlxw5c5fhffn3lqhsbz6bm_7818/"},{"codebase":"https://edgedl.me.gvt1.com/edgedl/release2/chrome_component/ay22qlxw5c5fhffn3lqhsbz6bm_7818/"},{"codebase":"http://dl.google.com/release2/chrome_component/ay22qlxw5c5fhffn3lqhsbz6bm_7818/"},{"codebase":"https://dl.google.com/release2/chrome_component/ay22qlxw5c5fhffn3lqhsbz6bm_7818/"},{"codebase":"http://www.google.com/dl/release2/chrome_component/ay22qlxw5c5fhffn3lqhsbz6bm_7818/"},{"codebase":"https://www.google.com/dl/release2/chrome_component/ay22qlxw5c5fhffn3lqhsbz6bm_7818/"}]},"manifest":{"version":"7818","packages":{"package":[{"hash_sha256":"295d442d5876bbce733b49c430671edb5fbf2e6f626cb9bfa0596e0aa9b98a31","size":25281,"name":"hfnkpimlhhgieaddgfemjhofmfblmnib_7818_all_eujspqm6fongaakslnudyu5pii.crx3","fp":"1.295d442d5876bbce733b49c430671edb5fbf2e6f626cb9bfa0596e0aa9b98a31","required":true,"hash":"29OMFPlsLd3kWalVoylpb8ZbTeQ\u003d"}]}}}},{"cohorthint":"Auto","appid":"laoigpblnllgcgjnjnllmfolckpjlhki","cohort":"1:10zr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"stable64","appid":"ehgidpndbllacpjalkiimkbadgjfnnmc","cohort":"1:ofl:","status":"ok","cohortname":"stable64","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto Stage3","appid":"efniojlnjndmcbiieegkicadnoecjjef","cohort":"1:18ql:","status":"ok","cohortname":"Auto Stage3","ping":{"status":"ok"},"updatecheck":{"status":"ok","urls":{"url":[{"codebase":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/admcfo5j4l4setimfjjcfxrksdra_471/"},{"codebase":"https://edgedl.me.gvt1.com/edgedl/release2/chrome_component/admcfo5j4l4setimfjjcfxrksdra_471/"},{"codebase":"http://dl.google.com/release2/chrome_component/admcfo5j4l4setimfjjcfxrksdra_471/"},{"codebase":"https://dl.google.com/release2/chrome_component/admcfo5j4l4setimfjjcfxrksdra_471/"},{"codebase":"http://www.google.com/dl/release2/chrome_component/admcfo5j4l4setimfjjcfxrksdra_471/"},{"codebase":"https://www.google.com/dl/release2/chrome_component/admcfo5j4l4setimfjjcfxrksdra_471/"}]},"manifest":{"version":"471","packages":{"package":[{"hash_sha256":"48560475c836b83427611800e26f203437e4ece08e2bbaee3868799256a6df29","size":160052,"name":"efniojlnjndmcbiieegkicadnoecjjef_471_all_adrqtnh6sai6mxijvrldkffe5oja.crx3","fp":"1.48560475c836b83427611800e26f203437e4ece08e2bbaee3868799256a6df29","required":true,"hash":"Q58AXOlbyZyUm4X2BDydo+Z9Im0\u003d"}]}}}},{"cohorthint":"Auto","appid":"jflookgnkcckhobaglndicnbbgbonegd","cohort":"1:s7x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"ok","urls":{"url":[{"codebase":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acx2yynm3cgiefhwnl3qh6r425wq_2908/"},{"codebase":"https://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acx2yynm3cgiefhwnl3qh6r425wq_2908/"},{"codebase":"http://dl.google.com/release2/chrome_component/acx2yynm3cgiefhwnl3qh6r425wq_2908/"},{"codebase":"https://dl.google.com/release2/chrome_component/acx2yynm3cgiefhwnl3qh6r425wq_2908/"},{"codebase":"http://www.google.com/dl/release2/chrome_component/acx2yynm3cgiefhwnl3qh6r425wq_2908/"},{"codebase":"https://www.google.com/dl/release2/chrome_component/acx2yynm3cgiefhwnl3qh6r425wq_2908/"}]},"manifest":{"version":"2908","packages":{"package":[{"hash_sha256":"a8d9c66bd68c8c0ae4c70e9c4d0389476d76f4b44d7e5d147ae523261d712480","size":52807,"name":"jflookgnkcckhobaglndicnbbgbonegd_2908_all_ac54birnmsrehdcy22bjjsewbc6q.crx3","fp":"1.a8d9c66bd68c8c0ae4c70e9c4d0389476d76f4b44d7e5d147ae523261d712480","required":true,"hash":"WFdpj7Su4agsyXhY5S524NoFnBU\u003d"}]}}}},{"cohorthint":"Stable","appid":"gkmgaooipdjhmangpemjhigmamcehddo","cohort":"1:pw3:","status":"ok","cohortname":"Stable","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"dhlpobdgcjafebgbbhjdnapejmpkgiie","cohort":"1:z9x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"108-and-above-all-users","appid":"ggkkehgbnfjpeggfpleeakpidbkibbmn","cohort":"1:ut9/1a0f:","status":"ok","cohortname":"108-and-above-all-users","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"ojhpjlocmbogdgmfpkhlaaeamibhnphh","cohort":"1:w0x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"desktop_1_flatbuffer","appid":"imefjhfbkmcmebodilednhmaccmincoa","cohort":"1:17lx:","status":"ok","cohortname":"desktop_1_flatbuffer","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Stable","appid":"dnhnnofocefcglhjeigmkhcgfoaipbaa","cohort":"1:16j3:","status":"ok","cohortname":"Stable","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"jamhcnnkihinmdlkakkaopbjbbcngflc","cohort":"1:wvr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"ok","urls":{"url":[{"codebase":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/anuwii2u2ittec7xnqlwhejgh4_111.0.5537.0/"},{"codebase":"https://edgedl.me.gvt1.com/edgedl/release2/chrome_component/anuwii2u2ittec7xnqlwhejgh4_111.0.5537.0/"},{"codebase":"http://dl.google.com/release2/chrome_component/anuwii2u2ittec7xnqlwhejgh4_111.0.5537.0/"},{"codebase":"https://dl.google.com/release2/chrome_component/anuwii2u2ittec7xnqlwhejgh4_111.0.5537.0/"},{"codebase":"http://www.google.com/dl/release2/chrome_component/anuwii2u2ittec7xnqlwhejgh4_111.0.5537.0/"},{"codebase":"https://www.google.com/dl/release2/chrome_component/anuwii2u2ittec7xnqlwhejgh4_111.0.5537.0/"}]},"manifest":{"version":"111.0.5537.0","packages":{"package":[{"hash_sha256":"ffc7083e8804528a5687e04425b4078f6fe463f569f74caac081fdc8121240f2","size":818339,"name":"jamhcnnkihinmdlkakkaopbjbbcngflc_111.0.5537.0_all_bkqojwo2jgm75gdhm737hqey2y.crx3","fp":"1.ffc7083e8804528a5687e04425b4078f6fe463f569f74caac081fdc8121240f2","required":true,"hash":"/Oomz24Ryqqcoy0rD1c6gPT6kfU\u003d"}]}}}},{"cohorthint":"Auto","appid":"eeigpngbgcognadeebkilcpcaedhellh","cohort":"1:w59:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"General release","appid":"gonpemdgkjcecdgbnaabipppbmgfggbe","cohort":"1:z1x:","status":"ok","cohortname":"General release","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}}]}}
+$$$$$$ Response Body For Transaction With Id 83 Ended $$$$$$
+
+****** Request Header For Transaction With Id 88 ******
+GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/WebTours/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+$$$$$$ Request Header For Transaction With Id 88 Ended $$$$$$
+
+****** Response Header For Transaction With Id 88 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:31:24 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1673677884; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Fri, 13-Jan-2023 06:31:24 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 88 Ended $$$$$$
+
+****** Response Body For Transaction With Id 88 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 88 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 88 ****** (Location Flag : tFlagInsertEnd, Location ID : 88)
+	web_url("welcome.pl",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/WebTours/",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 88 Ended $$$$$$
+
+****** Request Header For Transaction With Id 91 ******
+GET /WebTours/home.html HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884
+If-None-Match: "4c00000000cbcf-551-4ddb1559ac980"
+If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 91 Ended $$$$$$
+
+****** Response Header For Transaction With Id 91 ******
+HTTP/1.1 304 Not Modified
+Date: Sat, 14 Jan 2023 06:31:24 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "4c00000000cbcf-551-4ddb1559ac980"
+
+
+$$$$$$ Response Header For Transaction With Id 91 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 93 ******
+GET /cgi-bin/nav.pl?in=home HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884
+
+
+$$$$$$ Request Header For Transaction With Id 93 Ended $$$$$$
+
+****** Response Header For Transaction With Id 93 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:31:24 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 13 Jan 2023 06:31:25 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 93 Ended $$$$$$
+
+****** Response Body For Transaction With Id 93 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135575.365249089zQHDzfHpiftVitVpQtHV"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 93 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	The Node is NULL
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 96 ******
+GET /favicon.ico HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:1080/WebTours/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884
+
+
+$$$$$$ Request Header For Transaction With Id 96 Ended $$$$$$
+
+****** Response Header For Transaction With Id 96 ******
+HTTP/1.1 404 Not Found
+Date: Sat, 14 Jan 2023 06:31:25 GMT
+Server: Apache/2.2.21 (Win32)
+Content-Length: 209
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 96 Ended $$$$$$
+
+****** Response Body For Transaction With Id 96 ******
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /favicon.ico was not found on this server.</p>
+</body></html>
+
+$$$$$$ Response Body For Transaction With Id 96 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 119 ******
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 1387
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 119 Ended $$$$$$
+
+****** Request Body For Transaction With Id 119 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","brand":"GGLS","cohort":"1:jcl:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"event":[{"download_time_ms":28422,"downloaded":25281,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"7818","previousversion":"7817","total":25281,"url":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/ay22qlxw5c5fhffn3lqhsbz6bm_7818/hfnkpimlhhgieaddgfemjhofmfblmnib_7818_all_eujspqm6fongaakslnudyu5pii.crx3"},{"eventresult":1,"eventtype":3,"nextfp":"1.295d442d5876bbce733b49c430671edb5fbf2e6f626cb9bfa0596e0aa9b98a31","nextversion":"7818","previousfp":"1.531d458603de4e85d5678ebda8ecc209296e87135b23ba2147f070aa5137c647","previousversion":"7817"}],"installdate":5838,"lang":"ru","packages":{"package":[{"fp":"1.295d442d5876bbce733b49c430671edb5fbf2e6f626cb9bfa0596e0aa9b98a31"}]},"version":"7818"}],"arch":"x64","dedup":"cr","domainjoined":false,"hw":{"avx":true,"physmemory":8,"sse":true,
+$$$$$$ Request Body For Transaction With Id 119 Ended $$$$$$
+
+****** Response Header For Transaction With Id 119 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-b4APHnWT5eQFxGknJuLL5A' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sat, 14 Jan 2023 06:31:57 GMT
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5856
+X-Daystart: 81117
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 119 Ended $$$$$$
+
+****** Response Body For Transaction With Id 119 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":81117,"elapsed_days":5856},"app":[{"cohorthint":"Auto","appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","status":"ok","event":[{"status":"ok"},{"status":"ok"}]}]}}
+$$$$$$ Response Body For Transaction With Id 119 Ended $$$$$$
+
+****** Request Header For Transaction With Id 126 ******
+POST /cgi-bin/login.pl HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+Content-Length: 119
+Cache-Control: max-age=0
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:1080
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?in=home
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884
+
+
+$$$$$$ Request Header For Transaction With Id 126 Ended $$$$$$
+
+****** Request Body For Transaction With Id 126 ******
+userSession=135575.365249089zQHDzfHpiftVitVpQtHV&username=ronald&password=roland&login.x=37&login.y=11&JSFormSubmit=off
+$$$$$$ Request Body For Transaction With Id 126 Ended $$$$$$
+
+****** Response Header For Transaction With Id 126 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:32:04 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Ronald&address2&Devonian&username&ronald&hash&100&lastName&Weasley%0A&address1&Ottery%20St.Catchpole&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 126 Ended $$$$$$
+
+****** Response Body For Transaction With Id 126 ******
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 126 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 126 ****** (Location Flag : tFlagInsertEnd, Location ID : 126)
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value=135575.365249089zQHDzfHpiftVitVpQtHV", ENDITEM,
+		"Name=username", "Value=ronald", ENDITEM,
+		"Name=password", "Value=roland", ENDITEM,
+		"Name=login.x", "Value=37", ENDITEM,
+		"Name=login.y", "Value=11", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 126 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 88)
+	web_add_auto_header("Sec-Fetch-Dest",
+		"frame");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 88)
+	web_add_auto_header("Sec-Fetch-Mode",
+		"navigate");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 88)
+	web_add_auto_header("Sec-Fetch-Site",
+		"same-origin");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 88)
+	web_add_auto_header("Upgrade-Insecure-Requests",
+		"1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 88)
+	web_add_auto_header("sec-ch-ua",
+		"\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 88)
+	web_add_auto_header("sec-ch-ua-mobile",
+		"?0");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 88)
+	web_add_auto_header("sec-ch-ua-platform",
+		"\"Windows\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 129 ******
+GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/login.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884; MTUserInfo=firstName&Ronald&address2&Devonian&username&ronald&hash&100&lastName&Weasley%0A&address1&Ottery%20St.Catchpole&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 129 Ended $$$$$$
+
+****** Response Header For Transaction With Id 129 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:32:04 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 13 Jan 2023 06:32:04 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 129 Ended $$$$$$
+
+****** Response Body For Transaction With Id 129 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 129 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 140 ******
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 1400
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 140 Ended $$$$$$
+
+****** Request Body For Transaction With Id 140 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"efniojlnjndmcbiieegkicadnoecjjef","brand":"GGLS","cohort":"1:18ql:","cohorthint":"Auto Stage3","cohortname":"Auto Stage3","enabled":true,"event":[{"download_time_ms":4037,"downloaded":160052,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"471","previousversion":"466","total":160052,"url":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/admcfo5j4l4setimfjjcfxrksdra_471/efniojlnjndmcbiieegkicadnoecjjef_471_all_adrqtnh6sai6mxijvrldkffe5oja.crx3"},{"eventresult":1,"eventtype":3,"nextfp":"1.48560475c836b83427611800e26f203437e4ece08e2bbaee3868799256a6df29","nextversion":"471","previousfp":"1.7edebf07fdfe751cef205c0be04985747a0c6f0c6a32510fa488e70afa27117a","previousversion":"466"}],"installdate":5838,"lang":"ru","packages":{"package":[{"fp":"1.48560475c836b83427611800e26f203437e4ece08e2bbaee3868799256a6df29"}]},"version":"471"}],"arch":"x64","dedup":"cr","domainjoined":false,"hw":{"avx":true,"physmemory":
+$$$$$$ Request Body For Transaction With Id 140 Ended $$$$$$
+
+****** Response Header For Transaction With Id 140 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-lkS-SaFVnKWcsv2XUrj2fg' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sat, 14 Jan 2023 06:32:09 GMT
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5856
+X-Daystart: 81129
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 140 Ended $$$$$$
+
+****** Response Body For Transaction With Id 140 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":81129,"elapsed_days":5856},"app":[{"cohorthint":"Auto Stage3","appid":"efniojlnjndmcbiieegkicadnoecjjef","status":"ok","event":[{"status":"ok"},{"status":"ok"}]}]}}
+$$$$$$ Response Body For Transaction With Id 140 Ended $$$$$$
+
+****** Request Header For Transaction With Id 144 ******
+GET /cgi-bin/login.pl?intro=true HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/login.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884; MTUserInfo=firstName&Ronald&address2&Devonian&username&ronald&hash&100&lastName&Weasley%0A&address1&Ottery%20St.Catchpole&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 144 Ended $$$$$$
+
+****** Response Header For Transaction With Id 144 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:32:10 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 144 Ended $$$$$$
+
+****** Response Body For Transaction With Id 144 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome to Web Tours</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>ronald</b>, to the Web Tours reservation pages.<BR/>Using the menu to the left, you can search for new flights to book, 
+or review/edit the flights already booked.  Don't forget to sign off when
+you're done!
+</blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 144 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering safebrowsing.googleapis.com
+****** Request Header For Transaction With Id 160 ******
+GET /v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTA4LjAuNTM1OS4xMjUaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDUzA8aAhgF8k4xYCIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQwdILGgIYBUi9TkEiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEIeqDBoCGAVApNMQIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYBbjVedciBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEENgwGgIYBcoTZ74iBCABIAIoBBooCA8QARoaCg0IDxAGGAEiAzAwMTABEKFzGgIYBVfLQyQiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgFL-ZX9SIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIBoCGAU6m4eFIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARDkERoCGAXybX5eIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARDz2AEaAhgFR66n6SIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQuckLGgIYBR9phl8iBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEProBhoCGAWjTaEqIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARDAFhoCGAUdKWBSIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw HTTP/1.1
+Host: safebrowsing.googleapis.com
+Connection: keep-alive
+X-HTTP-Method-Override: POST
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 160 Ended $$$$$$
+
+****** Response Header For Transaction With Id 160 ******
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Content-Disposition: attachment
+Server: scaffolding on HTTPServer2
+Content-Length: 22883
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Date: Sat, 14 Jan 2023 06:31:53 GMT
+Content-Type: application/x-protobuf
+Age: 32
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+
+$$$$$$ Response Header For Transaction With Id 160 Ended $$$$$$
+
+****** Response Body For Transaction With Id 160 ******
+
+\xB6\x92\x01\x08\x05\x10\x01\x18\x01 \x01*\xF5t\x08\x02"\xF0t\x08\xF9\x81\x0E\x10\x13\x18\xC0,"\xE4t-\x82\xAD\xD6\xCC\x081\x95\xA0Eg7;unI\x05-SX\xB3R\xDFA7\xD1\x92\x00{=|\x98u\x7F\x88\x1D#\xB89\xAC}'\x02>R\xF7<\xAC\x19\x97\x18\xEC=]\xE3\xF7\xE4-\x0FV\xF83\xC9[;\xC3n\xF73\x18b\x13\x193W\x8A-\xB93\x90p\xCCXK\x9Aw\xC3aHY\xE9=\xD5;
+\x03>5\xBDl\x83\xA8;\x1E\xA0A\x07\xC3G !\x91(5\x02\x02B\x80\xAE>\x99\x02\xF4\x88Q\xB8\xFF\xF1\xD5\x9F\x8D\xCD\xEB\xBA\xD0\xD3\xD0-\xDC\xD4\x98\xFD\x14\x14\xAFd\x05\x913hr\x9Fj\xEE{]\xDC\x9F_p\x97
+X\xDE3jG\x10%\xE2\xD8\xA6\xE1\xAA\xB8\xE8\xD1ec\x8Fk\xD3\xC0\x1EM\xB8\xC3\x1C#\x07\xD9\x1F(oc\xD7A\xB6\x15zo\xC5\xC8\x10\xEE\xC1ij\x0C$0\xD8q\xE9\xF9\x89\xFELR(\xF0\x10\xA3E\xDA%S\x90Y\xAFx\x04\xAD\xB7_\x80\xED\xAD\xF1C\xDD\x83m\x82\x0B\xDF\x89Ei@\xB8\xC9\xE3$\xC7\x1E]\x82R\x10\x8A\xDBV&m\xDCN\xB0<\x9E\xE0l\xA3\x866\xD99\x8D\xCA\xC3\xB8\x9D\xD0\xAF+
+VUe\x91\xBDR\x1C\x12\x08~\xD9F\xD6.F\xABS\xF5E\xF4\xF0h\xF5\xC3j\x92Y\x9B\xEB\xA9\xB4\x1D\x13,\x863Z\x18K\xBD=G\xA9\xE0\xE1\x97\xAD\xC1\xFB\x04\x9F1\xC1-d\x16\x0F;\x1D\xFC\xBC\x90Rb\xEC\\S\xB4B\xB6cR@=O\xC3k\xFC\xC4\x08>\x1F\x7F\x97	;t\xDC\xD9s\x1E\xA4vyj\xF30\x96adlS,ce\x99\x9F\xE8)\xE2O\xBA\x8DU e\xC1\xC5\xF6\x0Fh\xDC\x1C\xA6\xA1\x9C&\xAC?\x19\xA44\x02\xE6\x13!\x86\x8F-Nk'\x95R\x97\xE6\xD4\x12\x8E\x8B\xF2'	\x7F\xD7\x80!\x00\x14\xF7@<#\xFF
+
+\xC9M\x9A0[\xD0\xE6m\xD4\xEA\xAC9-\xE5-\xC8\x93\x05\xC3\xCF\xA4\xCF\x05\xD3\xC7\xF7\xE3Gy\xCD\x12\x08\xD4\xFE3\x1C\xD22P\xFAOv\xEEc\xAD\xEEtC/\xB4\x0F\xCD@\x835\xAAX\x0C\xF2\x11)\xB8\xFD\xBE4\x17d\x8Fx\xF8\x10%\xF1\xCF\x1A\xD2\xE1%\x91\x95\xE8\x11C\xBB\x89\xE9n\xFB\xC7L\x9B\xEF\x89\xDCU\xA610vl\x87\xDE\xC0\xBA\x12\xE0kTg\x04\xC8\xC2\x9A\xBEQ\x08V\x139\xC19\xAD\xE9BR(\xD9\x90\xA7\x9EY+\xD5W\xD9\x8D\xAB\xA6\xB0\xDE\xA5\x083\xEF}\xC9\x80\xDD\x19l("{BA\x9D\xD7\xD7\xBF\xA9\xD1\xE7\xF0\xE65sB\x1B0\xE2\xA7\xBD0\xD7\xF1z"\xFEj\x8D\xB8=[x\xFC\x0B\xB1\x07\x16\xEF\xDFcQ\xB88\xC9\x8Fg\xD3\x10V\x87\xCD\x05\xAB[\xD72\xDE<\xF61\x8DY#\x02?c\xB1x\x83W\x97\x00\xA6%6\x99\x8F\x08\xF2L!*!\xE9\x90f\x10@\xE3\x93h\x08\x04m<q}N\xA9\x81\x98\xAA\xBF\x95\xFA\xF4\x04c\xB9\xA5()\xA0SX\xCF\xD4\xA5I\x9D\x94u^\xDB\x01\xFB\x85Y^\xDAX\xA5}LP=	5\x97\x13\xF9\xC3\x9C\xDA\xEA]C\xC3O\x817\xE4cq\xC9OA\\\xA0\xE1x\x92\xD5\xFE&\x9F\x0B\xE8`LPn\xD6OW$\xDB\xF5\x07(\x0F=6\xB3\xDC\x95\xEC\xA4*0GJ\xA5A;\xC1\x16B\xEFQ\x8E\xFD\xA1E\xCF\xDE-H\x85\xDB\x15\xA4k\x9A\xBC\x16\x02\xD3w+\x1B\x97qmV\xEBu\x9F\xF3u\x11\x05m\xED\xA6Z\xFE\xA4\xEDP'\xED.\x97\x90\xD5\xDB\xDE\x97E#\xC2\xBD\xCCt\xF1\xE4MS\x8C\xA3\x8E\xE1\x8B\xE3rS\xBF\xA0\xD4\xB7<|"\xC2\xBA\x95\xD9'\xED
+\x1B\xA3\xC8\x9B`\xCE\xAB\xD4\xA3]G0\x8D[\x10\x13\xD9ya$Cs\xFFq\xDC\x0EF\xAD\xD8\x95crh0\xCD\xB6\xD1hm\x0BJ\xCC
+\x14\x97\x02\x01\x84\xFE\xD8\xAC\xBD\x9B\xE6q\xD1\x1D\x96\xFF\xF3\xAA\xE82c\x97\xF9\x10\xF5\xB7o\xA9.\x88G\xF5\xF4Ey\x04\x18\xD5	\x10\xF0A\xAA\x94e\x1CT\x90\xBA\xB3\xFD\xEE\xC0\\\x1D\xA48\xB4\xFC\x90F\xE8\x82\xB25}\x8D\x8D\x05\x94T,\xC8(\x92\xAD@\x1F-\xA1E,\x04\x1A\x80~\xB4\x14bM\xB4i\xCD/\xAC\xB6\xBE\xB9U@BL\x00\xB3N\xDC`\xE4\xDE\x91})\xB4\xB2\x8D\xC9p\xEB\xF3\x1C'\xA5q\xFD1\xCC\xAD\xCB\xB1\x19i\x03\xA8\xCB\xCC%\xF9\x14n\xAFU\x1F+\xA6 G\xF9\x8CV"3\xB7\x9F\xFC&	4\x8C\xDE\x88xt%ky\x91\xE4\xED\x0C\x1C\x0Fu\x18\x9BJ\xA3\x9F<\xD1\x93`\x95\xFD\xCD\xEF0\xC63	\xE0\x92\xD6\x9C6\xAD\xAC\xC3)\xDA\xB1/\x05\xFD\x8F\x8C\xF7N\x91\xF3\x1A\xCE\xBF\x0F\xC1l\xB8a\x0E+\xF6\x80\x1A\xDB\xEC\xD5DRA\xAE\xB2\x0E\x92E*\xFF\x87\xFE\x14l\xECuO\xFA\xC1\x9E\x96}g\xCA\\\xA5\xA6\xDA\xE2\x1B\x1C\x98\xD7A\x88156\xDC^\xE7\xD7\xE9\x18\xC5\xE0\xFB\x08\x12\xF1K(\xF3x\xE0!3t\xB7\xDE \x9B\x02}\xA0]9\xAE\x92P\xC3\xF9Dh\x83\x12\xCF\x1D\x1CzA\xAAy\x81"\xDD5uE\xD2VR<\x9FYY3g\x9B\xB1\x94\xF1\xC2><V\xCB\x8Eb\x9D\xA6c\x809v\x83-\x0E\x8A.B\xB1\xA7O\xC8h\xA0v\x13\xE7K<7{D(\xC8\xA8J\xCE\xEAm'\xD1J\x02\xCE\xF0\xD4\x06`xtp\xB1\x12\x81\xE9=\xAF\xD0\xE20\x7F\x8C\xF1MO\xC2Di1s\x19\xB2\xF5\x8C6:\xF9;\xC3\x94\xB21j|\x16\xA54\xE4A,\xFF\xFC\xD8\xD1X\xE3\xECt\x00&8^V\xB0X\xF8\x8A\x8A>|\xD5i\xEC\x1DF21\xA8\x06\x15\xC3O\x95|\x9C\xB9\xC2\x0F3\xD0+Q\x06u&;k\xA5\xB1\xF5\x16	r\xDF\xF6\xE69\xF0n\x05g\xF0\xA1\xF5\xE6\xF2v\xBAi\xFFM\xE9o\x05\x04#\xD2\xEF\xAB\xDDH\x8C\xC6\xB4\x00\x04\xBCF\xEB`\xAB\xEC}\xB0P\x03\x18\x83~\xC5#,\xE8^\x8F\xAF\xC0:'\x04{\x1E\x16^\x17\xACi\xAA5\x8C\x1F\xFD\x13uj\xCC\xAB\xB2W\x0C+\xEB\x06\xECs\xDB$$\xC2\x1Bu\x9E(\xD0\x94}\xF2\x8C\xD8\x03\x82\x0F\x01-\x82\xD6\xED\xB5S\x95\xD4d~YW~_\x0F\xCDU\xE7\xF7\xC5\x8F\xDCU\xDB\xF7\xB3\xFA\xE2\xA3\xCA\x8AM6\xA1\x95Cg t\xE9\x94\x17\xA7\xF9\x92\x1F\xBC\xD3\xD5\xFB\xC4\x04\xC2\xEA\xA15\x04\xD6\x03\xD3f\xE3\xB2[\xE1\xE7t\xA7cG\xC9\xE2\xD8\x1C\x14\x80\xBB(\xFFc\xFC\x8F\xD9\xFA\x14\x8Ff\x06\x0F\xE4\xF1\x03\x9F\x1F\x0F\x8B"\xBC\xBEW\xC5\x9E\x10W\xACo/\x86j?z\xD9\xC6\xA5\x1A\xFF\xA7\x10\xF6\xCA9\x10\xACx\x01\xE8\x1B\x85C\xD2\x0C0%'\x84\xCA\xB4\xBC)z\x01$\xDC\xDEi)\x90`e\xAB\xF6\x98\xD6*\xED\xE1e\xC8)RC\x98\xC0(\x94Ti#\x0C\xD1\xF4\xEC\xDD\xFD\x8B\xF2\x19p\x0F\xA7\x03Kc\x92|2\x81\x92\xEE!\x1F\xD8\x9F4\xD2\xCB\x9F\x1A\xB8\x90\xBD\xA0\xB6\xEA+i\x1C\x88\xC4\xE1t\x9E\xA6\xD9\xD1$yX\xCC\x059\xCCm
+\x02\x1F-\xB1x\x7Fw_\xA2|NB\x9D\xCC\xA1=C\x9Ba\x84\x18\x00X\xA2\xD3N\xCFST{X\xDEd\x18\xBF\xF0\xB4vYH\xF0!\xBF\x0E\x15\xE4\xBF\xD7\xF0O\xB5\xC4\xCBS\xAD\x1Ds\xFD\xFA&\xC9\xFB\xA8\xD6\xA9\\\x1A}\xE93\xD9\x88\x9B<m80Y\x1A\x8F\xC5fc
+jS\xB0\xC8\xD88Gd\x96\x90c\x0C\x92\x90\xB5\xAB\xC3\xB0VO\x97-\x9B\xE4\x93\x19J\x99\x8F\xA9\x01Q\x99\x96f\xC8\xE5\x81,\x82\xFF\xF5R-\x9A~\xB5[4\x10i\xB9\xCBd\x02\xB5\xCD\xDDPT\xCA\x05\x0B|ka\xA3K\xDE\xCE'\xB9/\x891\x02Z\xF9\xA5\x1C\xDCH\xD6\xE6\xBF\x06\xB8K\xE3\xC7)\xACY\xDA\xB1\x05\xA0\xD2>\xE9\x1D)/ev\xE7\x05X\x16t4\xCA0\xB2\xBDci\xD1k\xDF\xAC:\xF2\x065\xD4\xA5\xF2	#\xDF\x9DM1\x85\xD1T!Y\xF3\xAA`\xC2\x8DQ\x8C\x9C\x828?\x9A[sIDFX\x02.\x80T~\x91\xB3\x0E\x13p\xD3jR\x97!\x1A\x9A\xB8C\x00\xCB\xA6\x16P\x19\xDC\xF1\x08\xCC
+\xC4AZg\x00\x807q \xAB\xF2\xD1b\xC4]!\xA0:~\xF1g\xB7L\xBA\x16\xC0\xBD\xC2\x0E\xB9\xE0X\x8F\xD5\x03\x8B\xFE\x05\x1E$\x90\x9C\xD2\xE8\xEB\xE0\x06u{\xC7^\xADN0\xD1\xFDZ\xAA\xA0~\xB9\x11\xC2\xC3\xE1\x96\x06\x18\x87/\xB0*\xA9\x83(?I!\xFB,\x98\xA9\xC3C\xE5\xA1\xFC\xF3\xBB&\xEDz1\x91\x8B7O{p?	]\xC06\xC0\xEE\x1A;\xC0~1U\xDE\xBF$H\x06\xF9cF\xD3\x84\x981\x10#-U\x96\xD8\\\x84\xB2\xBB\xDD\x88\x7F\x89\xA4\xB2\x85\x1EGk\x96&k\xB3\xD1\x88\x114Q\xB7H\xD9	%H\x0F\xFE:\xA8\xEC\xAC\xC9\x95\x92\xBD\x01\xED\x9Dh\xB07U\x9B\xAD\xB8-\xCC\x89\xDEpP1\xC6>\xC5\x134i.\x88\x8ER\x8A\x1Cu906w\x19\xE3\xE5\x15{\xCE\xEFN\xD5FO\xF4]C\xD4\x9F\xFF\x86\xC0\xB4\x98?\xEE\x07Z\xE0\x8CW\xA4{\xD13+D3\x04\xFB\xA7\xF6\xE3\x1Dx\x8B\xEB2\x84\xDCw\xDF\xA2\x18\xE3\x90\xC3\x9A\x18\x1AQ\xD2\x82FO_\xA1\xF1v\xED\xDC\x10\xBD\xE1\xEB\x9B\xA8\x90jT\xFD\xD3\xD8\xB2 t\xD8v\xB6&V\xB3W\xD6\xBAWt\x14\x03"l\xD4(\x05\x11\xFF>\xDF\xB1&Kc\xDFZ\xD4\xEA\xB1\xF4_6\x0F\xF4\xB0`\xCA]\xBA\xCD\xCBzR\xDDY\x19\x8CDY\xFD\xDB\xEC	\x1E3\xF6G\xBC\xA1\xE6=\xD5\xE6\xD3\x14\xF9\xBBs)\x95^\x9A\\\xB4%\xF5\x8B\x04\xDF\xD2\xFF\xFFI=\xC5\xA5Q\xC6t4\x8DH\xE0x>}\x1E\x9Af
+\xC4U\xD5\xB6\xF3\x03	\xA4\xAF\xC30<|A\x1BR\xA1\xAC\xE4\xF8\xB0N\x00\xDF	\xD9\x99M\xF1\x06w\xABM\x90\xC7\x9E\xA7\xEA\xB8\xE6\xA4Q\xD4\xBD\xF2]\xC8\x84\xAC\\\xD6j\xE8WJc\x16\x9F\x10\xE4.ZAK\xAE'\xD4?T08p\xD0\x0By\x9B\xE7\x7F\x93\xBC\x89(\x11@\x1E\xB6A\x9F\xB5\xE3\xE2<\xAA"O7\xBAv`C\x89Mcj\xC1\xA9@\x00~F\xA9\xB3\x82\x94\xA5\x16\xCE~\xFB8\xBD3K\x81\x18ek\x1B\xD3\xDF:uOt\xDE\xB1:\xF30\xE1\xAB\x95{b	\x17N\x1F\x00WCSp\xF7\x93\x8D\xC6\xDD\xD9\x06n\x1E \xFE\x81\x00\xC1\xBA\xD0\xC7\xD0\xE8\x10}\x1Ah\x04-\xA5\xDA\xA0\xA1Q\x9E~\x08\x83\x04c\xECE@g\xCD!p\xE3\xC5\xD01\xE9\xB3\x19\x03\x82k\x8D\x84\xA9:\xC91r\x06x\xDA`P\x89\xF3\xF2\x0F\x99\xE2bo\x17\xF0q\xBC}$e=\xCEKq\x8D\xB6\xFAp\xA14\xB9\xB1)\xB6\xDC\x1B7\xCE\x83\xD3\xF4\xBD\xDB)\x06dqH\xAD\xCCf\x01\xC9{\x15\x8D)W\x80m3\xE1\x04\xA1\x16\xA4J\x81\xDE\xE0\x15\xEF\xE09\x13\xDB\xEE|\xC8Z\xD9\xCE\x01\xA6U\x8C\x85;\xA41\x92j\x00\xD0\xB4\xC5J\x1F\xBB\x97\xE8\xF3\xFCmT\x05Xv\xA70]\xA7Nt\xF0\xEEh\xF2\xA9\xC1Nd2r f$g\xA0p_\xEDl\x1F\x00\xDA#\x932\xE3\x89\x88\xC3\x1B\xEB\xAD\xE552\xF6\x8F\xC3\xD4J\xF8\xA0&@\x88\xC6\x8F4\xC3$t\xDDL8\x02\xFA\xE1R\xA8\x18\xA1\xBE\xF1DC\x8Bh\x87\xF5\x85\xA1J\x12
+\x98\xE5L\x0C\xFA\xC2p8'\xE5`\xFE\xCF\x01\xAF\x9ETB\xCE\xC6\x0C&MN\xC1b\xF2\x96'\xE5\xAB\xE8\xB3&\xE1W\xDAE\x81\xF1\x17\x9F\x0E\xFDY~\xCB\xFC\xB4\xD1\x1B\x86r\\\xFF\x14\x89\xF6\xA9\xA3M,\xCCi\xC7\xA1\xB3.u\xE9\xF4$\xB9|\x03\xE4\xB2K\xD5|\xF6\xB32f\xBD\x04\xA0\xB67/\x8B\xEFq\xC1\xFC"\xCE\x19\xC0Z[\x90\x8Bj\x8F\xD8M\x8Ag\x14~9\xA4\xA0\xB6h\x0FG/8\xD5\xF7w\xA4\x80,\xAF8\x95<WG\xF3\xADK\xF8\x90?8	~\x7Fg\x8DO>\xA4\xFD\x14ZQ\xE9\xC9\xF0{ \x81\xAD\xBDl@\x0C\xFD_\x98\xCB\x9E\xA0\xB6#\xC2\xDBKpU\xB4i\x12B\x89p#m\xB1\xE9%\xB8\x1F\xC3\xBBV\xD4\xBE\xDBJ\xCB\xEArx\xC3\xC5\x8E\xA4\x04\xB5N\x07\xA0\x82\x13\x13\xE5\x9C\xF9\x17\x92@\x88\xB9\xAA\xD1i\xC4Q\x05\x99pt\x9A\x0Bwz\x05\x83\xA8\xF4\xC0,\xE9\x19\xDFl\x1B3\xDA\xA96\xC6\xE2z\xC2\xCF"N\xEEw\xC1\xB5R\xC3\xE5\xFF\x1B\xE85%\xB6\xDB\x8B\x81RB-\xF2\x12i\xDD\x96\xB0\xFF\xEC-V\xFC\xF8Y\x11\x19H\xAD\xAAq\x17mv\xA9\xA7\xD6\x0E"\xE7\x81y\x98\xA0\x02\x9D\x85\x1Bdyhi\x94\x13\xA9:\xF3O\x84\xE3\x96\x8A\x1BS!*\xC5S\xD9M\x80\xC5"\x81\xF5\x9B\x8E\x9E\x81\xB9\x85\\\x01F6\xFDcw	H\x112\xAE
+OIG\x84\x9A0e/\xBF\x10x#Q\x06.\xA4Zr\x0FU\xBC\xF2` <j\x8B\xE7YCx\xB4fa\xCAx\xBA\xD4\x14\x90o\x13\x99lT\xDF;\xD7\xA0\xBC\xA9\xAC\x1C\xCC\x04\xE1?\xD2\x02\x01B\x15KC\xACX\xA6\xE7V\xE2\xF7\xA9\xEC\x05\x1C\x1F\xDD:\x89IG;\xD1x\xCC3\xB9\x92=PH\x03\xCBfw\x84\xDEl\xB9u\xE90\xCE\xDE\xAA\x05n\xE6"\x18\xD4\xF5\xBE p\xCAnV\xC8\x80\xBB\xA1)\x15\xC1$Z!\xF2V\xAD\x1FrHP\xC5\xBC\xDA\x9EV\xC9\xB2{;\xD8\xC9\xABE\xA6\xD69\xE7`\x0B\xC6\xDE\x07\x9FGfT\xAB\xAA\x15\xFD\xA0R;\x95\xDF&\xD3W\xFF\xE4\x02\xFD\x06\xE2\xFFe\xEC\x8A.\x84\x94/]i1\xA4\x9D9qSb(,\xA8\xDBu\xC2\xC9\xCF/\xF0.\xD5oIC\xAEl)\x19\x8F\xC1\x18\xC7u\x1D\xCB\xFA\xD0\xD4\xF8\xBD\x1D\xFFk\xBA\xC5\x87\xE1	i\xE2\xDC`'2n\xE4\x9A\xD83\x98>O\xAF:\xC9\xB3\x8A\xF3\x07\xC1\xAC\xE1O\xC0\x1D\x93\xBE\x13\x9B\xC7H\xB2uER\x97\xF9\xF3\xA4m\xBC\xDD\xAB\x95\x1F\xAA^H\x99\x16G\xBB\x81\xEAOg,\x0F\xBC\x9F\x02)w\xD5\x81\xCDN\xB4\xFF\xCBh|a\xD9W\xCDN\\\xA4\xE7\x9E\xE5N\xAFH\x11u\xC9O\xF1b\x9D\x98\xDDP\xA7z\x97\xD6\xD4G\x0Fw \x97\xAB\xEB\x99\x8D\xD5\x88%\xE9\xDC\\\xF4\xC3\x13\xFBey\xB6\xF1g\x00\x96\xE1\x90v\xF3C\xC9V\xA9\xB6\xD7|\x1E\x8A\x9E\x98\xC1\xE5\x9B\x02\x94\x8F\x8F\xBDe\xEBb'OA\x90Y\xF2\xD6\x92 p\xCF\x02K\xFA\xA86\xD3=/a\xFA\x1F\xB8u\xB5\xE4\xB7\x80G\xBF\x8F/m\x11b1	\xB3\x8F\xDE<sr\xDB\xBFm\xB4\xE5\xE1V~\xD107\xB2'\x8E\xA5\xE2Ad\x9F\x96u\xA4\xEE\xB2\xF0\xE4\xE8r\xCBR\x18g\x884\xDD\xBD\xAF\xC6OD\x17\xF9\xDFui\xE4\x00x!\xB3w\xEF\x1F\x84\xB7Q)\xF3\xB3V\x8C\x1E*\xC0(\xE6\xEB\xEE\xB1\x04n\x8A\x19\x08\xC6.a\xD9L\x14\x97\xF0\xEAz\xB0\xAC\xCC\x0B\xF3\xA5\x1D\x80\xD3\xB2\xA5\x10\xEB\xC6\xE2y';\xE4\xCD\xC3W1\xA5}\x9Eu\xE9\xBE\xB4\x16\xF0\xC4\xFB\x82\xDC]\x8B3\xA5\xCA\xB3\xED
+
+\xF4\xE6u\x9B#"\xD9\x11\xA3\xDC\xA1X_\x85\xD1\xA1\xFC\xCCIL\xB0\x16e\xCA`Z\xA2\xA4\x89<S\xAD\x9E]\xE6\xB2\xBD\xB9-\xB6e\xC2\x87\xB0\xF1b\xC9\x19S\xD16\xDF\xA07\x07\x9B\x1E$X\xF7\x86\xBA\x93/\x8CT~P$\x84\xCAt\x99\xDFH\xCC\xCA\xCA@\x173\x1E5?m\x9E\x00\x8FNQ\xDF\x8A<\xDA\x9C\xC3\xC8j\x96'\xF3\x95\xE7`|\xB7#<;\xCA.2\xF7B\xB8hJWO\xF6H'\xC7\x8E\xB1\x16\x91A&\x16\x85 \x19}\xC5\xFFPy\xF9{y\x0B#![]\xAC\xE2\xC3\x8D\x0E\x9D\xF3\xA7\x1A\x97\xA5G\x194\xEE,\x13\xA3\x01\xCD~\xDDG\xA1\x07\x14\x1E\xE5\x07\xBF'\xD4\xEB\x9F\x82>\xDCI\x0CGC\xD4JyT\xCE\x8Cp\xE9a\x160\xA5\xCC\x86@S\xAB\x81(\xE4}5C\xFB\xE9\x9E1\x88\x9Ft8\xAC\xF1\x1Bf\x92s"\xC1I\xCD\x92~\x84\xF4\xBDc\xFD\x03&&\x81|5\xE4\x8C\xFE\xCFNjOq\x82i\xEC$\x93\x865O%\x0CP\xD9\xD2O\xA8~>(\xB4\xB9\xFE\x90)A\x00\x15\x0BZ\xCF\xD4\x0B\x82\x1F\x98[r\x0E\xA9\x8C\xE2\x94\x19\xF9$\x8E$ \xBA~\x1C\xAEl^B\xB8\x9A\x88\xACv\xB9\x8E\xAAN\xB7\x82\xFE\x8C\xDB\x1E\xCC4\x82\xC5\x17)\xABB\xC7\xBF\x04\xDF\x97\x9E\xF8\xC5\xC2\x11s\xC8\xC0pp\xFE/\xB2'\xCC,@KMF\xFE\xB19\xA4U\x81\xDD\x10Wd\xC4U\xEE\x89\x98\xBE7\x9D\xCF_\x1F\x94\xE0\xC67\x90;BM\xB3\xA2\x82\x95\xBF\x110\xE3\x94\xDD\x14P\xA5\xE9$\xA7\x0E\xF2\xE0\x1F\x1E\x83\xDC\xC6\xC8/\x18\xD1(\xA8\x9C\xC8\xCDi\xE6i\xAC\xD4\xD9(	\xAC\xA4\x05s\xD3o@\xBB\x1A\x1C2\xCAh\x90\xC6~0\x02;T\xA4\xA0}\xC6\xC1\xA8Y\xE3\xB2J\xBC\xC4\x7Fjg\x16\xEEV\x16\xF0\x14(\x9A\xFC\xDB\\\xCE\xBC\x90?\x0B_3L,\xA3b\xE2\xE0=\xE1\x8AeJ_n\xD4.\x85&m\xEF\xA3\x10\x8A\x88pM?\xA9\x8A\x11\xDD&\xDD$p\x0E\xA7\xDC\x8B\xCA\xBC\xEC\x87\xF2y(\x01g\x86?\x96 t\x0FN\xA4\xE3\x8D(\xE7\xD8\xBB\x05\xC3\xB4\xB3t\xD0\xA7A\xF3\xD2\xDF\xEEb4\xB72\x05qG\x19\xDD\x81&@\xF5\xCE\x81i\xDF(ZT\xF9BBZ\xAF\x9A\x7F\xE0\xBC\xD73\x8B\xED\x9ECpJ\xBC\x1BE\xDD:]\x04\xE5\xCB\xDE3\x01.d\xF9\xAB1\xCB.\xDC$W\x13\x9E\x19$\xC4:\xED\x89 \x13\x92\x8EDU\xC8\x0F\x87\x95dJ\xAC\xBA\x00\xCD\xD5O\x00\x11\xEA\x0E\x0FQ\x96\x951\xCF\x8E\xB0
+\xBAh\xFDP\xDA\xC1\xBF\xD4\x10\x15\x93\x99\x84\x0BWA~J\x88\x98\xB0\xF7\xFA
+\x1FU\xCD\xDEQ\xF7zr&\x0E\x01TV\x8C\x95\xE8\x8F\xC2\xB7\xFE\xA04\x10O\xF0\xE8M8H\x85\x10'\xF5h\xAE\xBAF1Z\x18Y\x81\x8A\xC7\xDB\x83{j\x1Cy\x1B\xE9\x81\xE7\xC2H\x84B\xB0>(y\x06U\x18\x02W\xB1\x14\x88\xCC\x1F\x14\xBA\x82W\xB1\x9D\x90\x08m\xAA\xD8Z9\xAE\xFD\xED\xE0\x0C\xCB\x18\xAC\xEC\x9F\xF5\xDE?\xEA\x7F\x02\x97\xB0(\x10\xAE\x96?yZH\x07\x85\x12e-\xF7e\x84\x80/\xC5\xC9\x93h~\xEA\x9C\x1C\xCFl9\xC6\x93\xEDq\x10\x06\xCD\xBEO\x84\xA1\x87Z\x13\xA20\xAC10\x85(8\x80KZ\x15{i[\xD7\xAA\xB1\xB4\xAE\xE3\x14\x04\x9FJ\xD4\x02P\xD7\x128\xE1VK"\xBC9\x81\xD3\xB3S\xA6>\xCD\xA4\xF0\x1A\x0E\x06a\x8F\x9C\xE86\xC5=8\xC4\xD4W8t\xEF\xE9\xE8\xAEG-\xB4\xF0\xD5\x19\xB3$\x86^\xD9(9<Y\x95	\xA5J\x06\xF2\xC0!@p\xE0J<\xD5\x07|\xA0\xD3[\xD0\xA3$k \x17'\x8A\xA4\x96\x97\xBFm>RS\x1D\xE2$J3y
+q9\xF1g\x1F\x8B\x1B\xCD\x1A\\\x9B\xA3\xDE\xE2\x9F\xD2\xA20t\x8E\x881l\xB1l\x00E\xDD\xB5\x93S<\xCA\\\x8A\x89\xF3\xD1'$\x9A2\x0Es\x9B\xC9\xFC\xE1\xB4\xEF\x93hS\xE7\x1B\xE8\x17\x80\xD2\x91Z\x01\xC5E\xD3?eD~\xD7\x06\x05@Z\xDD\xE7\xA3>v?%\xDD\xC2\xC2\xBE:`\xED]\xA3s\xE5\x12\xE9\x87\xDC\xDC\xF8>\\>\xDF\x173\xE73\x91\xB7a\xCF\xF3\xB3\xC6\xD1y\xF0H0\x19&\x1C\xFC\x97l\xBCI\xBBRlv\x04
+\xBFl\xD2\x07\\?u^l\x16t[#\xF1\x0Es\xEF\xE6?\x9D\xF1\xC08#\xB1\xCFG\x8B\xE6yR)\xD7&\x12\x9C\x13%\x82\x04Q\xC6,\xBA}fzf\x11\x1F\xC7M\xF8\xB4ZDg+<\x9A\xE1\xAB\xCB\x87\xCD\xA2\x15\x1B\xE9/\xBB\xC0\xEF,\x17_\xFE\x8E1\xE0/n\xD9\x0B&\x05h:\xB0\xA2\xAE\x90BL\xB57\xA9m\x11\xF2x\x0C\x17\x90oo\xCCM\xDB\x96\x1E7\x0E\xED \xD2\x9F\x0FC\xEF\xDEr[\x05\xD6\xDB\x8F\xDB\xA3\xB5\xFDvbX\xA0\x13\xAF\xB9qI\xABE]V\x03 lvT\xA3\x81\xBD\xE0\x93N\xC7fW(\xBA\xD4\xD8-\xC9\xFAJ\x9F\x026\x134\xB7a\xB6\x0F\x83\xBC\x10\xEEV>u?\xDEw\xB4u7\xEB\xCE\x00\x11}i\xB3\xC9Q\xB2nIq\x92E\xCBuz\xE6~Ca{`>\xE0(\x10\xC4\x90\xDC\xCCf\xA9+\xD3<\xEA\xCD\x15_\x95j;\xF4\x14D\xE2\xD6\x8C\xDD\xE6\xD8Y\xD9\xF4q_g$\xFB+\x85\xAB\xA1\x1C\xC8A&S2=\xCD\xC9X\x89a\xA5\x07\xE7\x1E#qfxlu\xBD\xDDb\xD8j\xB1\x08\xCB\xA0\xCC8,tW\xBFt\xD2\x14\xC1W\xD7\xE5\x81\x07\xDEI8\x11d\x9E\x94\xDC\xE9h\xBA5\xAA\xC9\xD4:$\x08Jq\xF9\xFB\xCC\xFBN\x960v\xCF\xD3b\x1B\x9Bd\xEF>f\xDD\xF3\xD1\x80I\xE2\xF0m>X\xA5\x948\x9C\xE3\xD7M\xEA\x8E\xCA\xAD\x9Ex\x7F\xA1\xE0\x8D@\xFA\x91\x83\xF3\x99\xE5\xE67'SB\x1Dz\xF1S\x13\xA1$\xBC\xDC@\xCC\xFDO\xC2j\xCF\xBC\x89\xDE.\x86\xF414f\xA3V$\xBC\xA1B\x8B\xAF2l\x8D\x87\x98\xF2\xC7N\xCE\xEA\xE0\xA8\x14f\xBEQY \xE8J\x8F\xF2\x1A&\xAC#R4\xEC\x17\x9B\xA7G\xC4\x05\xD7\x91\x92\x84\xB0tA$\xFD!\xD4\x85bB\x0B\xF9\xFA\xDB\xAF\xC8\xB6C\x00\xE0\x1Fiw\x86M\x9B\xAA\xEB\xCC=\xA8BSAC%rv\xA9\x9D&\xADT\xF7o`G\xFC;\xD3Rj\xC7\xF9J]\x18\xB6\xF6\x12M\x05\xBE\xED\x07^\x80\x9A\xD1\x7F\x85\xC7\xB7\xB6\x1D\xEA"aL \x08\xC4\xD9\xC7\xCA\x1A\xD6\xF4\x9D\xEA\x19\xB4\x8E\x8F\x17\xAA\xB6u\xADz\xF0e\xF9\x91\xB8\xE9\xD8\xDF"
+>\xF4v\xA5@\xDE\x134:,\xD6\xCF\xB8V9\x9B\x19\xBF\xA5\x9E$\x0CZ\x97\xC9P\x8C6\xEF&j\x13q:\xBF\x9F\xD6\x99\xFFbG\x17r\x89fC\x86QI\xA9\xF0\x17\x188l\x1D\x85n0\xE0\xE7\xAA\x1B\xA6\x8B\x06\x8BN\xF1|`\xE3\x89m7\xA9\xB4\x96e\xC7t\xC9\xB3\xE0.\xC6\xFBz<m\x89\x01\x8DP\xF3H\x03\xF3\x1B\x13\xA3,r\xF1\xD0\xF0?8\xCE(\x88\x8F\x02\x0E\xFA\xD0\xE8\xA9\xAE\xE0\x00Ls\x06\x8D\xF2=\xA3\xF8.\xEE<\xD2qc!\xD9\xCAb,w\xF0\xED\xAB\x10B\xE5\xF9o~\x13\x0E\x0F!Zh\x0Ct'\xE8\x82\x01\xF1dO\x14\xC9\x83\xDEM\x85\xD4\xB3\xC4\xA0\x9A\x83\x93\x7F\x1D<t\xA2\xF6<)\xBC\xA1\x88\xAFu&\x8A\xB3bY\xEF/v\x82\xD7\x05\xE4\xE4\x8Bc]\x88\xD1\x187byc\xB2T\xA1\xC0{\x86&V\xB8\x9F\xD2\xF8`\xA5\x9B%\xD6\xCD\xE4\x85\x1D\xC1\x0F\xAA\xB3d\xE9\xE6\x99\xC7\x9B\x9E\xE9\x92\xFA\xA3\x89\xB4\xBC\xBF\x9E)\xD2\xE8\xBF\xF5\x9D\xAF^3;\x0E\x15\xC4\x07%\x126,\x1Bg\x10%\x12\xA2^d6ta$\xC7B\xE6_Z\xFBa\x9C\x99\x1F\x87U\xF3
+\xE97\x1A\x8F\x85\xCF\xEEjb\x80\xC0\x9C\x84\x05\xFA\xDAfw\xFCzH
+\xC9\x89x\x81\xD3\xDD\x0F\xF5\xFB\xBEw\xC6|+j\xC1\xD6\x84\xDC\x02#\xDF\xAF\xC9\xD2\x054\xB6DT\xE6\x12\xB5sD+\xAD\xDA\x01\x96\x18pj{\xB8\x12\x95\xB0\x96\xD3(\x91\xF0y\xDA\xF6@b\xA6\xA3m\x19u\xA2\x9C\xB6\xBC\xF8\x88\x89\xF6\xBB\xE7\xB1\xEB\xBEU|\x07\xC2a\xAE0\xCA\x83zHD\xDEn\x1D\x177\xA5\xC8s4\x99!\xEF\xAF\xACC\x02q\x1C$\xF6fg\x19\xD4J\xA1\xBF\x12K\xC6\x1E\xA8j\xDB)\xA3\xF2\x83\xDE<R9\x9A\xDC\x15\xFF&\xB3\xAFa*\xC18\xC2\xC9\x91\xAC\x95,\x84~\x96\xAD\xEDU\x0F-\x17G\x05\xECt^\x0E\\\x04\xDB\x8E%\x7F\x9E\xEA\x81%y\x94\xE8z\xEE\xDE\x9D\x17\xFDZ\xB3\xD1\x89\x9CE\xB1\xB1\xE7\xAF\xF0\xA3\x01>\xE0.\x14\x80\x96\xB1\xFE\xE3\x9B\xE0w\x04%\xE6\xB2\xC8\xD4\xEBnY\x85\x04>\xE8\xE8B\xB0\x88pgNc\xA0Jc[*f\x14wr\x1C\x06`\x8FB\xA8C\x98\x04Y\x90\x8Ci\x13\xA3\x81\x05.\xC5Z\xD8\x16\xA2\xB2\xAD\xDA,{\xDE\xFE\x81\x92G\xE4a\xA4\xD4v6\x9F\x01\xBDc\x07FqH\x11\x8F\xA4\x19\xE1\x93\xAB\x01R	\x19\xB5c\x11\x14*Q\x01\x1C\x11\xF6\xAAH\xDC\xF5\x8E\xD7\x97\xAD\xB7\xDC1OU\xEFQ[\\\xD9\xE30#\xB8\x8F\x84t\xAB	\xF8\x8E\xDDZR4\xBA\x89\xC2\xE2@\xB4\x88o\x0F\xD86\x03j?\x18\x18$\xA0~\x18\x82\xFB\xA7@`:\x91\x04Y\x80\xCF\xCD \xD6\xC6\xE2\x8A!:ES\x8EGj\xA2E\x94\xD1\xFE\xE6.\x81\xBEB\x8F\xE8\x9DE\xFA\xC4z`\xC2f\x96C\xE9\x85#Ik\x01\xB1\xC2\xED>5\x9EF\xDF\xC6\xDC\xC7\x95\xDBe\x83\xF3\x88\x9B{\xC7\xA3\xD2\x1B\x1E\xE2\xD2\xA7\x91
+\xAC\xD7vA\xDC\xA1\xDB3\x07\xD5\x1B$g*\xA4\xB1c\xDE\xB8\xD6e$Uv\xA7_\x06\xF0S\xBFF^\x05\xA0\xAF\xFC\xA19\xAC\x89C\xD0\xF5\xB0\x06\x94\x12\xBD\xBD\x08\x9C\xCE2\xD6q\xF4b}\xA6\xA9\x81\xA6\xF8uSmB"\xAD0\xA4\xEC\xC1\x9F
+\xDF9\x19X\x88L\xC5\x94\xA2p*\x80=P\xC6Qz\xB2<\xE7e]\x90\xE8\x9B\xA3\xD5=\x0C&,\xFC\xD6\x1CU7\xC8f\xCA\x08\xBC\x91%\xF6\x8E\xE6\xE6\x87\x1C\xBAR\xDC\xA6\xAA1\xC8\xA9\x92\xE8>\x1E\x02G \xF9"]\xAAla\x03F\xD8\xB3J\xDC\xCE\xF3q%\xDA\x13\\\xC2\x1Do\x1DDCW\x88\x98\xADx\x03]\xD4\xE1W\xB7\xB6\xA4\xCB\xC0km\xBD*\xB2\xC9h\xCAd\xC4r\xC4\x95\xFE\xDC\xEB\x1D\xB0\xC1_\x90\xE5\xD4FO\xCFM\x18#q\xACl\xA8\xD70\xB3\xC07U\xD3\xAE\x0F\x8F\xE1\xEDm0\xD7\x805\x8Ay(/A\xE5\xB0F\x82\x96v\xAA$\x9E\xA5\x99\xD4\xCC\x1E\xE9i\xDCtF\xE1\xE4]8\xC2\xE2\xF9sM,U\xE2%8\xDE\xDE\x16\x82\x97\x0CP\xC3\xBB\xCA\x9B\xFAT\xCB[\x12\xBA\\\xA2$\xB4\xD4es\xC9\xB85\xCB\xD8\xA4\xE9\x85Cbu;\x8E\xBE\xFD\xB2\xE1/\xA5\x19\xFC1\x13\xF7\xD9w"/\xF7=\xBDO\x01\xAD^\xA6\xC8+\xE5`\x9B\xDB\x9D\xFA\xBA\x10\x85\xA4i\x95\x1A\xD3\x02V\x03\xC2C\x02S\xE0j\xB4\xD2\x1C\xE9\xE6\xFB\xA4\x9Cn@w\x06\xC8\xF3\x07\xAFP\\\xF4\x18\xF2\xB4\xE6&DuM[w\xF8\x1A&\xA0H\x148'\x97=(i\xAAA\xA1n\x9B\xF4{\xAC\x94\xD2&\xF3	\xD9>\x15\xA1\xF943M\xE8\xB9\xC1\x86\x1F9T\xE3OS#\xBER\xFFu\x0F\xFD\x83}\x8F\x98\x08\xD69\xD8\x9D]\xA8M?\xC8\xD6\xD0\x83\xB9\x1F\xBD\xA4\xF4V5\xFD\\]\x97E\x92\x8F?\x8D[\xB8PG\xBFr`\x16\xF9\xBE!\xB7\xAA\x8F\xB6\xAF[\xC1\xA4z\\r\x01\xCEZ\xAE\xDB<H\x05\xDC\x8AO\x1Cn:\x98w\xE5\xF5\x04\x80\xA1\xB0Og0\xAB+Z\x98-T3\x0BR\x8F\xCF\xFA\xA1\xF2\x937u"q\xA3\xAA\xBB\x8D\xB9\xF5}\xBF\x98\xA6\xC1\xD4\xC5\x06N\xEB\xA9\xD63\x035V\x89\x8Bf4\xC9\\\x91{\xC5\xA4/\xAB.,\x1A\xB7L\xDC\x01\x03\xBF\xE8c@\x08&?A\xEB6\xAA\xC1%">\xD2\x8E\x08\x1B\x19M-M\xDD\x8F&q@3\xF5\xBE\x1BZU\xBA\xDF\xE4\x95\x19`\x15\xC1\xDF\xB1\x95\xD0\x05\xBAilg\x1A,C\xB3\xCD\x96\xA0\x91\x85\x8FD\xE5\xF1\xF5\x86(j2S\x9F\x8D\xA6C\xB0q\x1Ez\xF6\xFB\xF1\x12'\x8B\xECHY\xF5C)\x84vt\xF2\xF8Z\x85\xF6\xF1\x0E\xFF'?\x1DBR\xA4c\x1A\xEA\x05!\x06\xA5?L:\x01\xFFQ\x9A\x1CP\xDC\xCE\xC8\x19\xF9\x15\xD0\x83\xB4\x8Ez`\xF7\xC7x\xB3T\xCE\xC5\x87\xBE	lE\xE4\xF6\x9E\xAC]U\x8A\xD0\x1A\x0B\x02*\x92\x91U\xE3\xF9\xB6\xE5\xE7\x8C\x18\xF8\x9B\xFB!b
+JB\xC2Zp\xE3X\x03\xAA\xD0\xBF\xC0\xA9v\x19x)\xE7\x04\x85\xD4\xA2"\x0C\x04h\xE0$w\xFA\x9E\xC3\xA6\x16\x95r\x1A\x1BW\xE8\xB5\xA9|m\xD8+\xAA\xA3\xC0\x95\x85\xF2?\xA9\x83yH1\xCB\xA7&']\x87\xDF\x9Av\x10\xAE8\x9B\xDD\x12\x00\x05\xE7\x8B\xE5\x8DdY\x9E\x92QR\xEF_#C\xE8i-\x01\xBB9\x08t\xE6\x9D\xCA\x85+3\x90(S=\xC49\xE7\x87\x86\xB0R\xE4tr\xFF\xF2\xC8g\xD6)\x18\x8D\xF8\x9A
+O\x17\xA5\x86s!u\x92\xCDwO\x99q#wmp\xF2	\xA1\x80\x85\xB2\xC8\x0B\x98\x02\xAAS	Id\xFA\x1B\x81@N\x19\xF6bT\xC5\x1D\xD8g\x12\xC1Q\x85\x87)\x11\x181\x8A-4\x0E\xB1.\x88\x96H\xBE\x0C\xE7\xCB/\xCFs\xA07\xEB1yO\x088\x98\x82o\x96\x0C\xFE$\xDF\x05\x10\x1A`{\xA1\xA6\xA5\xD2\xAB\x8B\x19C\xF0k\xD2\xC09\x0C3\x1C\xE5\x1A}\xD9\xB4\x9B\x1F\x98\x12\x8BL\xA0?\xD0\x80\x99\x9Ec\xDD\x11\x82\xF6\xA2\x8Dpn\xE5\x1D\x98\xBE;/\xFF\xD5\xF0t\x80\xC7,\xDAd (\xCB!V\xA5a\x8A\x05\x86\x02x\x1D\x04$\x88G\xF7\xAB\x868\xFB\xED%\xED:$\xC61\xB14\x0F\xBE\xBD\xC5\xADkTr:D\xAF\xD6\x8CcA\xA3\x1EFO\xFC\x84\xDD\xA9/3\xA1^\x86\xF1v\x91\xA1\x85\x0E\xD4O:\xF6s}\xC0
+\x92\xD2\xB3x\xF1t'\xD2\x9B\xCE\xD3e\xE8\xCFb*9)p\x0F\x05\xE0_\xC5\xB1\x1B:\x96y\xD7\xB8\xFB\x18i\xA5\xE4u\x061p(\x8E\xF8\xAA\xFCKM\x0B@\xCF\x95~ \x98&\x0Cq\x98\x9C\xB0\x13f\xAA\xD5\xAB\xB5\x1F\xFB\xD5a\x8EW\\\xFF\xB1\x05\x93F\xF8\x8A5dB\xA6\x8B\xE5\xFF\xFF3/\x87]\x9D\xEC<\x05Z\x91Du\x90\x94\xF4	\xC9J\xEC\x9C&r\\\x89|C\xA0~\xDEk(\xB2\x01%\xE71#\xFAi\x12\xA6QA\x0Ft83(\x8E+\xBC\x8A`\x1B\xC4\x82\xB0\xFF\xDE\x93\x96\x01z\xD6=\xB3\x9C,1()\xAC\xB6\x00\x80\x87\xFA/{.\x96\xD5\x85
+\x0C\xC5\xD0P(<,\x19\xEAU\xF5Gjc
++7\x00\xED1\x15\x02J\xA5\xE6\xD7\x17\x15\xF6\xC9m6J \xE2\xF9f\xA7\xF2\xB8u\xE4\x05\xDDw\x9A\x10\x88\x16I\xB5l\x14z`\x1C\x87\x91\xDCs\xB7\xBE\xF1\xD1\x85\xFC\x85\xF3\xCE\xCF\x92\x87h\xBF\x13\xAF\xFF\xD2\xFE\xE4\x06lJu9\x9B\xE8\xCD\xE9\xA9\xC2\xF9\x1DSJ9\xF8\xF91v\xE7,[\xEC\x1C_\xC7Q1\x16\xB2\xFD\x07\xE1\x80I\xCEG\x80\x9CQ`<\x81\xC0\x94\x937\xC6\xCD@l\xBEA\x95\x9B\\\x82/3:\x84\xA6k\x8E\x16\xBF9\xF4\xC6f\x1A2S\x94\xC6\xC1^5\x82\xABj\x04"\x1Bg\xC1\xBD#\xB1\x03o(c\x90{\x98H)\x9B\xF3.\xED\xA3h\xE9\xEEe\x84\xB8\xB3\xF9t3\xF1S\xDE\x95o\xB52l\xBFn\x19@\x7F\xA3\x7F\x1BJ\xAA\x11\x97\x98"\xF6\xF44\xAEK\x82T
+\xAA\xEA\xA0l1\xCE?\x96`\x0E\xE1\x99A\xBB\xC6\xEE\xDD\xA7\x9E\xBC\xB5\xEAGjA\x81\x88\xA9\xEBQ\xED\x0E\x05\xBAa/\xE4\x12\xDA\x8F\xB8\xC2\xF2\x87\xBA\xE6~g@\xC1\x02\xCEI\x82\xA8L]#\x17i\xD6\x01\x06\x11\\{\xF1\x90\x14&\x1Fj\x1A\xDE\x1E\x8E\xB4\x82\xF5\xE4\xC6>\x04\\\x14\xA4\xE4x.5\x7F\xF5AL\xA8\xA1\xFC\x93\x1Eh\xE59)\x1D\xF2\x96Lx\xAC$\xD2T\xAF\x9A\x11\xE4\xF4I\x01\x93\x8F\x9F\xD9\xBD\x9Ez>\xC06\xA8[\xD7\xC1 \x15\xA4'\xE5\x16\xEBb|\xA5H\xCB\x032a\x15\xCD\xF3\x80\xE7\x9C/\xA2\x1E\xC5\xB4	_\xD9#\xC3\xF9\x1F\x96\x1B\x9F\x1D\x03\x87\x9F\xE6\xCF<~\xA0"\xB4Xv\xF1W\x9E\x92G@\xE3\x84N3u\xDBj\xFC\xD2\x13\x91\xD9\xD2JN\x81\xD4\x82\x7F\xF6fi\xD4^AJ\xB8MW\x1Dd\x01\x8A\x9D\xDB\xEB`]\x9Fn\xE6\xB6\x16\x05\xECw\x0E\xC3<\xFC\xC9|\x1A\x8BI\xEA{e\xF4\xD4\xDE\xAAl\x80\\\xBE8\xA5\xED\x98\xD6P\x96\xCD\xB3\xA9c\xC4s\xFA\x86l\xFE\xB3eE\x86\x9FB\x82
+\x05L\x7F\xD657\x8B.\x15\xE1r5\x1A\xC0N@\xC1\xC2|\x15\x9A\xEC\xFB\x17\xB7\x11S\xF5\x85 \x8C\xC5\x85#\xCA\xB9
+\xB7\x8C\x01\x1B\x9B\xBC\x14eS\xCCK\x1D\xA0\xE2>\xBC\x04;XM\xC7\x89D\x12\xC3,A,o[\xF5\x19\xF0\xE6\x8Bj\xC20\x16\xA2\xE6\xE6\x96\x12\x1B\xCA^\x834\xCF\x16\xA8b\xAB\x11\xEC\x11\x83\xF5\x94}\xE0g\xF2\xF7\xF2IP\x9D\xD3\x1B\x8F\xF4\x80\xE7~\xD8\x85\xCA\xF4\x1B\xA0q`\x98\xC8\x89\x9B\xCE\xC7\xD7\xFE\x8C\xE2\xE0\x8F\x9D\x9F\xB2\x96!\xE0\x13\xCA	\x9D\xB4>r\xFD\x9F.i\xED\xD4&oHV:\xF7{i\xA1 \xB5\xE1\x00\xF4g\xEB\xF8\x0B\xF4\x97\xB0\xEE\x82\x16\x1D7:\x99$\x91\xA9\x1D\xD4\x82\xAA\x98\xC3\x112\xD3K\x0Bf\x9D\xA2~\xC1\x13h\xD9<[\xC1e\x95\x04\x93\x83\xAA\\\xDB\x90!c>F\xA7\xA0\x1Bf\xB8\xC2\xE6\\\xC1\xDE\xC3\xC7yC\x10v\xD7\xEF\xE7\x9Fi"\xEC
+F\x15\x1C\xBE\x01
+\x1D\x0B'\xDES\xFF\xE3u\xCEsE\xC2N\x98L\xA7\xF27]S\xC3|\xCAU4]\xA9\xCFFF\x019\x9B)p"\x16\xFD\x06p\xAC\x80\xCF\xE7\xD5\x9D\x8D\x94\xCFZan\x0E\xC0#\x1C\xC8C]\x17\xE3UEy\xE36\xCD\xE1X\xE8\xB5\xE6\x850e\x10\xA1g\x82\xA2\x8C\xF2H\xF5\x8C@\x86\xDE_\x8F_\xB7\x12?Q R\x01\xDA\xA4g\x1AQ.+\x1Bh\x8F\x94X.g\x18\x06\xF0{$\xC6y:%s\x98\xBDk\xAF\xB3\x17\xDE\xE2S@\x8C\xE2T\x03\xA2x\xA9\xB8H\xF1g\x8B?\xCF\xF7 8\xAC\x93B\x90Kp\x18\xBC8\xC1\x8A\xD3\x9A\xF2q\xB2\xDB\xF4\x15\xE4\x87\x95L\x93\xF4C_\xA0yr\x9E\xF9\x99\x83\xC7R1\xE8\x1C\x97\x870\x0C\xCC\x8FR|\x1F\x1A\x1D\xA7<\x15h\xC0\x81\x96\xDB\x16\xDF2x\xC5 \xEC\x03>a\xD9s\xCD\x88\xEB\xE0\xA7\xD6\xC4O@\xA4\x8A?\x96\x0F\xDD[
+\xC4\xB1y\x95\xBA\xF8\xC2\x95\xF8\x01s\xC1\xB17z4Q\xC6q1n
+@\x805=g\x81\x1E\xE9\xE3\x00+8\x00.\xC4\xC9Ep\x00\xBF\x00`\x83\xAF\xDD$\x1E\xF3\xA2\x83\xC2\x08\xAA\xE5v\xB7\x1D\x01\xF6\x89\xC1\xE5\xBB\x8Eb'\xF6\x87L\xF6`?\x98r\x9C\xA8\xDB\xED\xB1\xF5\x1AT\x02A\\R:\x80\x19\x1A\x02\xBA'\xA6\xE9\xF5(\xBFt\x95\xCC\xE5\xA4\x8C\xC1\xFB\\\xD6\xDF!,\x96\xC8\x9D\x1A\xC9J\x18\xD1\x0C\xCBqg\x15\xC3U6p\x1A\xBD\xD4\\\x0CKQ\xDA8K4F\xBD\xD3\xD6\x06\x1A\xF6\xA5/\xB8	\x9A\xB9s\xA2\x172k\xEDF\xEArh\xEF.\xAF\xB6\x88\xD9CR\x0F#\x86\x8E*\xFE\xEE:\xE7\xC0\x84\xDF\x10\xD5\xAC^\x9E-6|\xC1\xF5\x0F\x96\xDE#y\xC4\x89\x900\x03Q\x7F@>\xA6\xD8C\xC5\xE8\xE3yuU3P\xAC\x1E\xB1\xA0\xF6\x8E<\xA2\xFB5\xDDQ\xB2\xCB[\x8D%L**||\x91rZ\xC9Lp\x06/7\x11\xF8\xF1ke\xCC\x8D?\x83J\xE5Jt\xEDQ\x98\xC2`ut\xF9	C\x18\xDB\xEDP\xCE\xA5o\x0Eq\xC3\xBD5\x9C~&\xF5\xA6L\xDC\xE2\x1C\xFF\xE5\xDEm\x10\xBA1\xF8\x10\x9C\xC2\xB0\xCE\xCF\x91L\xEB\x83\xA7D\x93\x11X\x05\xDFR\xC8\x80\xF0A\xEDc%\xAA\xE1\x90n\xB1W\xAD\x17\x9A>\xDB\xDE\xF0\x06\x86r\x08\x13\xCF\xDEej\xAA\xB00
+`\xA9\xA2\xC4xv\xE5o>j\xDC\x8C\xF0\x1C\x17>\xF4\x8FI\xD2m^\xE6\xF0\xB3v\xB5:\x02\x1A\x84\xA7\x9E\xF6\xF3\xC5 \x07\xA1m\x80\x10y\xE4\xCF\x98`U\xF7\xD3\xBA\xFF\x9Ee(LFR\x109\x96\x80;\xE4\x9F\x88\xB6\xA9\xD3`\x950\xC1\x8F
+B\xD7\x84\xC3\x07TJ\x97\xB40\x85\xA47\xF2\xE8\x9F\x80\xABw\x07\xB1\xFF\xCC\x15$\x8At\xEC\xBF\x96\xF4\xE3\xCB\xA0\xA2\x00\xA8.{\xEE\x9A\x8E\xB1\xBAb\x86\xE8\x83\x90\x1C\x84\x7FSg\x15\x10\xEA\x8E\xFC\x95\x1F\x83?\x1B\xE9l\x8E\x87\xED\x99a\xC0	\xBF\x91a\x84\x1C\xC8\xE4_\xD6\x17\x80\xE2\xEB\x0C\xAA\xDD.\xCD9\xEA\x08\xF0\xDFs\xA3\xFF\xB9\xD7A\xAF\xD9\xC1\xD9\xFA\xC5\xD5tJ9\xEB\xB7\x0B\x8EB\xB1
+\xCF^\x83kw]\xC7\xEC\x8A\xF4	4\xEC\xAB\xB52\xB30c\xF9\xD9\x1B\xA3_\xD6|\x87\x1A\x99\x0C!\xC3&7\xEB\x07\x81\x98\xB6\xAE\x1F\x00\xE2A\x06H\xC5\xA6\xF1\xEA\x91\x1D\x1EE\xE3tXfQ ot\xA7\xE2	\xBE&qX"lS\xB4$\xA1\xFD\xA8\xF0\xF9\xE8L\xB7c#U\x15
+"\xC9\x0Cx\x01\x9A_\xD3\xBD\xA9$\xE5\x91\xA3\xF3\xBE\x07"@\x04\xB4\x93H0\x00\xC1c\xE4\x95\xAB%\xAE\x97k\x8A\x03\xB8\x1B\xA5BcC\xFEZ3\x16\xA2\xFC\xE1\x8B\xBF`\x0E\x1D\x17'\xBA\xAF\xDA\x03\xB9\x87l\xEB\xBE>\x08\x10\x90\xDC`*V\xEA\xCE?\xC5\x0B\x0FL\xF28\xF1\xA7+"|O\xA2a$\xFD\xB6BE+}\xB6\x9A\xA2QJ\xAA\xE0\x0C\xACs\xC5\xA8\x11\x8AH\xAC/\xA8k\x02\x8C{|\x0C=\xD6\x02\xA9IQ\x1E\xD4\xC8\xBEE)\xB4\xCB\xAD\x08%X\xAB\x08\x00\xD6\xBD\xF6@\xF414k8\xEEl'\x02\x04\xD2\xD9\x91>\x1C\xC1/h\xD3\x91\x05\xEF/\xE8\x1E\x10\xA9J\xA9\x91\x07\xE7\x1AB\xC5\xB2\x04\x0C\xE6\xB6\xED\x93\\\xA58!Q\x10\x9B\x0E\xB4\x82\xB9\xE5\xC6\xF0^|S~a\x1C/l!J\x1BZv\xBF\xD77\xECB\x00\x85\x13\xE2U\x0F\x10U)0N\xA3\xCC<\xB3\xD9\x839\x14`f(\xF97\x166\xBD\x84\x07\x96\x18\xBA\xFEx\x11\xA9\xEB-\x1C\xDB\xF3\x13\xA4\xE0\xD0}\xD1\xDC\xB1\xED\xA3\x03CO\x18\xA7`\x02\xF2\xA6\xDC\x16\x14J\xA4\xC6\x19\xC4\xC0\xF5\xEB6z#\x9B\x13\xA4\xF8-\x17#\x9A\x00\x0E\xC3\xAAU\xA5\xEB\x88\x12\x81\xEE\xBAG\xE6\x9C-&{\x15-G\x1Fb\xE7\x0Ce\x8CR\xB6x\x19;$\x10\xC7\xB8J\xC7["\x85\x08\xF5\x8D\xE4Gb\xC8\x82cc\xE5\xFA\xCB6r\x99\xD3\xB1\xA7";I:\x11\x03\x84\xB8=7{W\xFD\xF1i\xA2b<o\x18\xBCq\x93Ia\x84\x0C\xD3\x97\xE8\x14t\x03\x0BW\xFF\xF6\x97\x0C\xB8\xF0	\xC4\xC1\xED\xE1\x8C5\x86\xBC\x93\xAF?\xF0\x8F\xA4\x8AZ\xC71N}\xBB$\x87\xF9Q\xA25O\xE9\xBB~\xFB\xFE l\xA4\x11\xCA\xFD(\x1A\xA6\xAB"^gT\x1B?b\xFFYo\xE6,O\xEF&\xC5+\x04\x1D\x05t\x11\xE5\x9D\xCCun\x85t|w\xF5\xA3\x80k\x9C*\x1Dw+n\xE2\x80$K\xB8\x88"v\xC0U\xF8\xBE\xF9\x04\xE01\xDE
+\xB9\xE0\xC8\xF8\xF0\x02\xA9\x1F\xE4\x96\xF3\xB4aN\xD4x\xFAd9\xC5\x9C\xEDS\x00h\x8B\x0F\xAF\xEC\xD8\x11\xF1s\x83b\x98\x8A\x08\x927k\xA1%\xAD\xAE\xC4\xFB\x02/d\xA8\xD0@1\xF4\xF1X.\xACKz\xCDYpH\xBD\x80.Z	\xC7\xFA\xA6\x1C\xB2\xA9\xE6|X\x84Dnr\xF9.\xEF\xAB\x1D;5J\x92~L\x0E'*8\x1C\x81\xC9\x01j(\xDBL\xEBC\x8C\xE9\xA2\x0B\x90\x98X\x08\x19O\x13+\xE6!-\x11\xE65\x8D\x9A\xA9t1\x9C\xDD\xC5\x86\x12N%\x90?Vk\x97\x06\x8C2\xB0y\xF1\xEDi+\x1D2\x1A\xA9|\xD5\x91N\xA9\x84a\x05O\xC5\xB7y\x848>x\xE0z\xBA\xEE\xC7?\x1D/\xF6\xF0\x82\x81V\xC9\xA6\x10M\x06\xD9\xB0\xC2\xFA\xA2
+b.\xBC\xC9\x99\x15\xD5\xF2\xE2L\xF0xd9\x9CPufUJ\xD4H\x81<\x9B\xA8\xC1\x1E\x8F\xFB\x98\x82\x8B\xFE\x17W|\xD5b\xF7\xC8\x1B\x14\xE0\x94h\x03R\xF3\xE0\xFEO\xC1\xE1Zg\x08\xF4\xD6\x8E1\xA5\x1E\x9F\xE0\xDF\xD1\xA9DC!\xE8-\xA2\xEF1UoZ\xD0z"\xF8\xD0!\x98\xFB\x04K\x11\xB7q\xBA\xA9 `\xC5\x1B\x10Ae\xA4\xCF\xCA\x11-\x9Br\x8DL\x04\x88\x988\x0F\x97\x8A\xA02\xE4\xE2\xF2\xB8Tw\xE5D^\x04}\xB7\x16\xDC\x1FT\xE2\x11\xB9\x80\x94\x01\xA5\xA5F\xF1\x8Fm\xBAY\x9D\xF9+E\x88\xF6\x8B=2\x9D\x15s\x1D\xA4\xFD\xD9\x8E\xDAK\xC6\xD3^\x9Ag\xB1\x04\xD8V\x84\xE0:\x03OB0\x8F.\x0C\x07\x03;\x06Du\x11S\xE4&\xAB\xF0\x96\xD4\xF55\xDAc\x10\x970\xA3\x833^\x1C\x84\xD4\xE5\xCB(\xA6\x96\x03l\x00\xA9\xB2\xB9[\x95\xDA\xD2\x01J\x9Bf\xD2\xB1\x97]]0\x8B\xF9v-\xC3\xF4\xC9\xEF\xC4\x98\xAA$+D\xAE]p(\xBB@\xC9\xB2L\xA2\xBA\xAB&\xB7v\xDD\xD7IO\x1E\xE4\xD6\xA2 <"\xA2\xD3X\xD1\x88|H/ \x15m\xD6\x91\xD9\x9B\xCE\x83\xE8\x85\xE5\xB1\xECV\xBD\xE9\xEF\xCD\x14\x85\xBF\x05\x01/{\x01.l\xD3\xA4
+F-\xAEe\xD7\xDA\xF7\x02\x14h\xD7a4\xC8\xE0/]\xB7\x9AdaC\xC0B\x10&\x98J\x98l!\xAF\xE6K\xE3M\xDC\xB3V\xF4\x95{\xFD5\xE5\xEDBP\xB1\x1Fz\x01c\xB5\xFC\x9B\xBD\x06Q(\x87\x9B\xB5\xB5\x90vk\xCB\x9A\xB2\xDE\xCE&M\xEEH\x92\xD6\xD2A\xEDLL\x80a`\xF0\x8B|\x8B\xBC\xCF\x8F\xED\xC4\x0B\\+\x93\x0B\xF9\xF0\xC1*\xB6\xB4w\x1F$\x80,\xF8W0*\x13\x9E\x8B\xD7\x8C\xB4'+\x94A=*\x0F\x1D\xCC6Y\xFD\x1Df\x03\xA1c\xB0<\xB8\x17\xB0\x85\x91n\x89\xB0.\xA06y\xC4\xA0\xE9\x90\x0C"g\x16$\xC2t\x85\x1A+\xEE\xE3\xE8RC]\xED\x98\x1D\xC8\x07B0\xFF
+\x18\x9A\xFB\xB8\xFD\xED{N\x9D\xDF\x84\xC9\xB4dP8\xE4?	\x07\x97\x84\xD5m=\x97\xB8\x13\xFD
+\xBD\x1EquN\xD5q\xF6\xB6\xC8\xA8I\x17h\xE4\xF6|9O\xE7\xF7\xA5(\xA95>\xAC\x92\x95\xFF=Q\x0ElTgUY\x89\x15"\xC1\x80>\x92 E\x96\x0F%B\x90D\x83\x1D\x02\xE3\xE2\xF6\xE7\x03_V\x9A\x9D\xF5P\xFC\x7Fk\xA2P W\x05\xD3\x0B\x99\xB1\x81p!"\x9D\x83\xE8}]\xF7\xEFG\x1D\xE5\xE0\xE6\x8D`1Z0j\xD0t)\x1AVFw\xBA\xC9L\xD7-(X\x01\x13\xF2\x0E\x12O\xD2S)l\xBC\xBA\xB0M\xC3uXC	\x00X-\xD6\xA6\x18\xAFo\x95\x12\x1A?\xDD\xB0\xDE\x8F\xBD
+\x93\xA4\x80%^\x0FY\x80[bc\xAD\xA5\x0C\xBA;g\xC4\x111\x1E$\xA2\x89\x11\xC4\xC7\xCF\x15n(\x1B\xE8\xD8s\x1CHm\x9D\xE7\xE7\xBF\xC2K\xAD[C\xBEt\xE4u\xD0*|\xC0:N\x9F\x00\xE3x\xA2\x01,\x8Fs\xF3\xD4?\xA7\x18\x1F\x08|v\xB68DO\x0F\xA8\xCD\xC76%E\x98\x06\x1E c\x80r\xA3\x03\xF2g\x83\xBE\x93\x8D\x0C\x00\xDD\x81\x8A\xC5\x91\x0F\x9Fg>\xF6\xB5}s\x1Ei\x01e6\xD4\xD0\xDB\xF0\x1B\xD6\x87cGTx\xBB\x0B!\xFF\xAA\xA2\xA0\xC7E\x046\x16\x9Ez\x8D(e\x86\xF7\x97\x92\xE1.\x05\xA0\xF8\xD6\xD4\xD9\xA0\x95\x86b\x13\x1F\x00c	\xA7\x06\x81\xC9BDZ{\xFA,\xF1\x81
+\x1C]B\xA7\x10\xCB\xB9R\xD2\x1B\x96\xEA\xAF\x81\xB7\x161\xCF\x17"q\xD8\xE1{0\xF0]\xE1\x03,\xE5]9\xBA*F\x84\xCB\xEC>$\x08\xA0\x10\xA5*\x18\xC0\xD4Y\x05\xAC\x9CY\xEEx\xAFztshI*\xC7[D\x1E\x96\xFC\xC9\xB1@\xCC\x06c\x121\x0C\xB0)\xEBh\x80\xE3+\xEC\xD1L\xB8\x87^\x84\xE0'@l\xEA)\xB7\xCB\xE6\xA1\x18\xF8\x03\xBF.\xFCj\xFF\x9A\xA7\x94\x06\x96z\xFDd\xE1x*\x93w\xC1\x82\x1C\xC0\xA9\xE0\x08\xCC\xE6\x90VK#\xDF8 E\x98\x9A(!\x04\x19\xD3\xD97cu3\x05
+\x89\xC8x5.a\x9DjR\xBA\xC9s\x85\x9C?)u}\x99\xD3x?\xBEM\xFF\x0CS\xFDM\x086\x06\xE0\xA8\x87C\xCE^(U\xF5\x16\xBD\xEDj\x80\xF8m\x1E\x9F\x0E\x05B!\xB5j\\\x85dU\x98\xFD\xBB\x88Mu\xF6Kh\xAFU\x8D\x14W\x98\x86\xE1\xF8\x9F\xD6Ta\xBE\xDC\xBBw\x1F\xF8|\xF3^\xBF\xC5 1\\O,)\xD1\x1D\xC2\xCE\x189b\xB4\x13\xAFp\xC7\xE1\xB5\xC0xD^O\x90,q\x82\xE1-\xCF!E\x19\x10\xE4\x14mS\xF92>\xC6\x82\xB7\x82*\xF8\xC9\xAA\x87;\xE6\xF8\xD2#\xA0\x05+0\x11s=*\xCD\x0F\x16s\x0E\xA0\x1B\xDEzJB#\x9C\xDF\x1E\xF3\xD6\x900\xA0_\x04\xC2\xB3\x937.\xE7Yc\x18\xD6\xBF\xC3X\xC7r
+%O\xFC(!9\x0E\x93Y%\xAB;\xBB\xE7\xAD\xB6;\xDF\xD0\x04\xFA5L\x1D\xF6\x07\x85\xA9\x03lRb\x8B\x04\xD3D\xBA\xEDh\x1B\x82\\9\xC9\xC4\xBD\x19\x82\xE4\x0B\xAA\xC9\xF2\xA2\\f@\x17^\xAE \xD1`U\x83A?r0A\xEF\xD6\xABc\xB1@\xFE\xF4\\\x80\xE5\xB9&\x8Bw\xF3\x1D	A\xB0@b\xAA\xF0\x1E\xBA'\x9E\xC6\xFC\x1DZ\xEA\xC7\x07\x8B\xF5\xEA\xA8\x153\xAC\xF7\xBC[\xBC\xDDl\x99\xED[\xC0\xDB\xE3\xAA/\xAE]y\xB1\xD2\x18\x98\xFA\x84\x91EY\xAE\x1F\x1A\xCE\xB1\xA3\xE0\x1A{gtl\x8EN\xFBP\xBCs\xFD\x86 \xEFM\xB8\xEA\x02\x96R\xA5\xCD\x91\xD8	[\xA1\xB0,\xFD\x0B/AT\xCD*\xE8\xCC\x95B\x02`\x8F<\xDFK\\\xD5\x10\xF7\xDC\x8EEUbv2\x15_\x83\xED\xF2
+\x8C\x16{\xCC\xF9\xA0\xBB\xBB\xD6\xFF\xEA\x86\xCEI	\x93C\xBCM]\x7F\xFBg&\xB6/m\x11\xC5\x13\x9A\x83\x1Ap\xE4a\xAE\x0F\xA8;\xE5\x89\xB0\xCB \x08\xE2^\xFE\xB5z\xC4\xC9/\xFAB\xBC\xC9}v\xF8\x11\xCD\x13\xDD\x9D\xF4V\x8C6\x14E\xFC\xB3\xE3=3\x00\xE3\x92 5\x02\xC2C\xD1\xF7\xDB\xE5\xF95S\x91l\x0C\xFBnX\x9A\x95\xE84\xB5\x9E\x06\x93Z` \xDE\xA9N;\xC9h\xEC\xA4E}\xE1)\x8D\xE6\x80\x96\x7F<\xBD>\xC7\xA7\xC4\xBA\xAA\x92`\x14\xEEj@\x19\xEAyW\x18\xD7\xA9\xC90!\xB4\xF1(\x9F\x93\xEA\xF3f\xBFh\xF6\xFF\xC3\x0B\x8Ep\xD0\xDA\xA6 \x82\xFF\x0C+u\xDD\xB9\xB0!$\x00\xDAS\xE1\xF3W\xF4\xCB\x1FQ\x85\xDA\x96\x12
+\x02\x86\xFA\xD2'\xC7\x91\xD29@\xC7\x120\xDB\x8C\xBF'\x87\xC7!\xA2\xB0\x9A\xD0h\xC3\x92(?DG\xDD\xB5\x06\xA4\x19t&\xCE\xEA\x84'\x07)\xDA\x1E~\xAF\x8CbO_\xBE\xA1g\xCE\xA3^\x08/3Kxv\xB0\xB1\xFC\x0E\x89\x88\x0BO&\x0C\xFC<\xD1M\x12eGS8TS:\x86\x88\x02y\xA2y{\x8E\xCB\xFC1<D\x17\x1Dl\xB2\xCA\xBF\xA5d\x8C\xA1)i\xF2\x12\x99\x9Ah\x19\xFD\xD4\xB7\x9D\x0F\xAE\xA0V\xD5\xDA\xE0|\xB1\xBFL\x1Cu\xD7\xC0\x19\xEDyl\xEF\x1B\xC3\x18\xFEJ&\xB0\x95\xAAm\xC5\x93\x97\x88\xC6\x04hH#O1\x10\xC9\xF1\xC2\x0B\xDB#\xC9\x1F
+\xF1\x14|&0\xFB\xA3\x8C1*\x1CJ\x14A\xFE-u\x8E\xC9\x13\xCF*\xD1M!z\x14`\x8A\xAE(\xA3%\x16\xDE\x12\xB4\x0CB\xC0NP\xB0_E\x06n\x8E\xACy	\xA2}\x92o\xA2\x16\xC7\xDAX\x9D\xD9\xE72\xE9,\x93\xA7\xCF\x90\xA4\xA9\xFE\xCE\xD9;2\xA4\xAC\xB5\xC2\xE2\xC7\xDFQ\xCC8\x9D\x88\x06I\xB5C\xC2\x82yL\xB9\xB1D(\xC2\xD8YZ\xE9\xDFK2\xC4\xC0&\xE6\x1F\x87\x10]\x1A\x13\xA1\xBAR\xA4Z`Mi\x80_\xDC$IQ-\x88\xEDS\xC5b\xD9te\xE8\xE2\x80d\x9E;i\x94\xD0\xE4\xA4\xF8\xB2^\xF1\xE5\x9A3\xB9\xCC\x03\x85%F^)aL\xA8\xF5\xE38oS\x0Fq\x17~\x93\xFE\x14\x9C\x04\x03\x1CSX0\xB1\xB8\xA8_\xAAy$\x9FB\xFD%E\xEB\xDC\x8B<\x00\xCEE\xEB\xA5\x11\xBF\x9B\x1E\xFF\xFB$\xE7r\xF6\xAB\xA8\xFA(\x94\xDB\xC3N\xDF\xA8\xDF\x7F\x1D4\xBF\xE1\x1B\x80m\xE0H\xDB\x00\xFB\xD8\xEBX\x01_\x16\xA3v\xA3-n\xBE\xCC\xAC\x0CA/8:3\xBA\xD7\x80!\xD7%\x88\xF0\x8F\x1B\xF7\xBF\x95\xD0\x98\xA4\xAC\xAE\xCA`\xD8\x80\x15;\xA9\xE1\xF5\xD0\x8A\x17U\xE2X\x13\xAAK\xC4i\xA9\xBBu\xE7P\xEF\xDC\xCBm\xEB\xA4i`\xBD#"*\xD2\xFD"JV\xD8\xD7,`\x90\x9F\x0CR\xFB\xFF_\xEF7\x9E\x84M\xCB\x05\x00\xABN\xCCRA\xAA\x06\xDE\x8C\xF9\xD7\xBB/\x0Ci:X[\x96<4 \xAC\x16\xA5\xA5\xFEf$\x8D7Z\x12\xB4\xD9U\xC1\xB9\x9ER\xE8wwX\x17\x92{\xA9\xD3\x82\x14\xBC\x19\xE9\x92\xD4\x17\xEC\xC9C"\xA9\xD7\x8Fw\x14\xEC\xE0,jcx8+\xA7\x05\xB1u\x98\xA49N\xF4\xABU\x8A\x1E]\x99\xE726a\x99\x96\xC9\xB2\xDC:?+[\xB1\x06#b\x95\xD8\xE4\x81\x0C\xE80\xA6\xDBS\x98#\x08\x8Bq\xFD\xB58^\x18\xFDt\x1D\x0B\x94\xAB\x1E\xB7\xE6ZJV\xF8`\xF5\xCF\xF3Tk\xE4\xC7\xAB\xAE\xFD\xCB'\x838\xBB\xAB\xE6\xF4\x07\x17\xA0\x1E\xD9T@\xC43\xD6K\xFB\xE1"XI\x9AdCy\x13\xAA\x94i\xB3\xC7\x025\x96\x9F\xA3)\x88\xD3\xFD\x99\x84\x08?\x94\xED!\xE49\xC4RI\xF0G\x7F\xD8Wm\x97\xEDu\xF3}\x8A}\x10\xE6\x81\xB8\xD7x\xD8_\xFC>\xB8\x0FP\xDBF\xB0
+~\xB8\xA4\x8E\xD3\x9D\xA4(\x9A\xFE\x02\x14_\x9F\x0FWv\xA72\xD2cV'}\x1C\xCB\x9FM\xC8\x1Bn\\\xEB\xEA\x0Co\x074\x1B\xDB\x81\x01T\xC7\x8F\xD1\xF4PVA\xF9h\x96\xB4\xD69\xAF\xD8\x98\x9A\xEAb\xDA|\xEB\xF0\xBB\xB0Y\x9AJ\xA0\xAFA\xE9=O\xD1\xBE\x9B\xDD\x88\x03\xB5\xA6Xw@\x03\xB5\xCC\x07\x02\xE1\x1F\x8D\xFE\xEA\x1D\x05\xB8\x82v\xFD\x93\xB8\x97\xD3>\x87\x90{E\x82\x07\xEF\x1F\xBE\xCBzoP\xA5\x0B\x0E\x83\xB2\x94\xE8\xEA8}Ox\x04\x1F:h{YW0S\xAB\x10\x17B<\xC1\x8C\xAE\xFD\x97(\xA63\xC9Y\x89\xC1\x95sy\xDB/\xCE+\x9D\xA5\x00O("|\xEF1v\xE2d\xBA\xA3g\xB5\x7Fu.\xE2\x91N\xBCg3\xA0Y\x01\x1F@ J\xC2\x90\x11\x95$5\x08?\x96)\xD0\xE23\x89\xC1	\xB8\xE9\x05\x90\x06\xE3^\x8A \x8C\xE9\x89\xF5\xDE\x13\xFA\xD3V\xEF!\x96if@!<|j*\xA7\xD0\xD5E\\\x96\x94>\x81\x80,\xB0l\xEEx3V=\xFE\x87)\xCB\x8Ct\xA0\x07%3\x06\xB3\xD9\xDF\xB7\x1C<fip\xA5\x05\x88\xB2U\xD5\xB4\xC0m\xCF\x85l6;\xC0\xACD,%R\xF4\x15]\x0E\xB6\xFD\xBD\x96\xA3!;\xEE\xA6\xDC^\x11\xB2\xD2\x13\x91>\x8E\xF6 \x0F=\xC8\xB4\xEB0q\x14g\x19\x1A/\xB5p\xCA\xE3\xA0\xF13P$\xAB\xFE\xE3V\xFFo@\x93\xBF\x96\x99\xE4\xFE\xE5>`\x91\x1DZ\x0F].`E\x9D\xB0\xCA\x88\xDB%Z\xB9\x034\xE0\xA7 }\xE1\x96=\x8F\x8A\xE4\xAF\x03[p\x8B\xE2t\xF4=\xC6JF\\\xC9\xCC\xA2:m\xA2\xC4\x06(\xBD?lBj\xC6y\xC1
+\x7F\xC2\x14\x9De\x19R_\xE1)s\x8B\x03\xBB\xA4:\x0B\xE4\xBB(@\x0CN\x0B/j'\xE9)\x05\xDCJI\x98,\xD3n-\xF2\x88,\xC9~\x81\xA6\xF9\xDD\xC9\x86\x08\x97\x15#\x1C<\x12\xE9\xA0>\x13
+ \x95I\x9A=\xE1\xA2\x02\xA1\xB4\xC9v\x0Cb.\xCA{m\xE2\xCD-\xF3S:\x95A\xD4*\xE6\xB4\xA6\xE5\xF2\xF6\xD2\xF6\x96\xB6\x89?<\x1Fw\xA7gk>\x98D\x91j	%\xCF\xB5k\xAC\x11\x0E\xCCqR\xD1\x1D\x17\x8FZ\xB8\xC4\x85\xF2\xAD*\xAE	\x95^k@\x02\xAB\xD4Q\xC1\xC8?\xCC~`\x17F\x03e\x7FE`\xAC{/\xEB\xC4\x9A\xAAx~\xB4Axh\xDC\x10\xF3\x11\x88\x8C*\xBF&\x11!\x06\x95\x04ZF\xD7e\x81J\xF5\x0B\xD2\x82.\xBF\x96\xCE\x8A\xDD\x89\x04\x97\xB4J;\xB76\x1Aw\x05\xF2\x15\x9E\xE7Rc\x1F\xA8\x1B\xD7\x95M\xC3\xA5\x89\x8E\xF9Q\x82-P\xCDi\xEF\xEE\x1E\xBD\x89af\xE6m'!L\xFB\xAF\xB47\x1DXA\x99\xDE\xC0\x8F\xF0M\xE4$e\x9Fs\xC6\x9Dho\x881K\xDBl\x96\xD2\xBDD\xF4\x10x\xAC\xB8`+\xEE\x08\xB1&`\xE4<&/\xA7n`y\xB3\x16\xF3\xED-Mo\xE3\x7Fe\xC4\xA4S\xA4\x11\xF4W\xE5\x98\xD1\x06\x01A`\x02\x08j\xE9w\xBE\xA0\xD2s\xC6\x92\xDDV4\x1DsZ\xB3\x8A,<\x05\xCF\xE4b\xC6\xF4K/N\xF5
+\xD1\x19\x07\x96\x8BUkL\xDC\xD4\x0FdA\x89\xDC\xE7^%\xB3]s\x060\xD5V\xC5\x91\x07\x82E\xF4\x8B\x10r\x1AB\x94\xD6s\xE2Z.\xF6\xBF\xF92/\xF2\x9Eiu\x1Cp\xE9\xA2>=\xC2\xAD\x07\x7F{\xAE\xE0	\xB1\xD7\x9C\xB5\xCA\xE5D\xD4\xA4T3\xB0&\x92Oeo\x1A=\xC9\x03:vW\xB7d<\x17\x88$\x17\xF2\xF5\x87g\x0BMp	B\x80\x00\x107v'\x8D6oc*\xE0\xBC\xADm}\xDBx\xC4\x1DJ\xF2G\x12\x86:]b\xC3["Sy1\xE5\x0B\x05\xE2&m\x93`P;\xAA\xD8\xEE\xB2j\xB2\x17\x7F\xC7\x12\x1D<\x1D\x16\x0B\xFA \x95\x19\x81\x05ht\xAA\xB5\xC0\x9C?L\xF2\xC1iDs\xD1\x02\x8A\x04\xC9\xACl\x1B\xA1\xD5cSuk\x81z\xB9\x15"\x99\x87s\xF4\xB31\xCDS\xC7\x1A\x15\x12\x9Ep\x88\xF6\xEAX,\xB2\xD7\x81&F!\xCDT\xB4\x8FK\x1DE\x9E?\x04Y8g\x8F\xAD\x1E\x0F\xA3Q\x12'c\xC3d.rJc8\x1C\xD9\xC7\xE3\xFE\xCBHq\x0CQ\x04b\x02\xC3J5\xB0\x8Bg\xEC\x1E\xCD\xD2\xEB\xBF\xBBR\xA1\xEAd\xCB\xA1G\xBE\xEB W\xBEe\xDB\xD1\x95\xFE!fs\xDC\xD5\x9A\x08Pf\xBE*\xFD\xB1\xF5\xF8\xC8\xA9	\x00\xE1\x19\xDF\xE2\x10\xBA\x08\xF2e\xC9\xF3L\xD7I>/\x15\xE7M\xC7=5l\x0F>A\x18\xECpF\xD2SX\x0FB\x1C\xB2\x18\x97\xC0<\x87\x19X\xA3\xA1\xFF\xAER$\xB6W\x14\x0C\x161/\x1B\xE7\xD5\x94\xE8\x00FH\x8A\x9D2\xCB\x84r.\xEE\xD1f\xED\xECR.\xF7xm\xF27\xCC\xBEp\xAE\xC8,\xB4^\xE6M\x8Ci:\x9B\x17\xAE\xF9\x88\x04\xC3\x16\xCBwQ\xF6\x99\xCB\xA3\xA7\xB6%M\xCA\xD0\xA5
+2`m\xEE\xD3\x18z\x12s\xA7\xC3m\x11g,\x15\x03\xD2\xDC\xD2\xD2N\xCB\x13\x08\x8Bn\xCC\x15\x03\xEA\xCB\x1F\x93\xC3\xC0;p8e\x19\xFBT\xB0Ag:Q\xA7\xDB\xDC\xECQ\x8E"\xF9\x97lt
+\xC8\x9E\x89\x99m<%\xEA\x16.\x88\xC1\x91\x15\x8B1s\x13\xD5j\x96\xEE\x1A\xFBA\x99\x8C\x0Bp\x82\x04\xB1\x85\xFA\xA5DS\x0FM\x97\x92\x15\xBA(//\x12\xAB\x00\xAC\x058\x12\xC3\x8B!\xF0\xA3\x7F\xDC\xDDh\xB6I\x85\xEB\x8A\xE1\xB8^*\x16bf\xD7&\xE6\xE1\xFE\xD5g\x99X\xF60\x13]\x9A|s\x86(dwG\xC94\xA1\x88\xCB\xC8ZG\xC4\xBFV\xE6\xD9\x1Az\x8B&\x94\x9C\xF4#\x1D\x9FZA\x07\x1D2EY\x96E\x95G{f\xD6\xF4\xA2\x8C\x8Bs\x8B\x17\xEEA\x14Tg\x86\\\xE7;\x18\xBE\xA2:Mg]\xD8\xDA\xCD\x9C(+h\xCD\x1C *\x00\xF0\xEE\x94	\x8D`\xA4\x9FC\xC4Z\xAD\xED\xACt\xEB3\xA0\x98\x1B\x07\xD6\x858\xB7\x94\xD4eZBV\xDD\xE3\xEC\xF1y\xCCk\x13\xAC#[\xF5\xDCQ\x861\x13QVA\x1B\xA7AHD\xDCI\x05+`\xC9x}\xB3\xD6 \x82\x10\x0C6\xC3\xD6\x94\x96\xEE|\xE2\xE7&( \x1F\xF6\xAD^\x97\xB8a\xD62\x8A\xF3Z\xFC\xB0Tm\x07\xDC>~\xF6\x19\xFEc\xC3\xCEe\xBF\x03\x93\xD3s\x12\x17~\xDE\xCFs\x9F\xC1\xFE\x19\xE2\xD6_\xDE@qq\x03\x9D\x13\x9B\xAB\xE3\xF7\xB8\xBE\xD4\x15\xDF\xD6N\xA8&X\xBB\xF8\x9AWL\x81$!\xF0\xC2\x03\xA0d\xB6Up\xA7#H\xE9\xCA\x0C>=;\xF9(\x9Bu4\x15\x8F\x06\xA6\x18X\x8A\x1C\x89\xD8Souc\x0F\x9B\x11\xE8 \xD0f\x8APR\xD5\x8Au\xCB\xD8K\x0B4\xB6
+f\x18\xD9\x90\xFF6\xB9-\xBA\x8D\xB50\x1Fk\xB0\x14]\xD1\xC4x\x04HX?\xE6Qq\xB7\x19\xEE\xFD\xB4\xA2\x1E'\xBFH\xD1\xE247\x14\x15S\x08A\xECY\xBB$\x96\xF4?5_\x9C\x1F\xFE\xDF\xB8\xA2\xBC\xE7\x12}\xCFs\xB4u9\x8BG\xEB\xAA\xC3\x8D\xCA\xD66\x80\xE0\xED\x04\x11d\xF53_\x8F\x10\xC4p\x99\xF5;\x05\xAB\xCE\xD3hBtbq\xA4tYJV\x82\xA01\xBB\x8Ez5\x80\x15\xAF\x10\x10P\x9A\xCB\xA8k\x14G \xEF\x1A\xD9",\xECGi\xAE\x03\xE7\xA8\x00f\xAD\xA1\xAE\x05m\x97s&\xAD$\xFF\x11\xD5v,\x02\x92\x9E\x86'\xE1\xE4K\xDC\xB0\x8Du\x9E\x10\xD87\xA0\x05\xF3\xA9j\xD4\x18\xA9\x0Fm\xBDE\xE9Yp\x9C\x10j8\xA1\xEE\x1D|\xF8Z\x8B\xC4\x11c\xB9\xE1\xCC\x91I\x99+\xF1\x82\xC7\xC87A\x9F\x15\xE5O\x0B\xF4\x12\xE8/\x94\xC1\xB3g3m\x9E\xF9s\xF5\xC7\xA0\x04\x13)\\i\xFFt \xF0\xB4w"\xD6$p\x1D\xB7\xA3DF\xA2\xC8\xE5]\x98A\x84#\x8Aad\x05\xD3e\x92\x0C\x0C*\x01c\xF1\xC9,L+\x0F\xC4\x894\x9C\xFF\x12\xA0\xF9%\x90\xBF\x06\xCE\x84\xBC!\x1E\x9F"M[\xFD\xDB\x846\x0E"\x14{\x11FI\x83\x84\xB2\xCF:\xBDD\xB6\xAF=p*\xD1\xD6\xBE8\x11\x7F\xEB\xFE\xCE\xE1#)\xF9\xE8\x02Y\x06Ig\x13E\xB3\x8BT\xBC?\xA1\xCC\xDC\x15\xE5\x02yZ\xD40\xCA\xA7\x10\xF7\xB3\x97\xDB\xE1\xDF.T\x81D\xDE/\xB6\xF4\xE8\xACq\xE2C2z5\xE0C\xCE\xEC(p\xAE\xE2u:\x19=\xFA\xBE\xA1\x0BQ\x93Bd6\xD0e\xBDt\x07\x00\x1B!\x1D\x80\xF6\x83 \x05H\xD9k\x8EX\x83\x89\x10F7\x80L\x84\x15/\xBD<\x7F\xC2\xFC`ZW*\x9D\xD9h@#T\xE0-\x7F\xB2\xED9\xB9\xAA
+F
+pI\x93\x88\x01\xB2\xFE\x02\x17\xE0\xAF\xAD9\xDA\xC8\x85MA,&\x83\xA7\xEE\x07\xDA\xC4%)\x84\xC2\xF6\x0C\x169\x0E\x89@\x943zx\xC8=\x9Ap\xC9\x8B=\xE5|\x08r\x81Y\xABPL\x94\xB2\x93\x14o\xA60\xAF\xCBg\xCF\xEAJ\xBEWL)\x93\x08/\xF4\xD6nrR\xF2\x88\xE8\xDA2\xDE\xB8\xFFU\x8C\xE72J\x0C\xFBR\x94\xFA\xE3\xFFI\xE9\xA4\xBAb\x8F\xA1`\x0C\x87\xA1QU\x08\x91\xD4\xF6\x04t\xE4~Q\x91\xC2\xB0\x8E\x98l\x7F^\xB1\xC5}{\xC1\xB8\x94  \x89\xC9s\x93\xAA\xE1\x93
+\xC4\x02\x99|\xB4iZ\x88kI\xBB\x06x\x92\xC1\xC7\xF9\xE7M\xE15:P\xFC&\xF7\xCFL\x81Q\xEB\x18;p\xEF\x0C\xDFL-e\xA2\x84\x931\xB0\x91\xD1)-\x16K3k\x9EX\x7F\xF1\xC9\xD0\xCEm\x12\x92\x8B%\x80\xAA\xA3\xA5\xE1V\x82\xD2\x18\xB4"\x08a\x911i\xB8\xF3F;\x82)\xB9\x88$t\x83\xA0M\xBA\x19\xE7\\\x93\x1B\xC5e\xACCERX^*\xA9\x91\xC1\x8B(\xAE\xF0u\xFC\x992a
+\xC3\xC3\xDBU\x92m-\xFF\xD1\xE52\x88 s\xCB\x07wO\xF3q~\xF5Km{n\xAE\xC4\xAA\x9D\xC0\xE0\xA6\xB3\xED\xB1\xF6\xD5\x118\xA0,\x07\x8B\x8B\xE6\xF9\x82\xCC\xB1@\x1AV\xA1\x8B\xDD\xD1\xB5J\xE5\x04[(\x84\x93\xB8\x11\xCD\xCCW\x11M\x8En;qKxs7\x1D\xD5%\xD5\xF2\xC4x,J\xFB\x8F\xD66\xCD\xC9
+KZ\x1C\x125\xC5
+;\xE8q\x91\xB8\x0C;i\xDEj \x84 \x8C\xBE\xFF\xA4\xF8\x95\x13\xC2\xCF\xE6\x0C4\xB0SW\xF9J\x0C\xC3f\xFAN\xDE\xDEX\x93\x05#6\x02&O\xC8NYsP\xD6\xFA\x9B\x9A\x14\xE7\xBC\x9F\xD4\x19\xF5\xBD\xE88\xBB\x93=\xB8\x0B\xE1\x82M\xD7l\xEB\x949I\xE5\xE1\x8E-\xDFM\xB4\x1B\x82LD\xBF\x08\x93\x85\x1A\xDC\xF3\x15\xFE6\x93\xA3\xF3\x85\x80k\xCE\x04\x15<6\x9E$\xA0\xA3Z\x01!\xF7\xC6\x17f\xE7\xA1\xA6\xE0\xD9\x92\xF2\xD1\xCF\xDF\x88\xABWS[y\xB2\x8E\xE9W\x86\x8F\xF9\x0B\xA3r\x04\xC7
+\x06\x0E\x02r\xDD \x87\x13\xAB\xC6}j@\xF8\xC2*\x8D\xC4\xF0\xECH\xB8\xE9\x91\xC7\xD8\x1D\xBD-\xAD\xA1D\x93\xC8\xD5\xA1:,\xD4\xA4Y\xDB0\xB1u\xB3J*\x94\xD7\xD9
+\x83\xE9\xE2\x81\xD1q\x13k%\x07\xED&=+\xF5\x11\xAB:\xD4\xA2xn\xDE\x80\xB2C\xAB\xA0\x19\\\xD7\x153\xC3\x8DNF\xF9\x18\xF0\x84b\x12\xC5\x906J\xD6\xC6\xE3\x97\xBC\xFF\x85\xCC\xD5Q\x8D1\x83\xF4\xE3\xF8\xABT\xE4$\xBA\x9B\x1BGL\x85\xB2n\xF8K\x00\xD8\x02\xDD\x04\xB4\x84\x8F\x11\x91~8*\xD01\x08\x13Q\xB3|\x1A\xFF\xF4r^\xD4\xF8\xED5\xFEB\xA0\xA4\xA37\xBB\xC2\x0C!%\x0CqLy\x10\xC0k\xD3!\xE0\x9E\xC2}\xF0\x1Fj/#\xD1I\xE0\xAF\xA4\x93\x90\xD4\xA9\xA6\xDF\x1B\x07re\xC6\x91\x012\xF2\x1C\x08\x02*\xED\x1C\x08\xFD\x06\x10\x0B\x18\xD1\x11"\xE2\x1C\x16\x88\x9E\x92H\x1E!\xC2\xB4\x82\xC62\xD0d.\x1C`\x14\xB2\xD9\x88\xCBT\xD8\xCA\xF8A\xBD\x89\xEF\xD7zu;\x81\x0F\xCE8\x1A\xF6\xFD\x02Y\xE7-\x8D\xC0
+\xDB\x1B6\xB8'U\xB8\x8E\x82L\xDD\xEB\x91\x02\xA9\x81l@\xCDB\x01=\x81\x10\xF5/m\xA4\xC0$'$\xB1\xFCIO\x06\x0C\xA1?\x9F1\xA8i\xEB\xF5\xD5W)2\xAF\x9F\xB9A\xF6o\xDF\xAB\xFAtA<K\xA2.\xED<\x97a\x8F\x97\x8Bt?\xE3\\VV\x99\xA7\xDD\x18=\x03\xA7\x9B5\x1B\xCB|\xEF\x18\xE3\xA0\xD1\\\xBF\xC7&\xED\x0C\xA8\x8E\xA4\xBA\x86\xF7\xC2\x9C\xCC\xED"?\x1D\xE8\xA2\x04\x95T\x91\x85j\xCC\xE1\x94E\xA0\x00\\\xAA\x12\xCC/,e	,y\xB6}\xD3\xDDx'\xB6<\x82\xF1)\xAD4f\xD0\x18W'\xDC
+&g\xFB\x9F\x0E\x03\xD7\x06\x9B\xA3b\x83\x98D\x12.\x01b3Kk\xB9A2\x04\xC9\xD1-\xB6\x14\xCB\x14\xB3\x82\xB1\x07\x95{\xDB\xD1\x07q\xBE\xA5K\x02\xBF\x8E\x82/T\x1C\x19:\x85Q\xB0w\x0F\x8B\x85\xAF\x10z\xC9o\xBE\xF7\x95\xD1\x0EF\xBB\x92\xE0\xFD\x98\xFA[\xAA\x9E\xD3)C\xCDw\xB0\xEF\xE2\xB21KD\x93\xEEi\xAD\xD9\xAEf\x84\x87x\x83*\x00"\xE8,\xE1\x19\x17\xC2,\xE1\xF0\x81cL\xE3\x93\xB0\xA3\xA8\x8B\xCD\x88\xEC\xF2\xCB\xFCH\xB3\xD5JR(\xEC\xDC&\xCA\\O\xF41Id{\xC6\xCD\x82Cl\xA4u#\x1Da\xA0bF\xCB.\xDB\xDD\xDFMi\xE6\xAD\xEE\xAE\xD9\xB12\x9C\x9A\xC5\x17\x80\x92-;\xE9\x10_`\xF5\xCE\xE2e\x01V;\xB4E\x0E!\xF3[0\xDA\x08d\x9F0O\x05\xB7\xB2\x9D\xEB\xB0\x18\x90\xE6\x12E|\xBE\xE8r\xC3\xAFn\xC4\xE7\xFD\xA5\x1F\xBC\x10\xB5x\x0C\xD1\x982%\xD2[SE\xA8L\xDA\x86\xCEe\x90efrg\xD3\x83\xA9\xC0I\x0Fs\xCD\xC1\xB3\xFE+\xCD\xA5\x971R\xF1\x1DgC\x9F\x17\x86\x99X\xE2\xE1u\x05\xF9c\xFA\xAC\xD0\x0FZi5R8\x0F\xF3A 5\xC2\x80\xD1\x96\x93\x00)4\xC9 V\xC9\xBA\x01\x8B\xB6\xDA\xA8\xA0\xAB\x05m\x90!\x01\xB1io1Ge\xB2\x1C_qM\x98\xA9J\xBE\x12\xEFU\xE6\xB5\xD0\xC1y	\xD5\xCF\x12\xEDY\xB3\x84\xA9\xF3x\xB4\xCDi]l\x18a\x84~l\x82\xE0nbOI\x12\xEE[|\xC6\xF8	\xA1P\xAC\x14\x9A\xB4\xF2\xD2\xCDBpl\x1F\x87\\yf\xAC\xF3\xEB&$\xEE\xA1V\xEF+\\\xAA\xFB\x1B\xDF\xBA\x9E\x1Ds\x17,e4\xA0W;f\xFCo\xC6\xEB\xC5\xD3\x92\x9C\xF4r-:\xBA\xF5A{q\xDB\x80\xF1\x9ESFf\x0C'\xF5\x89\x9B\x85LmM\xF6E\xE2\xC2T4\xD4.\x04\xF2\xC3\x0EL+\xADI\xF7\xF9\x84\xCDy\xCE\x8D\x027\x8B\xE7\xC2\xFC\xEF\xFB<\xF2FIqm\xBEb@v\x8Cl\xC5\xC5\xCEMZG5?\x96^f\x17\xC7\xB8c\x91\xBE\xB3\xCB\x16\x02
+\xCA\xE8a\xA4\x8D\x8D<\x8FR\x9DK`\x05\xC0\x06\xDF\xEC\x97\x97\xAC\x0B~\xE8p\x8El\xD1\xB2\x90V~\xDAK\x8F3^xf\x0CK\xA1R\xB4W\x1D\xD5R\xFEp\xC1\xB2\x7F-\x18\x8C\xC6)\xDC}c\xD1\x89\xEB\x82NO\xE4Yb\xC69\x0ED\xCB\xC5\xEA\x0E\x82N]$\x86\xC5\xE7l6\xBB\x08\xEAS	= \xC5\xC4\xEE\xCCx\x12\x80M\xB1\xD1\x9C8\xF0\xE1&\x1FA\xE3\xAB\xEA\x13\x04~\xD9\xBFE\x91@\xF8\xD07\xA0\xB7\xAC\xD4l\xDD\x87_\x05\xB6B\xF4PU\x83\x99\xCB_\x07\x84\xA5X\x81V\x99\x98\xB4Oo\xC0t>\xB5\x83\x15\x82[rK#\xA8g\xF9\x82
+w\x93\xE3KhYd \x03\x12\xDD\xDD\xBCb\x81\x06W\xA2\x11hp\xD4\xC0\xD8y\xED<\x05\x12\xBFG@\x1D!!\x98<\x82\xC3f\xE9\x86w\x94\x98\x01\x93\xD1\xEE1NP\xE6\xD2\x06@\xF93\x93{\xE4S}	\x8FJ#\xCA\xD8\xD3!\x89\xAD\xB1Z\xA1\x1A\xB0\xDD
+\xFD2t'\x96.bB\xB6\xE1\xADG9\x15\x8E\x0C\x148\x1A\xA7\x91\xF2\x85:j\xA0\x89\x97\xDB\x102e\xCF.\x90.8\xA4\x95Y\x85\x1B\xDA\xB3\x19\xA2\xE7\xC8\xE3\x90	\xAD,er\xC8\xFB`\xDE\xCA\xA2\xAB\xFE\xE2t\xCF\xDB9\xBC\xDAO\xA8\xDEm\xE8\xB4\xD7\xF2\xDE&\x95a\x8C.v\x93b\x05:\xEF\x14N\xB8\xB7Q\x8C\x1D-\xF0\xFB\xFB\x0F\xA2m\x94\xF4j\xF8x\x12\xB3\x1C\xCD\xAA`\x03:\xA0"\xB8\x1B\xDA\x95E\xB3@!,]
+0\xBCw\x87\x977 \x17\x1E\x94\xCCI2\xD3U\x9B\xC6\x94d#\xB5\xF0\xFBm\x16\xB7\x04\xA4\xC1{\x8A\x193\xF9\xF5\xF5\xD4B\xECIz\xAAv\x97\x8F\x11,\xF4X`\x199\xFF]\xE1\xE2\xA7\x1D\xCET\xEB\xD2\xE4\xFA\xA1-\xD4\x97@\xEA{x\xAC\xF7\x7F\xC6\xCB\xBF3\x18\xC6\xEB9\xFF\xBC\x8F\x07'\x07\x90\xB7\x19\xD1\x8DU\x93\xB3\x92G\x02M4\xC9\x81K?\xE0\xBBU]\x8C\xCE]\x1E7.^\xE3\x8B\x0C\xA4\xAE\xD0\x12\\{\x1D\xBB\xD7\xE3L\xD4U\xD2\xB2\x01\x15\x05\x1B1\x13fHH\xC6I1\x19O\x92\xC2GRV:?nT\xEFZ\xC9-?P\xBA\xB5P:\xA9~\x12@\x85\xB6\x7F\xC9\xA0\x99f\xF5\xF4g\xAB\xBF9\x98eW^#\xE3\xD0\xE4\xFBU\x82H"\x17\xDC\xF2\x97Y@\x8BG\x83H\x84\x116k\x10
+\xA3\x7Fs\xCC\xC3\xD2\x19\x8C\xFA\xC1\x93\xC6{\x1F\x1E\xA0\x14u\x82&\x94xvV\xB0q+\x0C\xB3/\x14\xD1\xDE\xD2\xA7NUG\x04p\x85\xF4\xF8\x0F\xC8\xB7\xF8q	\xB4Mk\x1B	%h\xF5\xDB	\x9Ej\xDBSH\xFC\xA2_bAy\xF0a\x90\xBC\xEA%~&)A&^,S\xE4\xB27\xE2\x1C\x06\xC4\x84kh$\xC0\x96\xA8\xE4@\x19\x01<CP\x83\xE5\xA6\xD1\xD7_?\xA7@\x8Dks\x0B\xE8\xDA\xD1u\x8F<RJJL\xF4\xE9\xAE\x8D\x9C\x89p\xE4\xBCP~\xBA\x0C\x1Ci@\x96\xE8Z\xD7\xBB\xDF\xA0?A\xF7\x80hz\xC6\x19\xB3"<tM\xE0\x01#$U\x19\xF9!aL~\x8D\x08\xD982\xAF\xE6vp\x0C\x9D7\xA8$Q:\xCE\x9EEF\xE2\xD3\xAB\x14_\xE9=\xE0\xA9\xE9\x14\xEAs*"k\xCBd\xD3\xD1	{\xB0\x8B\xE4v\xAE]y9v\xC5\x03\x82\x81\xD6@\xE7bm\x8C\x06\x18\x08~\xAF/Zq\xE0\x81\xDB6%D\x16\xB1\xE0Y\x11Xz\xF82\xC2b\x8FH\x10\xB5\xA0\x9A\x84y\x04\x87\x97\xB69uW\xE5\xD6\xCFd\xB0.\xF6\x01f8XS7\x9E`u\xF8 \x0B\xFD\xE8,\xF7\x1Ew\x15<\xB1\x04\xEF\xFB\xAEf\x10\x05\xBDM)\xFE\x14\xAB\xC4G\x0C2-\x80\xC0$\x8F7\xD0\xCA\xBD\x9Dm\x11\x04\xD6\xF9\xCA\xC5\xF1`R@\x11\xF6\x0FaR\xEAF\x192\x9D2\xB9\xF0\xE5\x90\xAC\xA3jM<q0\xA6\xD8\x15\xA8\xF5uu\x80P\xC3#5K\xA0y\x16\xD3\xF0\xCAo\x1F\x1D\x87R\x13Y
+@\x18cH7\x99\x838\xFAO\x10g\x96\xE1\xB9\xBB\\\x18Z\xB1\xE5-iR~\xA9\x99\xE2\x0C\xBE\xA07\x07\x12\xF0\x9D\xF3\x99cKQ\xDBx\xF8t\xC6\xF1\x15\xEB\xA6%\xAF\x11,Nv\x15\x95\xF0\x01s\xC7=\x93\xB7\xEAg\x96	e\x0C!\xC6\x88\xBA%t\xEC\xE6\xF3\x16\xD9\xAA\xE3}&\x90\xCB\x84|\xF4\xA82\xAA\x83\xC3\x00\xF1\xA4\xBB\xD1\x88@ K\x04t\xC2I\xAA)\xCA\x8F\x83;8R\x9C\xA1\x1A4\x81E#\xD5>[\xFE\x9A\x80\xA2\xDF\x84p\xE4\xF1\xA5\xB1b\xC6L\x1DP\xC6\xF8\x1Bf
+ \xD2\x84\xEE\x1C\xD8\x0E\xEF\x0F\x90\x19\x1A}\x82\x013\x8F\xBF\xE2\xF9\x96"=\xF5Y\x15e\xEF\xDA&c\xE4\xB3\xAC5
+\xF4\xA0r\xF9A\xCC\xE9\x7F\xCF\xF99\x04"\xFF\xE6\xA9^\xFA\xF3\xCBE\xC5B0o\x1D\x0FK3N\x15\x82\xA8\xBA\xC2\x07?U\xBB\xFEy\x98T\x88y\x99\x0Bm07\x1B\xF6\xBF'\x15\xC0\xFAk\xAFSJg+\xE7 \xD9H\x1E\x0Euo\xB9UJ\x03\xDA\x8C\x1C@\xE8\xCF|\xDFd\\n\xCD\xF92\x18\x8C\xE5\xFB\x1F3\xD3nyq;\xE4\x08"\x89j\x84\xB9?\x16\x88|\xBD\xEB\xBC@\x80\x8E4\x02y4r\xC4\xA5\x81\xA1\xDAd\xB2\xDB\x12qY\x06\xD0\x9D\xCFN\xF3+=\xEC\x9CCx\xF5\x98J\xF2\xD7\x00\x91\x02_y\xDF\x89\xDA\xF6\xB7\xB3S\xEA_\xD0vk\x9A]$\xD2\xAA\xAD\xA9\xDBq\xF6\x97K\x11\xBA\xD9{\xC2\xAA#R\xFAb;\xDFu\x8A\xC5&=aI\xC5d\xCE\x01K\xEE\xB3W\xCC\xEB9,\xBBo\x8A\x96h\x10'\xE8\x0E\xFD\x7F\x10\xB2\xE2\xFC\xE0d\xB0\x8Ey\xD9\x0C\xB0A\xBCB\xBD\xE5\xED\x87\x0B\xF2\xE0\x8Fj\xD0\x9E\x97\x8A\x82c\x8E\x13`A\x96\xA2\xD6.+(\xB7\x14\x15\x97\x04K\x141(\xDF\xD9X\x0F\x116\xB8\x8D\xFD!7\xF0H\x99	r2!/\x08\x1D(\xD3\x0E\xA2w\xA1\x91\x97\xEBsdn\xB7c\xAA@\x8B\xF0\xC7\x9C\xE9\xB4"\xAD\x1D\xF9\xDC\xE3\x97\x95\x8Dr$\xB8H	\xBC\xA9\xFC\x90g\x1C\xDC\xCF\x80\xC2\x05Q,\xAF\x00f\xF1\xD2\xDA\xA9\xE5\x977\xAC\xF7N)\x96\xAA\x816\x98\xDA3\xE5\x80\xB2J\xA8XHPhH\x15\x8C\xA6\xAF\xD7\xA6s\xCETV\xEF\xDC^\xE0\x8Cq\x82\xCA\xF4I{w\x83\x0Fb\x99\xBE\x8A\xE3[\x1E\x1El\xD1\xE7\x8F\xD2<\xC7\x02\x17\xC1\xECO>jO\xC6\xB1\xF4\x9By\xF5\xCEr\xEA\xC7\x1A[tV\xCD\xC3=\x1E\xA7\xCE\xE1ik\xE83\x1FP\xB6\x8B\xEB\xD1\xF0\xBC\xB9\xF6\xB4H\x93\x82\xD6J\xEB\x04\xE4\x9Dz4\x0C]\xE0\xE3\xC2\x1F\x05\x8F\xE8ki$\xB8\x00\xA6\x92x\x7FI\x83\x9F|\x8D\x02\xC7M\xB4`d\x1Fd\x87\xE7M\x86\x04\xB3\xFF\x9A)%\x9F\xF8\xC3P\xFB\xB49u\xE1\x83\x1E\x18\x00\xC5\xB0lv'`\x9C5^\xB7R\x12\xC9\xEFu\xCA\x063\xD10\xD2\xEE\xBE\x01T"d\xB0\x88\xA7\xB4\xE3\x8B\x06T\xFA\x02`\x07\xC6\x1B\xB2\x10\xD7\x99{X[\xC4\x07m@9\xCC\x98V\x1B3\x97\x0F\xB5\x1B\x07`\xD0ZG\xA6\x8C(5(\xF0H|!\xB4E?[\x93\x94E\xF3\xB1Gj\x86.\xCA\x0E\xA2\xE4\x07B\x19CF\xBB\xD0\xE1".h\x12\xE6\xB4\x1A\xEC\\\xA7\x96\xAA\\@\xB5\xAB\xE0\x0BKN\x90 \x15\xE6\x0FL\xECx\xBD)\x93\x15\xCE\xDBy6Xb
+`\xB2\xDC\xFB\xD2\x89\xEE\xDF\x884\x8C\xEC\x82\xE3\x04\xA4Y\xF9\xC6V\xD1X\xB3\x88\xDD(W\x02\xC9UI\xBF\xE60\xED\x047\xAC \xC1w\x80\xF3y>\xA8|j.\xB1\xD7J\xD1dA\xB1\xC4\x88\x82\x0B#g\x80;\x17)\xA2\xE1\x80-l\xBE\x01\xAD\x0C\x9DI"\x04\x12\xA3\xD7\xB1H\x18\x1A\xC3'\x1B\xADj\xF1\x9B8N\x15\xEB\xA1\xD6H'\x99\xFE M\xD4\x04\x93\xCEP\xAD\xF4G\xDF\x0F\x01yM&\x14\x0F\x93\xEF\x03\x87\x1C\x0C\x08]*e?\x8F=?\x03\x9B\xCE&P^\xD3\xD0\xC2^\xCD\x12\x9B\xC3\xB1\xF5x\xF8\xDB\x9B8T\xEB\x8D\x91\xB7%\\\xB4s\x98\x90D\x1Dl4H\xED4\xB0\xF7\x19\x1Au\x82L\x94$\x0C\x03\xD5:\xFF&?,h ;\xF2\xE0\x1Ax\x93H\x87" \xA8\x06\x98\x07\xDB\x8D\x85\xBCo?\x01\x87\xAA\xD3w,\xF2\x07\x96%+.\xC0\x8E\xF2\x1As|\xB6<\xC5\x88\xF6w4t\xC2\xFDV\xC6\xD7\xD5	#\x8Ed\xBB\xBDZM6uIC\x18\x03\x18\\\x10`ko6\xD6\x88\x16,\xC4\xB8&\xB7/}\xD0T\x8FIh\xFCT\xC8g\x00\xB5\xE7'\xB4G\xBC/]\xEB\xAC5N/2\xFD\xBB\xD9\xF1Yd\xB2\x8A\x11q\xFF.\xBA\xA2\xC4\x12;J\xFBU\xC6I%\x92\x90@c`\xA8M/\x8A\x9D\x15p\xC2\x85Z\x9E\x0EkS]\xFED\x8D\x83\xCB\x1D\xFDA\xCF\xF2\x08y~~\xD78g\\yGo\xDC\x8A|i\xA3\xAA44\xFC)\xBEUfI"\x90\x8A\xEBO\x90\x95C|'\x11\xF6\xD2R\x101\x84w\xB4\x8EH\xE8\xD6\x13>/\x10\xCE\x9B\xA2\x93\xA7Sg\x9B\xE7D\x81\xC9\x97\xE7\x83\x8Fd\xC0v\x82\x0E\x98\xBD\xC5v\xB2\x17\x8B\x06Z\xD0\xA0\x07\x92\x1AJ\x1ER\xBE4\x01\xC4|\xDE\xD43\x8AQ\xA0\x87{uU\x1A\xE9R\xA4\xF96E\x8C\xF0\xC99m\xA7@\xBB\xF4\xEB\xC8@\xA4'\x81\xA6\xA7&\x08\xC9\x7F\xBD\xC0\x87\xDF\xB0Ne\xD5\x92p\x07-R>0\x1C\x86wx\xF7\xB4\xA1N\xF6"\xE0Q\xCC@\xCB\xEA\x903\xDB\x80\xC4j\x12\x86\xE4\xE3\xFFC\xCC[\xF8\xE4N\x16\x98{OF\xAA;\xDB;\x81\xCC\xC6W\xD6\x18_\x1A\xE9\xA8/\x00\x81\xA5iO\x8C\x85\xB1\xBE\xF3\x14\xAB(f\xD1\xBC\xC2\x04\x00\x94}\xF0\xB5\x00x\x05\x1D\xCF\xD2\xA7\xD8\x9D\x18R\x98\xBCH\xCBz4s\xFE\xCF\x12\x18\xA5VG\xFD\xA1\xCA\xF8\xEF\xAD\xCC\xF9\xEB\xDD\xC8\xE9\xAEo\xB5\xA99\x84\xAD\xFE:\xA50p\x19\xD2\x8F\xACK>\xB4\xF5\x19!\xB7\x84\xF2\xE0\xA2\x02F\xC6\xD9\xFB\xAA\x9C\xF4\xA57\x95X\xD1Z\x9E\xA7\xC4\x96\x8E\x1E\xB5\xEC\x00\x9E\xF9\xE4\x03\x1C\xACN\xF1\x1A\xA2\x1E\x80"\x8B\x89\xEF\xFCQ6\x8E}\x98c&\x82Dg\xC9\x97\xEF_d\xFB\xD1=\xC0<=\xC0ChBL\xBC\xE13/\xBE\xDC,P\xD3\x07 \xA3\xFE\x8D\xE5\xBF\x028\x01\x91u\x92\x97\xE3\xC0u\xDD\xBF\xBD\xC8\xA3\x12\x0Ew]\x1F*\xC3d-\x07\xE3\xBF\xCF\x91\xCD\xBE\xEA\xF8y\xC4\x8FM]r\x16\xF1\xCB\\vvn\xC9\xF9\x11\xF7\xEF\x17\xCD\x96\x18oGn\x81\xD7&}\xE4\xF4{6\xA8\xAC\x1E\x00\xD5\x05\xC0\x06\x13o\x1E\x92\x13*\xB6\x1FAs\x8EC\xB1\x07(\xFA<.\x83\x8C\x12\xD9z{\x11*\x18\xEB~\x88\xCE%P\xBF\xCDl\x89h\xE8\x83\xE7\x07\xC1r\xC4g\xC6N\x01;\xD5\xC0
+\x07\x18\x13\x99\x16\x91r\x196\xA5\xBE\x8D\xD1\xA9\x06|\xA5W\xDA7\x9A\xFB\x94\xCB\x91~>\x1E+\x0B\xACX\xBA\xF1S\x1Fch^\xDA`L j\xA1d$\xBD\x18\xCAV\x9E\xBE\xC2\xA3\x12!\x94\x89\x92\x7F\x7F\xD6\xB0\x03\x84s,\x03\xB0M\xB1\xB4\xD2\xAB\x98\xA6ch\xDEC\x9Ej\xA1kp\xC3\x91\xFA\xB7T\xAA\x9D\x85\xF2\x1A\xD9\x1C[o\x8A#a\x92\xF2\xBDi\xE5\xEF\xF6K\x9D*\x9A\xC6AJ\x14t4\x92\x8B\x02\xB0u\xF0\xC9\xE2(\xC7\x10\x11\xAC\x9E\xE2R\xA3\x89\xA6\xD3\x0E\xB6|\xFE\x80\x17\xB4H3\xD9<iH?P\xF3R\xC3\xF3\x1A@4\xB3	#\xED\xCBH\xB4\x8B\x04\x9D\xA54.\x8C\xEF\x02\xD8\x06c\xC0\xB0\x82`\xD7\x11G%\x80\xAA\xE1\xDA\x8B\x81\xC8\x90\x0E\x937\x14\xB5\x10\xBB\x817\xDA\xDB!3L\x86{\xBA<{\xE0F]\xBBP8>\x8Du\xBC1\xEB\xE2#f1\xBA\xCD\xE7\x0C\x94J\xEDX\x91\xBE\xB3\xF9\x89'\xED\x0B\x8E\xB6\x84N\x89$\xB7\x07\x99\x9F)\x00:\x1B
+\x08\x05\x10\x06\x18\x01"\x030010\x01\x10\x9B\xCD\x0F\x1A\x02\x18\x05v\xC8aRB"
+ .\xFFq\xE0\xBFP\xED\xC0\x12\xFD\xFC\x8D\xC8\x1F\xA0\xBD\xBAJ.\xC2Y\xE3b\xC4.\x89\xE5\xE5\xC1\xA81N
+\x8B\x04\x08\x01\x10\x01\x18\x01 \x01*\xD2\x02\x08\x02"\xCD\x02\x08\xC1\x8C\xDF \x10\x19\x18_"\xC1\x022\xF3Hf]\xB8\x16\x8Bt\x84\xAB/\xCE4\\\xFE58\xCDDI\xE0\xFF\xB4\xD8A	\xB3\x16F\x82\x0F\xED\xC0\xFF=\x1AqxY\xEF\x17\x9C\x1C\xDD\x01\x0C\x87 \x83\x0F\x85\xF8%\x89\xB0\x1F\x8E\x96\xF1\x14\xA5\xE5\xD9\x18\xBD\xEAV\x00L\xC4\xC3\xDD;\xA0\x14\xD2\xA8<RN\xE1\x9A*\xCA*Ga\xA4\x15\x18z.\x05\xCE\x824{,\xD0\xC5\xF7	\x18x]\xB8K\x83\xAC\xFBo\x91\xEF\x0E\x92\xE2\xC4ml\x04Q\x98\xBCd\xC4\xA5\xAENKT\x98>1\x0F	\xD3~f\xBB8\x0B\x1B\xF5\x8E\x83\xC2\xE4\xE3\x86\xCF\xCBsv\xA3\xE3\xB5\x8C\xCEz\xF9\x1C`\xAA\x1C\x97n\x7F\x06\x8A\x10\xD0\xEA\xED\xA35\xF9\x95@\xA7c\x8E\xD9\xCB\x0B\x15\x03\x0E\xE8b\xF4\x1BD\x06\xB7[\xB7\x1D\xEFj<\x1A\x82\xCA\xF8\xE9\xCC9\x07K\xD4\xFDG\xCE\x82\x8A\x18V\x1EgE\xCB\x9Bi*\x9B\xC3zF&\\\xA9\x13\x13\x17\xA3\xF6\xA7\xB9\xC0P\x01\xD9?^g\xFD6\xAE|\x8E\x16L.\xB1\xE1]&ep\xD6\xD2\x9A \xF1\x17\xFDy\xB5\xD2\xE2\xEB5	\xB6\x1F\xEA\x14ADE\xD5\xC5\x80b\x94\x91\xF1B\xAB\xD3,\x16\xEEl\xDA\xCB\x85\\^{\xAA;y\x1AN\xB7m\xC9\xC0f\xFF\xD4\xD3f\x9Er\xDF/\x94\x002k\x08\x02*g\x08\xA1\x12\x10
+\x18?"^>\x8F,R1\xDCp7\x1F/P\xC9\xE3\\9\x02e\xC2+s\xA5@\x93\x1A\xA8\x8B\x9Ef\xD8\x15\xC1^\xF9\xFA\x99M\xA3\xFD\x18\x19\xE6\x8C@MP\xD8r!A\x08@5\xAF\x9CO(\xD5b\xFE\xAEC\xF2<Q\xA3_\x01\x08.A-\xE0\x18\x05Xc\x81\xAD\xDF\xAA\x00k
+2\x06'\xE5\x0C\x9EP\x110f\x00:\x1B
+\x08\x01\x10\x06\x18\x01"\x030010\x01\x10\xF0\xD2\x0B\x1A\x02\x18\x05_#A\x01B"
+ \xB5R\xCB\x1D\xB03k\xB8\xE6V&\xF8\xD3\x95\xF6\xE3J\x05\xA0\x83\xDC\xBB\xC9\xED \x18\x05\xED(\xF26
+\xA2\x03\x08\x07\x10\x01\x18\x01 \x01*\xD0\x01\x08\x02"\xCB\x01\x08\xC2\xC2\xD1/\x10\x1A\x187"\xBF\x012+\x1C\x10\x90\xF1\xE4\x87\xC5\x9E@t\xCD\xA1\xF8\x0C\xF1\xCE\x88\x80\xC3l\xA3B6\xD5y\x82\xD2\xC5\x9AX\xAE\xE9\xA9P\xD8\x1E\xA2yO\x13\x81AV\x0B\xA32e\xF5\x10\x89\x05\x87x9&j\x05\xAB\x19\x08>\x90\xA1\x8C \x04\x9B[D\x89H\xA2]\xC9X\x7F\xA1jBK<\xE0n5n\x14\x89	\xE3\xE7\xB6^T\xE0\x14iQ\xF7\xFF9\xC0\xDF\xED\xE5\xBB\xE3\x0Em9u)S;\x86qZ\x12b\x91\x84w\x0B\xB1\xB8\xA0t,\x83\xB8\x8Ed\x07\x90\x12\xD1\x07p_\xCA`/\x15\x10\x0E\xDC\x89LJD\xB0G\x8D\xF3\xB2\xAE\xCA8\xAD\\l\xB1f/
+\xA3\x96A\x8C\xD7T\xD3\xAE\xAD\xA0\xD0\x1C'z;\x86\x1E\xC9\x05\x17\xB7f5\x062\x83\x01\x08\x02*\x7F\x08\xFB%\x10\x0B\x18G"v\xC7\x97\xF7\xDBBa9\x9C\xF1*\x018\xF7\xCF\xFD\x15\xBCk4\xF8K\x02\xB80\xBF\xAF\xCE\xF1\xCD\xC6\x0B\xCBG\xB8\xB7\xFE\x0F\x16[\x7Fh\xAB\x83\xDE\xE7bM\xEC\xBC4\x82\xDCm^\x92\xCD)\xC1\xB2\xC2\xC6\xF6_\xA4\x9Ev\x19\xC6D\xBD\xAB\xC7\x91\xC0\x17c'u\x14\\\x9B\xFD\xE1\xAD:*9\xCE\xC0`\xDE\x08z\xBD\xEE\xF6.\xB0C\xDB\xCA\xE0\x03\x94v\xFFP\xC9\x84~\xB5(\x85\xAE\x16\xF90\x0B:\x1B
+\x08\x07\x10\x06\x18\x01"\x030010\x01\x10\xA7\xAA\x0C\x1A\x02\x18\x05\x044\x05LB"
+ \xAD&E%U|&\xD8\xBC\xEEFu\x99\x8C\xDEb\xC2\x14\xE6Q\xC2/L\x8C\x1B+3%\x1D \x9A\x9B
+G\x08\x01\x10\x03\x18\x01 \x01:\x19
+\x08\x01\x10\x06\x18\x01"\x030010\x03\x10\x14\x1A\x02\x18\x05\xB8\xD5y\xD7B"
+ \xEFp\x08\x12\x19\x9A\xFC\\H\xCB\xAA\xBA\xBDJ#\xBF\x1B)\x87o\xED\xE7\x90\xD3\x11\x01(`\xD6\x08\x10\x7F
+\xD5\x02\x08\x01\x10\x04\x18\x08 \x01*\x8A\x02\x08\x01\x12\x85\x02\x08 \x12\x80\x02cmeckkgeamghjhkepejgjockldoblhcbdekghhbmodecclnopnhiacmpfklacfgpdpfccmkmfoampaoieckfmgamokjcjfabekajjllcmeckibblgckgoceinmmgnfophpbpjjcgjcafdilkmkpdpjbnpcikdkgelhchjkimiafggjaeeagmlbciojnhdmkgpkpgpgfgedgcfeihenljjlfgjbboggmkpnioamagjglclpkfmaimcfkmflhkjfch:\x1A
+\x08\x01\x10\x08\x18\x01"\x030010\x04\x10\xDA0\x1A\x02\x18\x05;CYB"
+ \xA1\xF1\x01C}\xA1$\x17\x9F\x17VU\x84\xB2	\xA5`Z\xC5:.\x86\xB9\xC4|\xF5(\xE4\x8E\xB8\x9AP
+f\x08\x0F\x10\x01\x18\x01 \x01*\x13\x08\x02"\x0F\x08\xDD\xA8\xF1\x7F\x10\x1C\x18\x01"\x04\x9B\xF1\xD0\x1D2\x07\x08\x02*\x03\x08\xB7D:\x1A
+\x08\x0F\x10\x06\x18\x01"\x030010\x01\x10\xA3s\x1A\x02\x18\x05\xE5C\x02\x1CB"
+ &\xA1%\x05\x9ERvkpF\x01\x90VR\x9Br\xC0\x91(N\xCD\xE1\x80\x0E\xA0+\x98\x82\xD5\xF9A\xFA
+G\x08
+\x10\x01\x18\x08 \x01:\x19
+\x08
+\x10\x08\x18\x01"\x030010\x01\x10\x07\x1A\x02\x18\x05/\xE6W\xF5B"
+ VE\xE4\x8E1\xEFr\xE5;7\xD9\xF7\xC2h\xBFz(\xBC6l)\xA0\x7F#\x1C\x9F\x08\xB9,u\x1A|
+G\x08	\x10\x01\x18\x01 \x01:\x19
+\x08	\x10\x06\x18\x01"\x030010\x01\x10 \x1A\x02\x18\x05:\x9B\x87\x85B"
+ \xDB\xDE\x10fL\xB7.]nE\xEDr'\xBAs\x81V\xCB/\xA7u\xC780\x11\xE3\x7F\x90\xB2\xE9j;
+H\x08\x08\x10\x01\x18\x01 \x01:\x1A
+\x08\x08\x10\x06\x18\x01"\x030010\x01\x10\xE4\x11\x1A\x02\x18\x05\xF2m~^B"
+ H\xE4\x7F\x0E\xD5L\xA2K?\xCB\x05x\x88\xA6	\xFB\xAD\x9Fd\x1B\xB8uiU\xC0\xEB\x95q\x0EN\xC5l
+z\x08\x10\x01\x18\x01 \x01*\x14\x08\x02"\x10\x08\xFA\xAD\xFD\xFD\x0E\x10\x1C\x18\x01"\x04$\x08\xDF	2\x19\x08\x02*\x15\x08\xE1\x14\x10\x0C\x18\x07"\x0C*\xEB^\xCA33sh\xDA!\xB4b:\x1B
+\x08\x10\x06\x18\x01"\x030010\x01\x10\xF6\xD8\x01\x1A\x02\x18\x05\x94U\xD1B"
+ \x9A\xE9>k\xFA\x83\xD0\x8C'k\x10A$\x1F\x15\xD9\x07\x8A\x0F\x15\xAAm\xEA\x85s
+5\xD8X\x0F\x86\xFC
+\xC2\x10\x08\x03\x10\x01\x18\x01 \x01*\x93
+\x08\x02"\x8E
+\x08\xF2\xAF\xF6(\x10\x17\x18\x9D\x03"\x81
+\xD8\x1B\xF0\xA7\xAB9\xCA\xAE@x\xF1R\xA9\x97\x9FQ\x91
+\xA9\x05\xB5n\xB0.\xD8\x0C-\xEC\xE7\x922\xB4t\x0C\x9DI\xBBB\xD0\x85XL\xDE\xBE\xBAOG\xE65\xA7\xA0\xFEo\xED\x15\x1Ei\x1212&9\x89\x90\xD8$2,,2\xAB\x98u\x83\x1E\xEB.\xCC[Z8\xCEf\xCBw\xCD\xFFE\xDC\xCCu\x0E\xDAp\xE7\x82\xA2\xF9nih\xD7\x90 i\xAC{a\\\x85\xBD\x01'\xF0L3v\xBB\xC4\x0C|\xD1\xD9f\xA0\xED\xBE\xEFK^\xB1\xA6\x11#\x9D\xAE\x05\x9F\xABy\xCEv\xC6iEE\xD6\xAA\xDB	{\x8C\x83\xFB \xFD\x95\xD5\xA4\xE4\xE0\x84\x87\x1C\xE6@:}\xB2\xF8\xAD\xB8\xB0\xF0\xD2k\xFA\xFFp/n\xE1RS\x94$Lr\xCE\xCEY\x17N\xCE\x13#\xF5&\xC9\xEAN]tV\xB1\xD2&\x83\x1F\x9Ao\xA8\x8AN0g\x99\x85\xD3\x11r}\x08+C\x83\x9C
+rN\x9EN\xB2\xD3smQ\xF3:\xB0\xA2;\x1Bq\x85E\xC1\xBB\xAE\xF9\xDF\x14Q\x15\xB82\xA2N\xCF-W\x18Y\x89\x80\x0Ego\x82xO\x16\xD1\xBFOw\x982\xDE\x06\x82\x95c\x11m5A\xEF@\xA6A1i\xFC\x1F\x85\xD18\xC14\xC9\x9F`\xCC%RHE\xD6\xB6V\xB8\xB0sV\xCB\xA7q	#\xFF\x8C\xB4\x05w\xC8,V\x1E\x1F*\x95\xC3\xC8d*f2\xB5\x02x\x05\xE6\xC4\x1B\x85{y\xFD~\x1Dq\xB2\xB0\x8C\xA9Q\xCC\x1E\x0C\x00\x1F\x12_j\xBCQ\x11qR\x9E\xE2\x8Dw\xB2L@\xE6\xC3[\xCCKJ<\x1B
+J\xE9i\x149\xB4@?K a)2\xFE\x82\xF0\xE7\x90"\xCB\x10k\xE7N\xFB\xFA<9\x9C\xD5\x96\xC5\xC5\xF0c\x80\xE69\x92\xCAT\xCD\xC6\xB4\xC7\xD4\xD0\xA5\xB1\xE5\xBAyp\xFA \x03a\x87"\xF8z	\xFFI\xC5\x10^_m#\x8B\x1F\x16\x8D \xA2A\xB6\xB1\x07\xA3\x00\x12\x16I9\x1E$\xE9\x9E#\xC0\xA3\xE7_\x8CGQE\x19\xAE\xA8\x03:hq\xEBY\xCB\xA1\x8D\x1Dq\xC0\xF7\x00\x16\xA8@\xC0e
+\xD1h\xF0X\x91\xA3Jo\xE8\x16\xA6FJ\x8AP\xA9\xCE\x01\xFC\x1A\x88B\xF5[\x018\x88\xF9\xE1\x13\x8Ctn$^i\xD8\x9A'\x84\xC6zbCp\xBB\xE4\x92\x03}\x80]\xC8A\xA4\x15\xFA\x0E\x99@+\x174\xAC\xB5u\xC9\xADA\xD2\xAD.\xD7\xA2[\xE8\xEB+\xD9(\xBD\x1B\xC58\xE1\xC4D)\xCAS4K\xF7\xD5\x03\x90\\\xE1\x1C\x8Fu\xF7\xB99'K\xA5\xF9y\x93\x12\xCA\x97\x84@\xD1\x91sQj\x9F\xF3*\xA5[\xD6\xB00\x1C@\x0EPE\x16\xC3\xE0\xB3\xC9\x85Y(\x82\xD9\xE0\xB9\x94\x18\x07kt\xF1\xEAP\\N\x88\xB5h\x14\x90\xEA\x0FJ5\xED\x89\x85\x9B3H\x94\xE5\xA4\xA5\xFD2\xF2p\x87`\\\xC4-\x82\x0B\xD4\xAA%H\x86O\xF5\x97\x10\x90\xE0/\xAC\x12\x0F^`\xBB1f\\1\x8F"\xE9*C\xA2\xBF\xC7\xD0e\xB2r\xBF\x7F\x93\x05C\xA4Q=3\xE6\x80\xEBFQ!s\x82C\x17\xFB\x83\x0B*Q\x90\x80\x0C\xB8\xF3Q\xEC\x8Fh.\x0Egz\x8F\xBE\x97+-z\xC4vF\xE1\x06G\xD1F\xB2\xB9a\xBA\xB4\xEB\x11\xE0y\x9EX=\x00\xB8-V\xA2\xDE
+\x96\xF8o3 \xA7\xA9\x15\xF0\xCC\x9E\xFB\xA2\xE9{\x86\x8A\x80\xE2\xED\x81\x04ob\xC5\xDB;*\x9DP\xD5X`\xFB\xBBcG2\xAD\xD7\xD4\xED\xBAt\xD8lg\xBB\xEB1!cM\xA9*\xCD\x12]\x97u\x13\xA12`]?\x11A\xE5\xC6\xA3\x0CI\x96d:d4\xC40i\x1Fp4\xC3(\xC7\xDC\x81\x12\xFD!s\x9D\xC5\x11\xA9`\xC0GJ9[\x9FC]\x17Qp\x91|1\x89\xFD\xC0\xFDD\xC6&\xB4\x15\xC8\xBD\xC5PNAfF\xAE\x01\x91\x8E\x8B\xF2\xED-\x87\xAF\x8FJR\xF5x\xC4\xB4\x7F\xA3\xD7
+\xEF\x08+\x18r]\xE4\x91\x83\xA8\xA5\xE4?\x08\x8A\x98\x16\xA9\x17\xC5\xF1RL\x82\xBE \xE6\x05\x92\xCD\x132\xFC\xEC4B\xF0\xC3A\xD0\x07\xE4\xD9\xF1\xB5\xF2\xD4p\x8D\xB7\xB0,\x1D<\x10\xB3\xAC\x92k\xCC)
+\xB9\xE3\xC3\xB8y\xC1%]\xA0\x12\xFA\xB0\xAB\x08\xF1@C,j\xDC\xD4\x9E\x16\x89\x9D\xE8*b\x04
+\xF0K\x02f\xC3\x9F\xC7\x0B\xEF\xE9.\xCC"\xED\xB82x\x10\x8E\xD1\x16T\xD0\x12Bo6j~\xA1^2tQC\xCE\xD0\x9D\xB7\xA2\xC7\xE9\x05\xB0w\xE9\xAC
+\xEFx\xF3L8\xDE\xD1E\xED\xB2\xEC1\x8C\x079s\x01p\x19\xEA5\xF75\x08|\x8F\xBA$ca\xF8\xDCER\xED\x08\xA6\xFC\x04\xC1;\xD8S-u\x9D\xA8\x8D]Q\xB3\xB8c\xE9 \x86\x93\x00\xBA\x1E\xA1\xFC\x87\xB6\x98\xA0\x88af\x19\x9F\x8B&\xE8\x94\x8D\x0FrO5hG\xDB\xAD\xEA4i\xB7GT\xD0K\xBE_\x04\xE3\xA060\x90\xC5\xE7z%\xC0\x1B\xF32iu\xC3\x1C\x1D+\xDD\xB8\x14\xBA\x91\xFC+\xF6X\xE3\xFCY\xAE[\x9F\xE6\xEE\xBD\x93\xF8B\xE1\x85\x0EP\x14\x86\x0B\xD5_\\\x7Fi\xB6\xAD\x95/c\x0E-K\xEA\xA6y\xD1\xCB\xE3\xE3\xA1\xBD\x9E\x12\x1F\xBD\x81\xECF^\xAA$\x0F\xBE\x988\xF7(o\xC7\xB7\x89\xD8Q\x1Dy\x01\xE3\x012\xE0\x05\x08\x02*\xDB\x05\x08\x1E\x10\x04\x18\xF3\x06"\xD1\x05w\xDD_\xFEE}\xE0DN\xFE\xC1\x11\xBB\xDE\xE2\xE2\x1B\xF5r:7\xB3\xE8\xFF\xD6~+\xBA\xA7j$y\xE3\xED\xF6\x9B\xED\xBB\x19\xBB\x8A\xE9\x86\xAD\xC8\x02\xFE\x9C\xD8\xEE\xFCZe\x89,\xCB\xF6\xF2*N\xD7\x90\xD3\xE8\xB8\x1F\xC8\xCCr\x86/\x88	Hc\x8E\xFE\x97w\x8F\x0Bw\x961\xC2\x06\x83\xDD\x1B\x19m\x16\x1C\xDD\xBFC\xBF:;\xFFe\xE2\xB3\x97>F\xD5\xAB\xD9%\x89o+$\x9F.\x9C\xA7$h\xC4\xF1,\x8E\x1D\x9A\x8E\x13R\x96\xA6\x99\xD3Yx\xDB&<\xDC@\x82r\x13EX
+\xE3.\xF7I\xD9\xA4\x0B\x9A\xF1\x82q\xFC\x11U\xC6V\xDF\x17hW\x85\xFC\x9Bf\x8D\xC8\x119\xBC\xB1\x8E\x95\x94\x1D\xD6\xFD\xCC=\xF9\xCA\xC5\xE4\xC6\xDC\xC6	\xFA\xE5K\x7FZ\x85\xE44\xDA\\\xFC8x\xC9\xAB\xB2!\x83R\xDF\x89\xD9\x93\xF9\x85dbs3\x0F\x95G\xD9_\xE6\xC3\x01\x8E\xDF|:1\xC2\x9C\xCD?\xD1\xC70#v|\x81\x1E\x9F\xDE	\xE9l\xB8\x91\xD4N\x88\xE7\x1Db\xA7\x05IvWF'\x85\xE3r^D\x99Q\xDF\xA2on\xBBx\xB7\x0B\xA20\xFD\x8E\xEC\x8C\xFB\xF3O"G\x97\xB1\xBB\xB5\xC1e!)k\xC9w)\xBCh\xDD\xF1\xFEe\xED\xEC\x97O.|q\xF9\xE9\xD9\xB19\xD8\xABn\xDD\x91D]\xAE\x7F\xF9\xB0\xC3\xC8R\xBE(\x1E\xCD\xD2kX4\xABoYq38\xFA_>\x87\xAB\xE7\xF5\xAC'\xF3\xC8\xFE_M\x83_\\\xE9\xCD\xF9N?\xA4\xF8\xE2\xC1Z=\xA2\x9E\xD8\xEF\x1A\xE1[\x95\x87\x93\xF5\x9B\xF1\xB0LL \xB3\xC7\xBF\xA1\xB7W!BV9\x11\xA1\x8E	5\xF9>\xE3\xF5\xF5!\x1A\xBC8\x1E\x88?\x84\x07D\xFE\xE0\x17\xBB\x05\x14{\x02m\x92<?#\xE9O\x92+}\xB7s\xE25dx\x92'\xFF\xB4\xE2\xFF\x0B\xFD#\xD8\xB0\x80\xD6\x07A\xBC\x1D\xBC\x88\x88\xE2\xB2\xDF\x93\xCF\x0B\xEB\x97;\x01\xBF\xF8=\xAD\x16\xBFC\x95\x94\x83\x00\x8B7\x91\xFD\xB4?\x8F_W\xF0w\xA2\xD1\xDD\xEFJ5\xDDW\xE2*|P\x16\xC4|\x10\xE0\x856\x95\xB9\x14m\x0BW\xBA|j\xE3\xE1>\xA9j\x97\xF9\xE5\xBA\xC7\xC5\xAB\x99\xFE:/\xD2\\\xD6\xA8C\xAE	/\xB6\xDF\xF7\x85\x0E\xBE\x15\x0B\x0C\xB3\x7F\x98k\x8E+\xD4_\xFC\xE0\x8C\xF2\xEAG\xD17\x01"\xD1\x17\xD9	\xDB\xDC\x12\x95\xBFC\x98\xD5\xC5\xB5\xD1D,\xCE\x07$\x0BWp\x89\x08\x1E\xB9\xE2\xC5\xF3.f\xD0\xB0\x88J\xE9*_\x12\xFF\xA2\xD9\xA0\xF1(H\xB2\xE2|\xF6\xE3\xA3\x83xr~Ou\xFC\xE7\xC5\xB9y@\xFE\xABR\xBEB\xE8\xED\xD3r\x9E(\xBAV\x7FB\xFB\xB3V-e\x80\x0F\xACna\x19\xFE\xF4*\x19\xAC\xD5\x04\xA9\x7FEZ\xA3\xBF\xA8\x82\xA7\x03\x11\xA2\xF21\xB5\x13\xE7Gi\x94\xB0\xEA\xF1E\x12\xAF\xC4\xF4\xEE\xA0\xDE\xCF\xABv\xF2'\x89\x06:\x1B
+\x08\x03\x10\x06\x18\x01"\x030010\x01\x10\xEB\xC9\x0B\x1A\x02\x18\x05\xF7\xDE\xB2tB"
+ \x19\xBA\x04\xA0\x83R\x8F\xFB]\xCEV\xA1\xBC\xBA\xCE\xF3Ur\xEBB\xC5\x19\xD2\x03\xB1V%x\xE5\x94\x9B\xB8
+y\x08\x0E\x10\x01\x18\x01 \x01*.\x08\x02"*\x08\xB7\x99\x8A\xC6\x01\x10\x1C\x18\x08"\x1Ed5\x8B\xCDC\xD5`uC\x1F^\x12\xFF\x16\x97\xED\xC7\xD4\x91|\xE6\xAC\x98\xCF\x19%\x9C\xBDx\x03:\x1B
+\x08\x0E\x10\x06\x18\x01"\x030010\x01\x10\x84\xE9\x06\x1A\x02\x18\x05y\\)\x85B"
+ \x0E\x1A\xAA\xD4{\xBBh\x1ER\xFF\xC4\xEFe9w@<,\xF3\xDE\xB68\xC1H\xB2\xE2\xB0\x93
+V5\xC7
+H\x08\x10\x10\x01\x18\x01 \x01:\x1A
+\x08\x10\x10\x06\x18\x01"\x030010\x01\x10\xC0\x16\x1A\x02\x18\x05\x1D)`RB"
+ o\xC6\x87\xD4\xA9\xE0XY\xFA\xADe\x103\x86\xB6s\xCD_]pZ\xD1\xC8\xE2R\x07!\xADf\xE4A\x12	\x08\xA4\x0E\x10\xC0\xAA\x93\xE5\x02
+$$$$$$ Response Body For Transaction With Id 160 Ended $$$$$$
+
+****** Request Header For Transaction With Id 183 ******
+GET /cgi-bin/welcome.pl?page=search HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884; MTUserInfo=firstName&Ronald&address2&Devonian&username&ronald&hash&100&lastName&Weasley%0A&address1&Ottery%20St.Catchpole&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 183 Ended $$$$$$
+
+****** Response Header For Transaction With Id 183 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:32:54 GMT
+Server: Apache/2.2.21 (Win32)
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 183 Ended $$$$$$
+
+****** Response Body For Transaction With Id 183 ******
+<!-- 
+ User has returned to the search page.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?page=menu&in=flights" name="navbar" 
+            marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>
+      <!-- Reservation Frame -->
+      <frame src="reservations.pl?page=welcome" name="info" 
+            marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 183 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+		/cgi-bin/login.pl?intro=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 183 ****** (Location Flag : tFlagInsertEnd, Location ID : 183)
+	web_url("Search Flights Button",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 183 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 126)
+	web_add_header("Origin",
+		"http://localhost:1080");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 126)
+	web_add_auto_header("Sec-Fetch-User",
+		"?1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 186 ******
+GET /cgi-bin/nav.pl?page=menu&in=flights HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=search
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884; MTUserInfo=firstName&Ronald&address2&Devonian&username&ronald&hash&100&lastName&Weasley%0A&address1&Ottery%20St.Catchpole&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 186 Ended $$$$$$
+
+****** Response Header For Transaction With Id 186 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:32:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 13 Jan 2023 06:32:55 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 186 Ended $$$$$$
+
+****** Response Body For Transaction With Id 186 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 186 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 183)
+	web_revert_auto_header("Sec-Fetch-User");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 196 ******
+GET /cgi-bin/reservations.pl?page=welcome HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=search
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884; MTUserInfo=firstName&Ronald&address2&Devonian&username&ronald&hash&100&lastName&Weasley%0A&address1&Ottery%20St.Catchpole&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 196 Ended $$$$$$
+
+****** Response Header For Transaction With Id 196 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:33:02 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 13 Jan 2023 06:33:02 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 196 Ended $$$$$$
+
+****** Response Body For Transaction With Id 196 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flight Selections</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><blockquote>
+<form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" onsubmit="" name="DestForm">
+<input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"><tr><td align="left">Departure City :</td> <td><select name="depart" >
+<option selected="selected" value="Denver">Denver</option>
+<option value="Frankfurt">Frankfurt</option>
+<option value="London">London</option>
+<option value="Los Angeles">Los Angeles</option>
+<option value="Paris">Paris</option>
+<option value="Portland">Portland</option>
+<option value="San Francisco">San Francisco</option>
+<option value="Seattle">Seattle</option>
+<option value="Sydney">Sydney</option>
+<option value="Zurich">Zurich</option>
+</select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departDate" value="01/15/2023" size="10" maxlength="10" /> 
+<!-- Departure Date Applet -->
+<APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Height=28 BORDER=0>
+   <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">
+   <PARAM NAME=HtmlFormIndex  VALUE=0>
+   <PARAM NAME=HtmlEditIndex  VALUE=2>
+   <PARAM NAME=AutoClose      VALUE=1>
+   <PARAM NAME=Label          VALUE="...">
+</APPLET>
+</td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >
+<option selected="selected" value="Denver">Denver</option>
+<option value="Frankfurt">Frankfurt</option>
+<option value="London">London</option>
+<option value="Los Angeles">Los Angeles</option>
+<option value="Paris">Paris</option>
+<option value="Portland">Portland</option>
+<option value="San Francisco">San Francisco</option>
+<option value="Seattle">Seattle</option>
+<option value="Sydney">Sydney</option>
+<option value="Zurich">Zurich</option>
+</select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate" value="01/16/2023" size="10" maxlength="10" /> 
+<!-- Return Date Applet -->
+<APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Height=28 BORDER=0>
+   <PARAM NAME=CalenderTitle  VALUE="Select Return Date">
+   <PARAM NAME=HtmlFormIndex  VALUE=0>
+   <PARAM NAME=HtmlEditIndex  VALUE=4>
+   <PARAM NAME=AutoClose      VALUE=1>
+   <PARAM NAME=Label          VALUE="...">
+</APPLET>
+</td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="numPassengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="checkbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name="seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="None" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType" value="Business" />Business</label><br /> <label><input type="radio" name="seatType" value="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <tr><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/images/button_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifields" value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><input type="hidden" name=".cgifields" value="seatPref"  /></div></form>
+</blockquote>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 196 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+		/cgi-bin/nav.pl?page=menu&in=flights
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering soft.export.yandex.ru
+****** Request Header For Transaction With Id 205 ******
+GET /status.xml?yasoft=searchextcomm&ui=%7B75dc21eb-7993-467d-ab05-f377bbd37690%7D&ver=2.0.0.23&os=winnt&stat=dayuse&clid=2357982-133&time=1673678071472 HTTP/1.1
+Host: soft.export.yandex.ru
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: yandexuid=5574277541673545001; i=hfYUDicqbezgex/I9IK8gMFTvgeI7+a/QGHZZI3nU7UukamHNmX9546hg5UuDaRGvDHmIpUdw26zHgYdRztu2CANgaY=; yuidss=5574277541673545001; ymex=1988905002.yrts.1673545002#1988905002.yrtsi.1673545002; _ym_uid=1673545004739727017; mda=0; is_gdpr=0; is_gdpr_b=CIGzBBC8oAEoAg==; _ym_isad=2; yp=1676219396.ygu.1#1988906810.pcs.0#1674151610.mcv.0#1674151610.szm.1:1920x1080:1264x896#1705082810.p_sw.1673546809; yandex_gid=10738; _ym_d=1673630907; _yasc=Z6rUI3+tPJVMhUauKs0oCOBcm1kzKoVKzNkkZWaleoVweQkQqRVcuF31DTyCiv9DwUQ=; yabs-frequency=/5/0000000000000000/RH1SFgJzBLDWIc4X3KdhFxyUObnA8ztyIyjWq0zdN4eZswvnE0daUaPSIYS0/; ys=searchextchrome.Commertial#
+
+
+$$$$$$ Request Header For Transaction With Id 205 Ended $$$$$$
+
+****** Response Header For Transaction With Id 205 ******
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 64
+Content-Type: text/xml
+Date: Sat, 14 Jan 2023 06:34:30 GMT
+X-Yandex-Req-Id: 6e2debbc-6320-4456-b23e-41b93b221044
+
+
+$$$$$$ Response Header For Transaction With Id 205 Ended $$$$$$
+
+****** Response Body For Transaction With Id 205 ******
+<?xml version="1.0" encoding="windows-1251"?>
+<page>
+ok
+</page>
+
+$$$$$$ Response Body For Transaction With Id 205 Ended $$$$$$
+
+[Traffic Filtering] Filtering beacons.gvt2.com
+****** Request Header For Transaction With Id 220 ******
+OPTIONS /domainreliability/upload-nel HTTP/1.1
+Host: beacons.gvt2.com
+Connection: keep-alive
+Origin: https://accounts.google.com
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+$$$$$$ Request Header For Transaction With Id 220 Ended $$$$$$
+
+****** Response Header For Transaction With Id 220 ******
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Origin: *
+Date: Sat, 14 Jan 2023 06:35:37 GMT
+Content-Type: text/html
+Server: Domain Reliability Server
+Content-Length: 0
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+
+$$$$$$ Response Header For Transaction With Id 220 Ended $$$$$$
+
+****** Response Body For Transaction With Id 220 ******
+
+$$$$$$ Response Body For Transaction With Id 220 Ended $$$$$$
+
+[Traffic Filtering] Filtering beacons.gvt2.com
+****** Request Header For Transaction With Id 222 ******
+POST /domainreliability/upload-nel HTTP/1.1
+Host: beacons.gvt2.com
+Connection: keep-alive
+Content-Length: 405
+Content-Type: application/reports+json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+$$$$$$ Request Header For Transaction With Id 222 Ended $$$$$$
+
+****** Request Body For Transaction With Id 222 ******
+[{"age":60017,"body":{"elapsed_time":58,"method":"POST","phase":"application","protocol":"h3","referrer":"","sampling_fraction":0.25,"server_ip":"216.58.209.173","status_code":200,"type":"ok"},"type":"network-error","url":"https://accounts.google.com/domainreliability/upload","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"}]
+$$$$$$ Request Body For Transaction With Id 222 Ended $$$$$$
+
+****** Response Header For Transaction With Id 222 ******
+HTTP/1.1 200 OK
+Report-To: {"endpoints":[{"priority":1,"url":"https://beacons.gcp.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons2.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons3.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons4.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://clients2.google.com/domainreliability/upload-nel","weight":1},{"priority":2,"url":"https://beacons5.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":2,"url":"https://beacons5.gvt3.com/domainreliability/upload-nel","weight":1}],"group":"nel","max_age":300}
+NEL: {"failure_fraction":1,"include_subdomains":false,"max_age":300,"report_to":"nel","success_fraction":0.25}
+Content-Type: application/javascript; charset=utf-8
+Date: Sat, 14 Jan 2023 06:35:49 GMT
+Server: Domain Reliability Server
+Content-Length: 0
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+
+$$$$$$ Response Header For Transaction With Id 222 Ended $$$$$$
+
+****** Response Body For Transaction With Id 222 ******
+
+$$$$$$ Response Body For Transaction With Id 222 Ended $$$$$$
+
+****** Request Header For Transaction With Id 228 ******
+POST /cgi-bin/reservations.pl HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+Content-Length: 249
+Cache-Control: max-age=0
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:1080
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/reservations.pl?page=welcome
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884; MTUserInfo=firstName&Ronald&address2&Devonian&username&ronald&hash&100&lastName&Weasley%0A&address1&Ottery%20St.Catchpole&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 228 Ended $$$$$$
+
+****** Request Body For Transaction With Id 228 ******
+advanceDiscount=0&depart=Frankfurt&departDate=01%2F17%2F2023&arrive=Los+Angeles&returnDate=01%2F20%2F2023&numPassengers=3&seatPref=Window&seatType=Business&findFlights.x=57&findFlights.y=7&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref
+$$$$$$ Request Body For Transaction With Id 228 Ended $$$$$$
+
+****** Response Header For Transaction With Id 228 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:35:57 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 13 Jan 2023 06:35:57 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 228 Ended $$$$$$
+
+****** Response Body For Transaction With Id 228 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flight Selections</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><blockquote>
+<form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded">
+
+<center>
+<!-- From Frankfurt (1) To Los Angeles (3) -->
+<table cellspacing="2" border="0" width="50%">
+<blockquote>Flight departing from <B>Frankfurt</B> to <B>Los Angeles</B> on <B>01/17/2023</B><BR/><BR/><tr bgcolor="#5E7884"><td align="center"><font color="white"><B>Flight</B></font>
+      		<td align="center"><font color="white"><B>Departure time</B>
+      		<td align="center"><font color="white"><B>Cost</B>
+<tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="130;472;01/17/2023" checked="checked" >Blue Sky Air 130<td align="center">8am<td align="center">$ 472</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="131;420;01/17/2023">Blue Sky Air 131<td align="center">1pm<td align="center">$ 420</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="132;446;01/17/2023">Blue Sky Air 132<td align="center">5pm<td align="center">$ 446</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="133;386;01/17/2023">Blue Sky Air 133<td align="center">11pm<td align="center">$ 386</TD></TR></table>
+
+<input type="hidden" name="numPassengers" value="3"  /><input type="hidden" name="advanceDiscount" value="0"  /><input type="hidden" name="seatType" value="Business"  /><input type="hidden" name="seatPref" value="Window"  />
+<P><center><table width=80% cellspacing=1><tr><td align=center>
+<input type="image" name="reserveFlights" src="/WebTours/images/button_next.gif" border="0" />
+<td>&nbsp;<td align=center></table></center></form></center>
+</blockquote>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 228 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+		/cgi-bin/nav.pl?page=menu&in=flights
+		/cgi-bin/reservations.pl?page=welcome
+		Form: name=DestForm action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 228 ****** (Location Flag : tFlagInsertEnd, Location ID : 228)
+	web_submit_data("reservations.pl",
+		"Action=http://localhost:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=depart", "Value=Frankfurt", ENDITEM,
+		"Name=departDate", "Value=01/17/2023", ENDITEM,
+		"Name=arrive", "Value=Los Angeles", ENDITEM,
+		"Name=returnDate", "Value=01/20/2023", ENDITEM,
+		"Name=numPassengers", "Value=3", ENDITEM,
+		"Name=seatPref", "Value=Window", ENDITEM,
+		"Name=seatType", "Value=Business", ENDITEM,
+		"Name=findFlights.x", "Value=57", ENDITEM,
+		"Name=findFlights.y", "Value=7", ENDITEM,
+		"Name=.cgifields", "Value=roundtrip", ENDITEM,
+		"Name=.cgifields", "Value=seatType", ENDITEM,
+		"Name=.cgifields", "Value=seatPref", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 228 Ended $$$$$$
+
+****** Request Header For Transaction With Id 233 ******
+GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673677884; MTUserInfo=firstName&Ronald&address2&Devonian&username&ronald&hash&100&lastName&Weasley%0A&address1&Ottery%20St.Catchpole&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 233 Ended $$$$$$
+
+****** Response Header For Transaction With Id 233 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:36:24 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1673678184; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Fri, 13-Jan-2023 06:36:24 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 233 Ended $$$$$$
+
+****** Response Body For Transaction With Id 233 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 233 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+		/cgi-bin/nav.pl?page=menu&in=flights
+		/cgi-bin/reservations.pl
+		Form: name= action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 233 ****** (Location Flag : tFlagInsertEnd, Location ID : 233)
+	web_url("SignOff Button",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 233 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 228)
+	web_add_header("Origin",
+		"http://localhost:1080");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 228)
+	web_add_auto_header("Sec-Fetch-User",
+		"?1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 236 ******
+GET /cgi-bin/nav.pl?in=home HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673678184
+
+
+$$$$$$ Request Header For Transaction With Id 236 Ended $$$$$$
+
+****** Response Header For Transaction With Id 236 ******
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 06:36:24 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 13 Jan 2023 06:36:24 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 236 Ended $$$$$$
+
+****** Response Body For Transaction With Id 236 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135575.389550425zQHDzfQpVtVitVpQftz"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 236 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?signOff=1
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 233)
+	web_revert_auto_header("Sec-Fetch-User");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 254 ******
+GET /WebTours/home.html HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673678184
+If-None-Match: "4c00000000cbcf-551-4ddb1559ac980"
+If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 254 Ended $$$$$$
+
+****** Response Header For Transaction With Id 254 ******
+HTTP/1.1 304 Not Modified
+Date: Sat, 14 Jan 2023 06:36:38 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "4c00000000cbcf-551-4ddb1559ac980"
+
+
+$$$$$$ Response Header For Transaction With Id 254 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?signOff=1
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering clientservices.googleapis.com
+****** Request Header For Transaction With Id 256 ******
+GET /chrome-variations/seed?osname=win&channel=stable&milestone=108 HTTP/1.1
+Host: clientservices.googleapis.com
+Connection: keep-alive
+If-None-Match: SMChYyMDIzMDExMi0xODAwNTAuMjUwMDAwEggIABADGGwgABoOCggxNjczNjI1NhICCAI=#UMJWLB3idfo=
+A-IM: x-bm,gzip
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 256 Ended $$$$$$
+
+****** Response Header For Transaction With Id 256 ******
+HTTP/1.1 200 OK
+Im: x-bm, gzip
+X-Content-Type-Options: nosniff
+X-Country: ru
+X-Frame-Options: SAMEORIGIN
+X-Seed-Signature: MEQCIFVjj6LH4fKep8WSH4hQaxQHE+soibxIG3Xkyz9YNUTdAiADLT5M4CR0wA8PJVlseCsNY75pcOFHoGKSOhTEXlfEQg==
+X-Xss-Protection: 0
+Date: Sat, 14 Jan 2023 06:36:37 GMT
+Content-Length: 1028
+Content-Type: application/x-gzip
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+
+$$$$$$ Response Header For Transaction With Id 256 Ended $$$$$$
+
+****** Response Body For Transaction With Id 256 ******
+\x1F\x8B\x08\x00\x00\x00\x00\x00\x00\xFF\xB4\x94_L\x1CU\x14\xC6\xE7\xB2\xA5\xC5;\x10\xD7-\xDA\x8A\x05)\x14J\x9AHffYYLZ\x1Dv\xF8\xB7ea\xE9
+\xD2\xA7\xCD\xEC\xCC\xDD\xD9\x1Bfg\x86;w\x80\xD9\xF8\xE4k\xFB`\xE2\x9B1\xA1Q\x9F\x9ATM\xD5\xA6jH\x8B\x96Rl\xF4\xA9\x89\xD5G}2j\xD34\x1A\x13\x8D\x89Y\xCA\x94a\x19\xCA\xDA\xD8\xB7\x93\xDC\xEF\xDC\xEF\xFC\xE6|w^\x81/gR\x89\xC2i7%\x8D\x94R\xD2\xC0B\xCA\xE5\xE6\xC7%q~L\xD2\x9C\xB1\xD2d4%\x89\xF3\x03\x9A6"\xF6\x8B\xD2\xD0\xD0\xBC&\x8A\xC7\x8F\xB7\x1B\xBCh\xE6\x86\x86\x12'\xD3"\xF3\xEAO\xB7\xEB\x0E\x9E\xAD\x81\x8D#*2(\xCEc9\x87uL\xDD\x0CuT\x97\xF9\xF1\xBD\xBA\x13\x97\xC1Q\xC8fE\x85\xE29\x99b\xD3\x083\xB9g"\x81\xF2d\x1Fl\x1E4\x89\x82\xD4q#\x1B$(\xB76\x05\xB7\xBE\x04[6Z\xF3\xF9\x1D{\xDB\x02{O=\x15\xA9\xE5\xB9\xBE\xEEc\xAD\xA1.\xA6pm\xE9\x97\x0B{\xA7\xDFX\xBC\xFB3d.}_\xF7\xFB? t\xFE\xAFE\xE6\xC2wpyz\xFCZ\x13lN#R\xC4\xB6\x8DM\xC3N\x9B6M\x13\xB3h\xD1\x8CC\xE6\x90;'\xC4A\xF2\x1B\x00\x8F\x0E\x18rNGjv\xCC,\x9B)\xEB\xDCvVT\x14dQ\xA4f\x05N\x88r<\x1Fe\x96>b\xD7@\xED\xFD\xFA\xCCE\xF6k\xAF\xFE\xE1c\xF6\xA6W\x9F\xFF\x94\xBD\xE1\xD5\x7F^bW\xBCz\xF92{\xDD\xAB\xCF~\xCE\xAEz\xF5\xED/\xD8w\xC1\xEB+\x00\xB6zS$\xE4""\xF2v\xFB0\x10\x9E\x85\xB2R\x9E.\x9B\xC7:E$R\xE7\xA9\x84F\xC8Z\xC4\xCCm|\xA9H-\xD7\xCD\xC7cB;\xDCO\xD0\xAC\x83l\x9A\xA5\xAE\x85\xBC\xB6\xFA)\xAC"3![\xD4!\x88\xB9\xBB\xC4\x8E.,\x03\xD8R1\x81\x84\x0C\xEC\xF7\xAF\x15\x0ET\xFA\xEF\xBD\xAF	p\x8F	\xD1\xEA\xDC?\xB8\xC2\x8Ev\xAC\x02x\xB8\xD2\x1D\xDB\xE5\xC5\xF9\xBF\xFF\xE2U6v\xA4\xAAK\xEF]eGo\xD4]\x01\xF0\xF9\x8A[G4\xC3$[\xA1\x0EVB\xED\xDB\x10	\xE1\xADT\x80\xAF\x8AH8\x06!%X\xD3\x10\xC9b5r(\xDA\xE3\xC6\xEC\xD2X\xBA\x8Fs4#\x19\x9D\xE5\x95\x93\\FT\xF8\xCChb6\xD7\x0C\x9F{HB\x93k\x00\x1E\xF1\x08RX!\xA6U0\xF4?d#\xBA\xF3vDG\xC5;\xB1h}s\x0B\xFD\xD3	"\xF8X\xA6\xA4A\xA7\x906\xFAwcY\x01\xB0-\x80\xA52e5\xFF%e\xBD\x9C\xF0H\x1C\x0B\x13\xA7K\xA840i\xF88\xA6\x8B\x16\x9D\xA0\xA2\xB6\x1B\xC7M\x00;\x828\xB6\xE55\\#4U\xA2<\xF1@\x16@\xF3b\xB4\xEF\x91h\xFA'\x14)#\xC8\xBC\xEC\xA3\x99\x9C\x1C\xCB\xDB\xC6\x0C\xDA\x8D\xE6+\x00\xDB\x03h\x1E\xD3;y\x18\x85b)\x83$\x93\xA1\xFE\x9DL\x95\xAC	~XPw\xA38\x00\xF7'L\x83\x12S\xCF\xCE\xF3\xBEW\xB1\xE5@\xF0mf\xCBA\xCC\x87\x99l\x84a	\xE5eG\xA7\x9B?\x9E[k\xEC;\x85\x0F\xC1b\x086\xA5\x89\xA9 \xDB\x1E\xA6E]\x92\xA9<R,"\x15\xCB\x14\xE9n\x1C$;\xE0\xE14A\x16"\xD8T\xB3\xE3\x86\xEE\x0Ebb\xD3D\xC11f\xBC\xCB\x840Hv\xC2\xB6M\xD9)T\x94\xB1\x81m]f\xFBu\xAD\xF0\xD0\xA6N\xD4\xF5\xED\x8A\x96\xF2@\x9E\xC2\xE3\xF1\xCE\x99\xBF/\xD6\xDF\x01\xA1/\xDF?\xC7\xFC\xFAI\xFD\xAD7\xC1o\xE0z\x08vf\x10\x99\xC3
+z\xCD$3\x88df\xB0\xB5\xBE\xC6r\x02\x06\x11U
+\xC3\xB2\xA1\xEA\x88\xC4A\x92<\xC8yY5P\xB4\xA8\xEBW\x94}\x04\x9E\xE7z\xC2@h\x86O\x07j"{(qP\xAE\xABZ\xD7\xE4	\x18\xF6al\\\x9F\xEB\x8AT\xDB\xCF\xC2}\x1B\xDB\x0B\xE7\x98\xB7V\x1B\xFE\xE8\x0C}\xFB\xD99\xE6\xCC\x9D\x86{o\xEFy2\xFA\x02\x17\xE7\xB8\x9Exwo\xAC\x97\xE3\xB8\x7F\x03\x00\x00\xFF\xFF\xB3\x83NdP	\x00\x00
+$$$$$$ Response Body For Transaction With Id 256 Ended $$$$$$
+

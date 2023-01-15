@@ -1,0 +1,415 @@
+[API Trapper      (13f4:26a0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1784: b2c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (26d8: 9f0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (26d8:2b54)] ------------------------------------------------------------------------------------------
+[Network Analyzer (26d8:2b54)] Load Network Traffic Analyzers:
+[Network Analyzer (26d8:2b54)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (26d8:2b54)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (26d8:2b54)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (26d8:2b54)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (26d8:2b54)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (26d8:2b54)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (26d8:2b54)] ------------------------------------------------------------------------------------------
+[Network Analyzer (26d8:25ec)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (278c:2180)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8009 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8009   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8009   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8009   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.209.195:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8009   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 87.250.254.20:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:1798)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.209.163:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:17dc)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.209.174:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.210.131:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:29e8)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.209.173:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2534)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.210.138:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8008   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (26d8:25ec)] "GET /WebTours/"   
+[Network Analyzer (26d8:25ec)]   (Sid:  7) Client -> Server @ : 788 bytes (Service=HTTP)
+[Network Analyzer (26d8:292c)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:25ec)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (26d8:25ec)]   (Sid:  3) Connection Terminated (by Client)
+[Web Request      (26d8:25ec)] "GET /ssdp/device-desc.xml"   
+[Network Analyzer (26d8:25ec)]   (Sid: 13) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:25ec)]   (Sid:  7) Server -> Client : 195 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 13) Server -> Client : 1200 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (26d8:2bf0)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:1aa8)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid:  7) Connection Terminated (by Server)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid:  5) Connection Terminated (by Client)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Net An. Error    (26d8:1798)] SSLAccept(ssl_id = 1658391622560 = 000001821FD7F3A0) Failed, ctx = 000001821FDB35C0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (26d8:17dc)] SSLAccept(ssl_id = 1658391900112 = 000001821FDC2FD0) Failed, ctx = 000001821FDC2BD0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (26d8:29e8)] SSLAccept(ssl_id = 1658392183728 = 000001821FE083B0) Failed, ctx = 000001821FDB35C0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (26d8:2534)] SSLAccept(ssl_id = 1658392407280 = 000001821FE3ECF0) Failed, ctx = 000001821FE36E00, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (26d8:292c)] SSLAccept(ssl_id = 1658392497392 = 000001821FE54CF0) Failed, ctx = 000001821FDB35C0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (26d8:2bf0)] SSLAccept(ssl_id = 1658392850720 = 000001821FEAB120) Failed, ctx = 000001821FD11970, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (26d8:1aa8)] SSLAccept(ssl_id = 1658392673008 = 000001821FE7FAF0) Failed, ctx = 000001821FDB35C0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (26d8:1798)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (26d8:17dc)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (26d8:29e8)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (26d8:2534)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (26d8:292c)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (26d8:2bf0)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (26d8:1aa8)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:25ec)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (26d8:25ec)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (26d8:25ec)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (26d8:25ec)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (26d8:25ec)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (26d8:25ec)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (26d8:25ec)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.210.131:80   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (26d8:25ec)] "POST /service/update2/json?cup2key=12:_iVQ0RYQNKI5XZF9SiTlsb8UVYvP3mCrBq7HkSW3Is8&cup2hreq=2df86cc23cc42935e0f28f53287a0148dcc543d90517bdf64a52a67f6b708274"
+[Network Analyzer (26d8:25ec)]   (Sid: 15) Client -> Server @ : 1325 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 15) Client -> Server @ : 9947 bytes (Service=HTTP)
+[Web Request      (26d8:25ec)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (26d8:25ec)]   (Sid: 14) Client -> Server @ : 735 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 15) Server -> Client : 1090 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 15) Server -> Client : 1925 bytes  (Service=HTTP)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (26d8:25ec)]   (Sid: 14) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (26d8:25ec)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (26d8:25ec)]   (Sid: 14) Client -> Server @ : 776 bytes (Service=HTTP)
+[Web Request      (26d8:25ec)] "GET /WebTours/home.html"   
+[Network Analyzer (26d8:25ec)]   (Sid: 16) Client -> Server @ : 873 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 16) Server -> Client : 195 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 14) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (26d8:25ec)] "GET /favicon.ico"   
+[Network Analyzer (26d8:25ec)]   (Sid: 14) Client -> Server @ : 641 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 14) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8009   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (26d8:1758)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:1758)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (2768:1b84)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (26d8:25ec)]   (Sid: 17) Client -> Server @ : 96 bytes (SSL)
+[Network Analyzer (26d8:25ec)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (26d8:25ec)]   (Sid: 17) Server -> Client : 5174 bytes (SSL)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:25ec)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (26d8:25ec)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8009   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (26d8:2898)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:2898)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:25ec)]   (Sid: 18) Client -> Server @ : 96 bytes (SSL)
+[Network Analyzer (26d8:25ec)]   (Sid: 18) Server -> Client : 5174 bytes (SSL)
+[User action                 ] StartTransactionEvent login [Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid: 18) Server -> Client : 92 bytes (SSL)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid: 18) Connection Terminated (by Server)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.209.163:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8009   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (26d8:26e8)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:26e8)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Web Request      (26d8:25ec)] "POST /service/update2/json"   
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Client -> Server @ : 1387 bytes (SSL)(Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Server -> Client : 817 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Server -> Client : 211 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8: a14)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8: a14)] SSLAccept(ssl_id = 1658392497392 = 000001821FE54CF0) Failed, ctx = 000001821C63CCE0, err = "SSLv3/TLS write session ticket", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Error    (26d8: a14)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (26d8:25ec)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (26d8:25ec)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (26d8:25ec)]   (Sid: 21) Client -> Server @ : 1028 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 21) Server -> Client : 884 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (26d8:25ec)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (26d8:25ec)]   (Sid: 21) Client -> Server @ : 918 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 21) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid: 21) Connection Terminated (by Server)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Web Request      (26d8:25ec)] "POST /service/update2/json"   
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Client -> Server @ : 1400 bytes (SSL)(Service=HTTP)
+[Web Request      (26d8:25ec)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (26d8:25ec)]   (Sid: 22) Client -> Server @ : 913 bytes (Service=HTTP)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Server -> Client : 817 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Server -> Client : 367 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 19) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 22) Server -> Client : 1156 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid: 22) Connection Terminated (by Server)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 192.168.1.70:8009   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:1830)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[User action                 ] EndTransactionEvent login [Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:1830)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (26d8:25ec)]   (Sid: 24) Client -> Server @ : 96 bytes (SSL)
+[Network Analyzer (26d8:25ec)]   (Sid: 24) Server -> Client : 92 bytes (SSL)
+[Network Analyzer (26d8:25ec)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.209.202:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (26d8:26fc)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:26fc)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (26d8:25ec)] "GET /v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTA4LjAuNTM1OS4xMjUaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDUzA8aAhgF8k4xYCIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQwdILGgIYBUi9TkEiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEIeqDBoCGAVApNMQIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYBbjVedciBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEENgwGgIYBcoTZ74iBCABIAIoBBooCA8QARoaCg0IDxAGGAEiAzAwMTABEKFzGgIYBVfLQyQiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgFL-ZX9SIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIBoCGAU6m4eFIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARDkERoCGAXybX5eIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARDz2AEaAhgFR66n6SIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQuckLGgIYBR9phl8iBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEProBhoCGAWjTaEqIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARDAFhoCGAUdKWBSIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Client -> Server @ : 1221 bytes (SSL)(Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Server -> Client : 1117 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent choose_flight [Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (26d8:25ec)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (26d8:25ec)]   (Sid: 23) Client -> Server @ : 952 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 23) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (26d8:25ec)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (26d8:25ec)]   (Sid: 23) Client -> Server @ : 935 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 23) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid: 23) Connection Terminated (by Server)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.209.173:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (26d8:12a0)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (26d8:12a0)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (26d8:25ec)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (26d8:25ec)]   (Sid: 27) Client -> Server @ : 936 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 27) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 27) Server -> Client : 281 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 27) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent choose_flight [User action                 ] StartTransactionEvent flight_detail [Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 87.250.254.20:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (26d8: 4d8)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (26d8: 4d8)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (26d8:25ec)] "GET /status.xml?yasoft=searchextcomm&ui=%7B75dc21eb-7993-467d-ab05-f377bbd37690%7D&ver=2.0.0.23&os=winnt&stat=dayuse&clid=2357982-133&time=1673678071472"   
+[Network Analyzer (26d8:25ec)]   (Sid: 28) Client -> Server @ : 1314 bytes (SSL)(Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 28) Server -> Client : 187 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 28) Server -> Client : 64 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (26d8:25ec)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 74.125.131.94:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:1a58)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:1a58)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Web Request      (26d8:25ec)] "OPTIONS /domainreliability/upload-nel"   
+[Network Analyzer (26d8:25ec)]   (Sid: 29) Client -> Server @ : 433 bytes (SSL)(Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 29) Server -> Client : 470 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (26d8:25ec)] "POST /domainreliability/upload-nel"   
+[Network Analyzer (26d8:25ec)]   (Sid: 29) Client -> Server @ : 776 bytes (SSL)(Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 29) Server -> Client : 1270 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Web Request      (26d8:25ec)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (26d8:25ec)]   (Sid: 30) Client -> Server @ : 1326 bytes (Service=HTTP)
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (26d8:25ec)]   (Sid: 30) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 30) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 30) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent flight_detail [Network Analyzer (26d8:25ec)]   (Sid: 19) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent logout [Web Request      (26d8:25ec)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (26d8:25ec)]   (Sid: 31) Client -> Server @ : 953 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 31) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 31) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (26d8:25ec)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (26d8:25ec)]   (Sid: 31) Client -> Server @ : 773 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 31) Server -> Client : 1743 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 31) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid: 25) Connection Terminated (by Server)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid: 31) Connection Terminated (by Server)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 216.58.209.195:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2564)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid: 13) Connection Terminated (by Client)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Network Analyzer (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (26d8:2564)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (26d8:2b54)] Address lookup for DESKTOP-4AQV3VP = 192.168.1.90
+[Web Request      (26d8:25ec)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=108"   
+[Network Analyzer (26d8:25ec)]   (Sid: 32) Client -> Server @ : 489 bytes (SSL)(Service=HTTP)
+[Web Request      (26d8:25ec)] "GET /WebTours/home.html"   
+[Network Analyzer (26d8:25ec)]   (Sid: 33) Client -> Server @ : 870 bytes (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 33) Server -> Client : 195 bytes  (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 32) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (26d8:25ec)]   (Sid: 32) Server -> Client : 153 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (26d8:25ec)]   (Sid: 33) Connection Terminated (by Server)
+[Net An. Warning  (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (26d8:2b54)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[User action                 ] EndTransactionEvent logout 

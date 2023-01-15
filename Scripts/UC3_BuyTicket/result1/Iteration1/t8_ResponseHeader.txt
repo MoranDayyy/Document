@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 14 Jan 2023 09:48:58 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 13 Jan 2023 09:48:59 GMT
+Set-Cookie: MTUserInfo=firstName&Neville&username&neville&address2&London&hash&101&address1&Hyde%20Park&lastName&Longbottom%0A; path=/
+Keep-Alive: timeout=5, max=91
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Admin\Documents\VuGen\Scripts\UC2_Ticket _Without_Paymen
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\admin\documents\vugen\scripts\uc2_ticket _without_paymen\\logfile.log
+c:\users\admin\documents\vugen\scripts\uc2_ticket _without_paymen\\combined_UC2_Ticket _Without_Paymen.c
+c:\users\admin\documents\vugen\scripts\uc2_ticket _without_paymen\\pre_cci.c
