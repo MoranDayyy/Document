@@ -1,7 +1,7 @@
 Action()
 {
 
-	lr_start_transaction("DeletingTicket");
+	lr_start_transaction("UC5_DeletingTicket");
 	
 	lr_start_transaction("open_site");
 	
@@ -86,11 +86,7 @@ Action()
 	lr_start_transaction("removal");
 	
 	web_reg_find("Fail=NotFound",
-		"Text/IC=Flights List",
-		LAST);
-	
-	web_reg_find("Fail=NotFound",
-		"Text/IC={removal}",
+		"Text/IC=No flights have been reserved.",
 		LAST);
 
 	web_add_header("Origin", 
@@ -104,30 +100,15 @@ Action()
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t16.inf", 
 		ITEMDATA, 
-		"Name=1", "Value={removal}", ENDITEM,
-		"Name=2", "Value={removal}", ENDITEM, 
-		"Name=3", "Value={removal}", ENDITEM,		
+		"Name=1", "Value=on", ENDITEM,
+		"Name=2", "Value=on", ENDITEM,
+		"Name=3", "Value=on", ENDITEM,
+		"Name=removeFlights.x", "Value=56", ENDITEM, 
+		"Name=removeFlights.y", "Value=10", ENDITEM,		
 		LAST);
 
 	lr_end_transaction("removal",LR_AUTO);
 	
-
-	lr_start_transaction("home");
-	
-	web_reg_find("Fail=NotFound",
-		"Text/IC=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",
-		LAST);
-
-	web_revert_auto_header("Sec-Fetch-User");
-
-	lr_think_time(27);
-
-	web_image("Home Button", 
-		"Alt=Home Button", 
-		"Snapshot=t17.inf", 
-		LAST);
-
-	lr_end_transaction("home",LR_AUTO);
 
 	lr_start_transaction("logout");
 	
@@ -147,7 +128,7 @@ Action()
 
 	lr_end_transaction("logout",LR_AUTO);
 	
-	lr_end_transaction("DeletingTicket",LR_AUTO);
+	lr_end_transaction("UC5_DeletingTicket",LR_AUTO);
 
 	return 0;
 }

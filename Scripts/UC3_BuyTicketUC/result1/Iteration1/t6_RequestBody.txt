@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=Los+Angeles&departDate=01%2F17%2F2023&arrive=Paris&returnDate=01%2F22"
-"%2F2023&numPassengers=1&seatPref=None&seatType=Business&findFlights.x=55&findFlights.y=3&.cgif"
-"ields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"outboundFlight=510%3B464%3B01%2F25%2F2023&numPassengers=4&advanceDiscount=0&seatType=Business&"
+"seatPref=Window&reserveFlights.x=48&reserveFlights.y=3"

@@ -128,17 +128,7 @@ Action()
 		"?1");
 
 	lr_think_time(54);
-
-/*Correlation comment - Do not change!  Original value='152;438;01/20/2023' Name ='outboundFlight' Type ='ResponseBased'*/
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		SEARCH_FILTERS,
-		"IgnoreRedirections=No",
-		LAST);
+	
 
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 

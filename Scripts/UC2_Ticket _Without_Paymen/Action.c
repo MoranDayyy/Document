@@ -3,7 +3,7 @@ Action()
 
 	lr_start_transaction("UC2_Ticket_Without_Paymen");
 	
-	lr_start_transaction("opening_site");
+	lr_start_transaction("open_site");
 	
 	web_reg_find("Fail=NotFound",
 			"Text/IC=Welcome to the Web Tours site.",
@@ -54,7 +54,7 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 	
-	lr_end_transaction("opening_site",LR_AUTO);
+	lr_end_transaction("open_site",LR_AUTO);
 
 	
 	lr_start_transaction("login");
