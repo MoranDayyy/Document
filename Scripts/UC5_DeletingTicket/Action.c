@@ -66,7 +66,10 @@ Action()
 
 	lr_end_transaction("login",LR_AUTO);
 
+	
+	
 	lr_start_transaction("itinerary");
+	
 	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=Invoice sent to:",
@@ -75,6 +78,12 @@ Action()
 	web_revert_auto_header("Sec-Fetch-User");
 
 	lr_think_time(53);
+	
+	web_reg_save_param("flightID",
+		"LB/IC=flightID\" value=\"",
+		"RB/IC=\"",
+		LAST);
+	
 
 	web_image("Itinerary Button", 
 		"Alt=Itinerary Button", 
@@ -85,9 +94,6 @@ Action()
 
 	lr_start_transaction("removal");
 	
-	web_reg_find("Fail=NotFound",
-		"Text/IC=No flights have been reserved.",
-		LAST);
 
 	web_add_header("Origin", 
 		"http://localhost:1080");
@@ -97,12 +103,14 @@ Action()
 
 	lr_think_time(62);
 
+	web_reg_find("Fail=Found",
+		"Text/IC={flightID}",
+		LAST);
+	
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t16.inf", 
 		ITEMDATA, 
 		"Name=1", "Value=on", ENDITEM,
-		"Name=2", "Value=on", ENDITEM,
-		"Name=3", "Value=on", ENDITEM,
 		"Name=removeFlights.x", "Value=56", ENDITEM, 
 		"Name=removeFlights.y", "Value=10", ENDITEM,		
 		LAST);
