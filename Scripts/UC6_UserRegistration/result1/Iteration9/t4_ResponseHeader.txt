@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Thu, 02 Feb 2023 18:37:08 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Draco&address2&Great%20Britain&username&draco211&hash&17&lastName&Malfoy&address1&Wiltshire&creditCard&&expDate&; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Thu, 02 Feb 2023 18:37:07 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Minerva&address2&Scotland&username&minerva214&hash&20&lastName&McGonagall&address1&Argyle&creditCard&&expDate&; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
