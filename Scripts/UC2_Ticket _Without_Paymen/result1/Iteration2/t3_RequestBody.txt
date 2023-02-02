@@ -1,2 +1,2 @@
-"userSession=135613.935520454zQHfztVpiAiDDDDDtVifDpifAif&username=minerva&password=minerva&logi"
+"userSession=135689.450141758zQHQfczpAQVzzzzHtViHHpVfzff&username=minerva&password=minerva&logi"
 "n.x=37&login.y=11&JSFormSubmit=off"

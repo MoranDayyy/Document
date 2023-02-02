@@ -111,8 +111,16 @@ Action()
 		LAST);
 
 	lr_end_transaction("choose_flight",LR_AUTO);
+	
+	
 
 	lr_start_transaction("flight_detail");
+	
+		web_reg_save_param("outboundFlight",
+				"LB/IC=outboundFlight\" value=\"",
+				"RB/IC=\"",
+				"Ord=ALL",
+				LAST);
 	
 	web_reg_find("Fail=NotFound",
 				"Text/IC=Flight departing from <B>{depart}</B> to <B>{arrive}</B>",
@@ -151,6 +159,36 @@ Action()
 		LAST);
 
 	lr_end_transaction("flight_detail",LR_AUTO);
+	
+	lr_think_time(14);
+	
+	lr_start_transaction("departure_time");
+	
+	lr_save_string(lr_paramarr_random("outboundFlight"), "outboundFlight_random");
+	
+	web_reg_find("Fail=NotFound",
+		"Text/IC=Flight Reservation",
+		LAST);
+
+	web_submit_data("reservations.pl_2",
+		"Action=http://localhost:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=outboundFlight", "Value={outboundFlight}", ENDITEM,
+		"Name=numPassengers", "Value={num_passengers}", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=seatType", "Value={seat_type}", ENDITEM,
+		"Name=seatPref", "Value={seat_pref}", ENDITEM,
+		"Name=reserveFlights.x", "Value=48", ENDITEM,
+		"Name=reserveFlights.y", "Value=3", ENDITEM,
+		LAST);
+
+	lr_end_transaction("departure_time",LR_AUTO);
 
 	lr_start_transaction("logout");
 	

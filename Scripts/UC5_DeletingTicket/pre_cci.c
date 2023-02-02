@@ -2692,6 +2692,7 @@ Action()
 		"LB/IC=flightID\" value=\"",
 		"RB/IC=\"",
 		"LAST");
+	
 
 	web_image("Itinerary Button", 
 		"Alt=Itinerary Button", 
@@ -2714,19 +2715,14 @@ Action()
 	web_reg_find("Fail=Found",
 		"Text/IC={flightID}",
 		"LAST");
-
-		web_image("Itinerary Button", 
-		"Alt=Itinerary Button", 
-		"Snapshot=t15.inf", 
-		"LAST");
 	
- 
- 
- 
- 
- 
- 
- 
+	web_submit_form("itinerary.pl", 
+		"Snapshot=t16.inf", 
+		"ITEMDATA", 
+		"Name=1", "Value=on", "ENDITEM",
+		"Name=removeFlights.x", "Value=56", "ENDITEM", 
+		"Name=removeFlights.y", "Value=10", "ENDITEM",		
+		"LAST");
 
 	lr_end_transaction("removal",2);
 	

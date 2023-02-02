@@ -1,8 +1,8 @@
 HTTP/1.1 200 OK
-Date: Mon, 23 Jan 2023 16:24:36 GMT
+Date: Thu, 02 Feb 2023 17:31:13 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: Sun, 22 Jan 2023 16:24:36 GMT
-Set-Cookie: MTUserInfo=firstName&Neville&username&neville&address2&London&hash&101&address1&Hyde%20Park&lastName&Longbottom%0A; path=/
+Expires: Wed, 01 Feb 2023 17:31:13 GMT
+Set-Cookie: MTUserInfo=firstName&Ronald&username&ronald&address2&Devonian&hash&100&address1&Ottery%20St.Catchpole&lastName&Weasley%0A; path=/
 Keep-Alive: timeout=5, max=91
 Connection: Keep-Alive
 Transfer-Encoding: chunked

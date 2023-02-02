@@ -2693,6 +2693,29 @@ Action()
 		"LAST");
 
 	lr_end_transaction("login",2);
+	
+	
+	lr_start_transaction("choose_flight");
+	
+	web_reg_find("Fail=NotFound",
+			"Text/IC=Find Flight",
+			"LAST");
+
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	lr_think_time(51);
+
+	web_url("Search Flights Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t3.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	lr_end_transaction("choose_flight",2);
 
 	lr_start_transaction("logout");
 	

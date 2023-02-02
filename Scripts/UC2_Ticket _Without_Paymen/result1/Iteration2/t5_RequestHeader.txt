@@ -16,6 +16,6 @@ Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1674154034; MTUserInfo=firstName&Minerva&address2&Scotland&username&minerva&hash&33&lastName&McGonagall%0A&address1&Argyle&creditCard&&expDate&%0A
-Content-Length: 249
+Cookie: MSO=SID&1675086262; MTUserInfo=firstName&Minerva&address2&Scotland&username&minerva&hash&33&lastName&McGonagall%0A&address1&Argyle&creditCard&&expDate&%0A
+Content-Length: 244
 

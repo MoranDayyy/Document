@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC6_UserRegistration__*delimiter*__opening_site__*delimiter*__user_registration__*delimiter*__customer_profile__*delimiter*__home__*delimiter*__logout"
+Order="UC6_UserRegistration__*delimiter*__open_site__*delimiter*__user_registration__*delimiter*__customer_profile__*delimiter*__home__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,7 +60,7 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC6_UserRegistration=
-opening_site=
+open_site=
 user_registration=
 customer_profile=
 home=

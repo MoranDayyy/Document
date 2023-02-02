@@ -3,7 +3,7 @@ Action()
 
 	lr_start_transaction("UC6_UserRegistration");
 	
-	lr_start_transaction("opening_site");
+	lr_start_transaction("open_site");
 	
 	web_reg_find("Fail=NotFound",
 			"Text/IC=Welcome to the Web Tours site.",
@@ -55,7 +55,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-	lr_end_transaction("opening_site",LR_AUTO);
+	lr_end_transaction("open_site",LR_AUTO);
 
 	lr_start_transaction("user_registration");
 	

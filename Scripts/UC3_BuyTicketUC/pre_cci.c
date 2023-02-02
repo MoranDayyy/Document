@@ -2713,6 +2713,8 @@ Action()
 		"LAST");
 
 	lr_end_transaction("choose_flight",2);
+	
+	
 
 	lr_start_transaction("flight_detail");
 	
@@ -2835,30 +2837,39 @@ Action()
 		"LAST");
 
 	lr_end_transaction("ticket_payment",2);
+	
+	lr_start_transaction("itinerary");
 
-	lr_start_transaction("logout");
 	
 	web_reg_find("Fail=NotFound",
-			"Text/IC=Welcome to the Web Tours site.",
-			"LAST");
+		"Text/IC=Flights List",
+		"LAST");
+	
+	web_reg_find("Fail=NotFound",
+		"Text/IC={last_name}",
+		"LAST");
 
-	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
+	web_reg_find("Fail=NotFound",
+		"Text/IC=scheduled flights.",
+		"LAST");
 
+	
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
-	lr_think_time(38);
+	lr_think_time(22);
 
-	web_url("SignOff Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+	web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
 		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("logout",2);
+	lr_end_transaction("itinerary",2);
+
 	
 	lr_end_transaction("UC3_BuyTicketUC",2);	
 	

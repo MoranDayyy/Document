@@ -2689,9 +2689,9 @@ Action()
 	
 	lr_save_string("login_rnd", lr_eval_string("{login}{rnd}"));
 	
-	web_reg_find("Fail=NotFound",
-		"Text/IC=Thank you, <b>{login}{rnd}</b>, for registering and welcome to the Web Tours family.",
-		"LAST");
+ 
+ 
+ 
 
 	web_add_header("Origin", 
 		"http://localhost:1080");

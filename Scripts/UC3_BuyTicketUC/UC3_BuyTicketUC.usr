@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC3_BuyTicketUC__*delimiter*__open_site__*delimiter*__login__*delimiter*__choose_flight__*delimiter*__flight_detail__*delimiter*__departure_time__*delimiter*__ticket_payment__*delimiter*__logout"
+Order="UC3_BuyTicketUC__*delimiter*__open_site__*delimiter*__login__*delimiter*__choose_flight__*delimiter*__flight_detail__*delimiter*__departure_time__*delimiter*__ticket_payment__*delimiter*__itinerary"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -66,4 +66,4 @@ choose_flight=
 flight_detail=
 departure_time=
 ticket_payment=
-logout=
+itinerary=
